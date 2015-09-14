@@ -10,6 +10,8 @@
     linkcolor=blue,
 }
 
+\usepackage{comment}
+
 \newcommand{\dcomment}[1]{
 	\emph{#1}
 	\\
@@ -19,19 +21,34 @@
 	\textbf{#1}: 
 }
 
+\newcommand{\glink}[2]{
+	\hyperref[#1]{#2}
+}
+
+\newcommand{\gsection}[1]{
+	\section*{#1}
+	\label{#1}
+}
+
 \title{LaTeX draft for \\"Ancient Greece Yuri Visual Novel"}
 \author{Skarn}
 
 \begin{document}
 
-\maketitle
-
-\chapter*{Where it all starts}
-
 \selectlanguage{english}
 
+\maketitle
+
+\chapter{Where it all starts}
+
 \dcomment{
-	Text fills most of the screen, black background, one double paragraph by screen, with both the original Greek and its English translation
+	Night sky background
+}
+
+I don't know how and when it started.\\
+
+\dcomment{
+	Same background, one double paragraph of poetry filling most of the screen instead of scripts, with both the original Greek and its English translation, and the narration in the standard textbox
 }
 
 \begin{otherlanguage}{greek}
@@ -47,6 +64,10 @@ not to subdue my spirit, Queen,\\
 with pain or sorrow
 \\
 
+I remember that morning on the road.
+
+I had finally managed to have her talk a little about her past. For a second, for a few words, she opened the door of her heart to me, and I felt like I had unlocked the path to Elysium.\\
+
 \begin{otherlanguage}{greek}
 ἀλλὰ τυίδ᾽ ἔλθ᾽, αἴποτα κἀτέρωτα\\
 τᾶς ἔμας αὔδως ἀίοισα πήλοι\\
@@ -59,6 +80,10 @@ having heard my voice from far away\\
 you listened, and leaving your father's\\
 golden home you came
 \\
+
+I remember that afternoon in the pond.
+
+We bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity and physical closeness.\\
 
 \begin{otherlanguage}{greek}
 ἄρμ᾽ ὐποσδεύξαια· κάλοι δέ σ᾽ ἆγον\\
@@ -73,6 +98,10 @@ thick-feathered wings swirling down\\
 from the sky through mid-air
 \\
 
+I remember that evening in a tavern overflowing with people.
+
+Our table was crowd, but that did not bother her. Actually, she was smiling, joking, \emph{flirting} with the man next seat. I kept my best polite face. Inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other.\\
+
 \begin{otherlanguage}{greek}
 αἶψα δ᾽ ἐξίκοντο· σὺ δ᾽, ὦ μάκαιρα\\
 μειδιάσαισ᾽ ἀθάνατῳ προσώπῳ,\\
@@ -85,6 +114,10 @@ with a smile on your unaging face\\
 asking again what have I suffered\\
 and why am I calling again
 \\
+
+I remember that night in a particularly desolate region.
+
+We had set up camp in a small grove. It was summer, it was hot, so we decide to sleep under the stars. She indeed did sleep. As for myself, I spent the entire night contemplating her, watching the slow up-and-down of her bust as she quietly breathes.\\
 
 \begin{otherlanguage}{greek}
 κὤττι μοι μάλιστα θέλω γένεσθαι\\
@@ -99,6 +132,12 @@ back into the harness of your love?\\
 Sappho, who wrongs you?
 \\
 
+I remember our first encounter.
+
+I knew nothing of her except of her skills with the spear and the snare. A shady character, refusing to reveal anything personal about herself. A probable fugitive on the run from the authorities, a potential thief, bandit, murderer.
+
+Yet I still entrusted my safety to her. Out of necessity I tried to convince myself then. But perhaps, already, unconsciously, under the whispers of a part of myself older and far more powerful than my reasonable mind.\\
+
 \begin{otherlanguage}{greek}
 καὶ γάρ αἰ φεύγει, ταχέως διώξει,\\
 αἰ δὲ δῶρα μὴ δέκετ᾽, ἀλλὰ δώσει,\\
@@ -111,6 +150,12 @@ she doesn't accept gifts, but she'll give,\\
 if not now loving, soon she'll love\\
 even against her will."
 \\
+
+I remember our last discussion.
+
+We were waiting outside the stadium, before dawn, before this long day of festivities starts. More daring than usual, I had not so subtly directed the conversation on the various interpretations of my repertoire's works, and was watching her closely, attentive to any sign, any reaction which could have given me hope.
+
+I saw none.\\
 
 \begin{otherlanguage}{greek}
 ἔλθε μοι καὶ νῦν, χαλέπαν δὲ λῦσον\\
@@ -125,47 +170,128 @@ to have fulfilled, fulfill, and you\\
 be my ally
 \\
 
+I remember these moments, and many others, small and big, casual and special, every precious little brick of the time I spent with her.\\
+
 \dcomment{
-	Back to classic presentation, with textbox at the bottom, background stays black
+	Poem box disappears, leaving only the background and the standard textbox
 }
 
-A final strum, and the last note escapes the lyre, rises into the air, rings through the night.
-
-In its mourning, it echoes the end of the song, and is answered with applauses and cheers.\\
+A final strum, and the last note escapes the lyre, rises into the air, rings through the night. In its mourning, it echoes the end of the song, and is answered with applauses and cheers.\\
 
 \dcomment{
 	Background finally fade in
 }
 
-About twenty or thirty persons noisily show their appreciation of my recital of Sappho's classic. I have had bigger crowds, but at that time of the night, with everyone spread out in the many rooms and gardens of the building, that's not so bad.
+About twenty or thirty persons noisily show their appreciation of my recital of Sappho's classic. I have had bigger audiences, but at that time of the night, with everyone spread out in the many rooms and gardens of the building, that's not so bad.\\
 
-Smiling, I climb down the pedestal while another artist ascends.\\
+I smile and salute, then climb down the rostrum as another artist ascends. In a couple of seconds, I cease to be the center of attention, fall back to the condition of simple spectator of someone else's show. I sit quietly on the side of a pedestal, half hidden in the shadow of the statue it bears.\\
 
-Like me, he took place in the main event several hours ago, a contest of skills between many poets and poetesses, on the stage of the city theater, under the gazes of the gods and of hundreds of men and women.
-
-But now we are all simply playing for fun, with only the starry sky and a few enthusiasts as audience and jury.\\
-
-The man chose a composition form Alcaeus, an appropriate continuation for my own song, as he was Sappho's senior/friend/rival.
-
-The exact details of their relationship have been the subject of many rumors, as every aspect of the life of the life of the Tenth Muse did.
-
-So much actually that, while she only passed away a couple of decades ago, she is already shrouded in myth, a new Homer from a distant island on the other side of the sea.\\
-
-However, while a part of my mind is delving into these educated thoughts and tries to listen to the performance with the due respect it deserves, most of me does not really care.
-
-My heart still beating faster from the stress and excitation that every public show never miss to bring, I keep scanning the crowd frantically, searching for her.\\
+And I almost break into a million pieces.\\
 
 The \emph{Hymn to Aphrodite} is a powerful piece, one people expect and enjoy, one I have played many times in the past, and that I will probably play many times in the future too.
 
-But for several months now, I have been unable to hum its verse, its melody, without picturing a specific face, without imagining a certain pair of beautiful eyes looking at me while I'm singing, without dreaming about one unique person listening to the words between the lines and understanding the special meaning this song has for me.
+But for several months now, I have been unable to hum its melody without picturing a specific face, without imagining a certain pair of beautiful eyes looking at me while I'm singing, without dreaming about one unique person listening to the words between the lines and understanding the special meaning this song has for me.\\
 
-Only when under the fiery fury of an actual performance, when all my focus is put on the technique, these thoughts recess for a time. But they come back as soon as it ends, more powerful than before.\\
+And this is but the most harmless of my recent quirks. I have turned obsessive, possessive. I sleep little and badly, cannot bear the shortest of separations, constantly observing her and overinterpreting each and every of her words and actions.
 
-...
-\\
+I do my best to hide it, and as a professional artist trained to keep face and smile in all circumstances, I'm pretty sure I have managed to keep the mask of sanity and happiness on until now.\\
 
-Of course, she is not there. Only those most passionate about poetry have gathered to this calm alcove. The others are partying all over the place, eating, gambling, joking, while their cups of wine are constantly refilled.
+But deep inside, I'm crumbling, I'm on the verge of breaking, at the gates of madness. The flames are in me, they want to go out, but I keep them locked inside, and so they consume my soul.\\
 
+More than the passion itself, it's the silence which is killing me. I haven't told anyone. Not her. Not anyone else, to be sure this would not reach her ears somehow. In fear of the consequences of such reveal.\\
+
+I have observed her for days and nights. Yet, I never found a single hint that she may feel about me the same way that I feel about her.
+
+But I have grasped enough to understand she was born in a culture of power and steel which does not value highly romance, a world where reproduction takes precedence over proper love. And that she still lives by the spirit of her education if not by its customs.\\
+
+And I'm afraid. Very afraid. Of what will happen when she will discover my passion, my desires.\\
+
+Afraid of bewilderment.
+
+Afraid of rejection.
+
+Afraid of fear.
+
+Afraid of anger.\\
+
+Afraid this will break our special relationship.\\
+
+Afraid that by wanting too much of her, I will lost her whole.\\
+
+\dcomment{
+	Music change? Simply a lyre (harp) tuning sound effect as transition?
+}
+
+As a background noise for my worries, the man on the scene started playing. I recognize a composition from Alcaeus. A supposedly appropriate answer to my own choice, as he was Sappho's senior and rival. But a poor idea in the end, as the stanzas I hear simply cannot compare to the majesty of Sappho's texts. She was the uncontested Tenth Muse, and the artistic world still mourns her death a couple of decades ago.\\
+
+The nagging melody nonetheless calms me down a little. I review my options. This afternoon, I took part in one of the main events of the festival, in the city theater, under the gazes of hundreds of people. A grand contest of poetry in whom many artists tried their luck, including the one distracting us right now.\\
+
+Triumphing in such a competition is usually a life's goal for a singer, but this was not my main concern this year. However, I did plan my day with an extreme precision. As soon as my early and obligatory performance ended, I retreated back to the shadows, escaped discreetly the theater to hide myself in the nearby woods.\\
+
+Then I sat, on the ground of a sunny clearing. Alone, while the whole city was directly or indirectly focused on the festival, from the shouting people on the theater's tiers to the humblest food vendor. To think. Think far away from the constant noise and movement of the ordinary life. Think without the weight of exhaustion and the terrors of the night overtaking me.\\
+
+And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never. The moment couldn't be more perfect. Today, the city is – we will are – giving thanks to Aphrodite. Today, we both shone in our own specialty, prove ourselves to the world, reminded it we exist by our own rights. This night, right now, her mood should be at its best, on the edge of ecstasy.\\
+
+If I don't talk to her this night, I know I will never have enough will to do it again. That my mouth will stay shut and my heart closed.\\
+
+So... I just need to stand up, walk away from this quiet corner of the property where a few artists and enthusiasts gathered for some impromptu rehearsals, find her in the crowd, take her apart, and open my heart to her.\\
+
+As simple as that.
+
+\begin{itemize}
+	\item \glink{Wait 1}{Wait}
+	\item \glink{Go 1}{Go}
+\end{itemize}
+
+\gsection{Go 1}
+
+I raise my head. I look at the nearby exit. So close. I just have to get up. Walk a few steps. Simple. Easy.
+
+\begin{itemize}
+	\item \glink{Wait 1}{Wait}
+	\item \glink{Go 2}{Go}
+\end{itemize}
+
+\gsection{Go 2}
+
+As I'm about to stand up, the artist on the scene rotates once more, and I hear the first note of a song I really like. Couldn't I just stay there at least until it ends?
+
+\begin{itemize}
+	\item \glink{Wait 1}{Listen}
+	\item \glink{Go 3}{Go!}
+\end{itemize}
+
+\gsection{Go 3}
+
+I try to stand up. My knees are shaking like a set of knucklebones. I'm shivering like an old sick lady. There is a jar of wine and a cup not far. Perhaps a drop could help.
+
+\begin{itemize}
+	\item \glink{Wait 1}{Have a drink}
+	\item \glink{Go 3}{Just go!}
+\end{itemize}
+
+\gsection{Go 4}
+
+I lash myself mentally. I'm still trying to push back the ineluctable. To flee what is hard and fearsome. But I cannot.\\
+
+I gather my will.
+
+I clench my teeth.
+
+I rise.\\
+
+I'm not stable on my feet but I nonetheless stumble on the short distance separating me from the main building. As soon as I've passed the separation door, that I'm plunged once again into the living heart of the party, noisy, hot, full of people, my faculties return to me. I'm no less afraid.
+
+But once you jumped into the water, you have no more choice than to swim.\\
+
+\glink{Searching for her}{Continue}\\
+
+\gsection{Wait 1}
+
+TODO
+
+
+\begin{comment}
 Most must be already quite drunk, especially the athletes who already enjoyed a \emph{generous} meal after their morning achievements.\\
  
 I feel fire rising to my cheeks.
@@ -238,51 +364,11 @@ At this very moment, I am completely enamored, infatuated, entranced, fascinated
 
 As soon as my thoughts are free from any immediate preoccupation, they fly right back at her. To be separated from her, even for a few hours, breaks my heart. Even in my sleep, I literally dream about her.\\
 
-I don't know how and when it started. I don't even know when exactly I realized I had fallen in love.\\
+\end{comment}
 
-I remember that morning on the road.
+\chapter{A talk}
 
-I had finally managed to have her talk a little about her past. For a second, for a few words, she opened the door of her heart to me, and I felt like I had unlocked the path to Elysium.\\
-
-I remember that afternoon in the pond.
-
-We bathed together, not for the first time nor the last. But from that moment and onwards, I was suddenly well aware of our common nudity and physical closeness.\\
-
-I remember that night in a particularly desolate region.
-
-We had set up camp in a small grove. It was summer, it was hot, so we decide to sleep under the stars. She indeed did sleep. As for myself, I spent the entire night contemplating her, watching the slow up and down of her bust as she quietly breathes like some hypnotic pendulum.\\
-
-I remember that evening in a tavern overflowing with people.
-
-Our table was crowd too, but that did not bother her. Actually, she was smiling, joking, \emph{flirting} with the man next seat. I kept my best polite face. Inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other.\\
-
-I remember many other places and times, small and big fragments of passionate memories, filling bit by bit the caverns of my mind, clogging everything else.\\
-
-And I'm on the verge of breaking, at the gates of madness. The flames are in me, they want to go out, but I keep them locked inside, and so they consume my soul.\\
-
-I haven't told anyone. Not her, nor anyone else, in the fear she would hear of them in the end.\\
-
-I have observed Antiope for days and nights. Yet, I never found a single hint that she may feel about me the same way I feel about her.
-
-But I have grasped enough to understand she was born in a culture of power and steel which does not value highly romance, a world where reproduction takes precedence over proper love.\\
-
-And I'm afraid. Very afraid. Of what will happen when she will discover my passion, my desires.\\
-
-Afraid of bewilderment.
-
-Afraid of rejection.
-
-Afraid of fear.
-
-Afraid of anger.\\
-
-Afraid this will break our special relationship.\\
-
-Afraid that by wanting too much of her, I will lost her whole.\\
-
-\chapter*{A talk}
-
-\section*{Alone in the crowd}
+\gsection{Searching for her}
 
 I advance quickly through the many rooms of the building, getting around and stepping over the many revelers crossing my path with a consummate skill. I have worked at many similar parties before, and experience taught me how to move with ease despite the chaotic crowd.\\
 
@@ -295,56 +381,56 @@ They may right now display the slight luster symptomatic of an important consump
 She instantly drops off her plate of food, rises from her makeshift seat, and jumps to hug me. Her warm arms vigorously lock behind my back in a frank embrace, bringing my face mere centimeters of her own.\\
 
 \dcomment{
-	A simple zoom in on the sprite should do the job. Cheap, but efficient.
+	First actual appearance of Antiope, with a simple zoom for the close-up
 }
 
-This is a purely friendly greeting, yet it takes all my will to keep my heartbeat in check. After an ephemeral eternity, Antiope releases me and speaks.\\
+This is a purely friendly greeting, yet it takes all my will to keep my heartbeat in check. After an ephemeral eternity, she releases me and speaks.\\
 
 \speaker{Antiope} "Ambrosia! Where have you been? You just disappeared after your performance at the poetry contest. I was unable to find you anywhere. That's so unlike you!"\\
 
-I smile timidly. It's true that I sneaked out as soon as my obligations were fulfilled, walking away for a long time, only returning at dusk. But I did so to have some time alone, to calm down myself after the frenzy of the morning, to think about the future of both of us at peace.
+I savor my own name in her mouth like it was the divine nectar it refers to. I feel guilty for it, but I enjoy far too much the fact that she did remark that I was not there anymore, and that she cared about it.\\
+
+I smile timidly. I escaped for her, to have some time alone to think about the future of both of us at peace. But is that something I should really say so bluntly.
 
 \begin{itemize}
-	\item \hyperref[A1]{Reveal that I needed the solitude}
-	\item \hyperref[A2]{Avoid the subject and praise her for her own achievement}
+	\item \glink{Approaching the rift}{Say that I needed the solitude}
+	\item \glink{Sport}{Avoid the subject and praise her for her performance this morning}
 \end{itemize}
 
-\section*{We need to talk}
-
-\label{A1}
+\gsection{Approaching the rift}
 
 \speaker{Ambrosia} "I needed a break. To put some distance between me and the crowd. To think."\\
 
-I barely recognize my own voice. It sounds so... depressed. Antiope blinks, and grabs my hand, her face suddenly serious, concerned.\\
+I barely recognize my own voice. It sounds so... depressed. She blinks, grabs my hand, her face suddenly serious, concerned.\\
 
-\speaker{Antiope} "Ambrosia, are you alright? Is there something wrong? You're not acting like yourself. Are you sick? Had someone done something to you?"\\
+\speaker{Antiope} "Ambrosia, are you alright? Is there something wrong? You're not acting like yourself. Are you sick? Has someone done something to you?"\\
 
 Yes dummy, someone has. That someone is you.
 
 \begin{itemize}
-	\item \hyperref[A3]{Reassure her}
-	\item \hyperref[A4]{Ask if we can discuss somewhere else}
+	\item \glink{It's nothing}{Reassure her}
+	\item \glink{The garden}{Ask if we can discuss somewhere else}
 \end{itemize}
 
-\section*{Praise the beauty of the body}
+\gsection{Sport}
 
-\label{A2}
+TODO
 
-\section*{Everything's alright}
+\gsection{It's nothing}
 
-\label{A3}
+TODO
 
-\section*{The garden}
-
-\label{A4}
+\gsection{The garden}
 
 \speaker{Ambrosia} "Can we talk about this in a calmer and quieter place?"\\
 
-This statement does not reassure Antiope a bit. She looks around, appears to notice the many people around us, even if most actually pay no attention to our little show, busy that they are with their friends or drinks, but still contributing to the stifling atmosphere of the overfull room.\\
+This statement does not reassure her a bit. She looks around, appears to notice the many people around us, even if most actually pay no attention to our little show, busy that they are with their friends or drinks, but still contributing to the stifling atmosphere of the overfull room.\\
 
-She then reacts with her natural straightforwardness. Grabbing you by the wrist, she walks right through the crowd, taking the shortest route to the nearest exit. If you got here like a breeze, slipping in cracks and leaving no trace of your passing behind you, Antiope is a ram, a spur, elbowing her way out, breaking any resistance like a charging bull.\\
+She then reacts with her natural straightforwardness. Grabbing me by the wrist, she walks right through the crowd, taking the shortest route to the nearest exit. If I got here like a breeze, slipping in cracks and leaving no trace of my passing behind me, Antiope is a ram, a spur, elbowing her way out, breaking any resistance like a charging bull.\\
 
 I should probably scold her for her rude behavior. But I cannot resolve myself to do it. Partly because I realize I really want to go out. Partly because I'm somehow happy, even if this happiness is tainted with guilt, that she is worried about me, that did not hesitate for one second to discard all decorum for me.
+
+TODO: Continue
 
 \end{document}
 
