@@ -2,6 +2,7 @@
 
 *Expanding the same route
   Completed another ending
+  Finally introducing Antiope name (almost) properly
 
 === 2015-09-26 ===
 
