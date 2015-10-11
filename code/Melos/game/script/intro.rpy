@@ -1,4 +1,4 @@
-image bg poetry = Image("bg/intro.jpg")
+image bg poetry = Image("images/bg/intro.jpg")
 
 image poem = ParameterizedText(text_align=0.5)
 
