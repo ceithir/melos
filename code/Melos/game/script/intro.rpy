@@ -114,14 +114,32 @@ label intro:
     menu:
         "Wait":
             jump coward
-
         "Go":
             jump intro2
 
 label intro2:
-    return
+    "I raise my head. Before me, the artist is almost done, and soon a new volunteer will take his place. It could even be me if I wanted to. I look at my own lyre, waiting impatiently in its bag at my side."
 
+    "On my left, within arm's reach, I notice a few appetizers and drinks. I pick an olive, make it roll unto my palm."
 
+    "On my right, a group of people are having a hearty discussion about the last musical trends. Classicists versus moderns, as usual, but interesting nonetheless."
 
+    menu:
+        "Stay":
+            jump coward
+        "Go":
+            jump intro3
 
+label intro3:
+    "I force myself to look at the nearby exit. Just a few steps away. Could as well be beyond the Pillars of Heracles."
+
+    "I'm pitifully delaying, trying to find something to do, anything, to push back the moment. Even the time I'm currently using to think about this is a form of temporizing."
+
+    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing down with a blank page pressed against their chest. Easy. Infinitely regretful."
+
+    "I gather my will.\n\nI clench my teeth.\n\nI rise."
+
+    "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you jumped into the water, you have no other choice than to swim or sink."
+
+    jump antiope
 
