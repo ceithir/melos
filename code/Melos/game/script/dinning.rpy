@@ -3,9 +3,10 @@ image eyes:
     size (435, 85) crop (400, 275, 435, 85)
 
 label antiope:
-    #Background? Music?
+    #Music?
 
-    scene
+    scene bg inside
+
     stop music fadeout 5.0
     play music "music/Frozen_Silence_-_Harp.mp3" fadein 5.0
 

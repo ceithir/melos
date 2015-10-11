@@ -1,5 +1,3 @@
-image bg poetry = Image("images/bg/intro.jpg")
-
 image poem = ParameterizedText(text_align=0.5)
 
 label intro:
@@ -121,6 +119,14 @@ label intro3:
     "I gather my will.\n\nI clench my teeth.\n\nI rise."
 
     "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you jumped into the water, you have no other choice than to swim or sink."
+
+    show bg poetry as trans_poetry:
+        crop (0, 717, 1280, 720)
+        linear 2.0 xpos -1280
+    show bg inside as trans_inside:
+        xpos 1280
+        linear 2.0 xpos 0
+    pause 2.0
 
     jump antiope
 
