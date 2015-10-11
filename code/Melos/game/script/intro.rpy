@@ -135,7 +135,7 @@ label intro3:
 
     "I'm pitifully delaying, trying to find something to do, anything, to push back the moment. Even the time I'm currently using to think about this is a form of temporizing."
 
-    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing down with a blank page pressed against their chest. Easy. Infinitely regretful."
+    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing down with a blank page pressed against their chest.\n\nEasy and infinitely regretful."
 
     "I gather my will.\n\nI clench my teeth.\n\nI rise."
 
