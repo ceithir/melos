@@ -15,17 +15,11 @@ label intro:
 
     hide poem with dissolve
 
-    show bg poetry:
-        linear 1.0 crop (0, 100, 1280, 720)
-
     show poem "ἀλλὰ τυίδ᾽ ἔλθ᾽, αἴποτα κἀτέρωτα\nτᾶς ἔμας αὔδως ἀίοισα πήλοι\nἔκλυες, πάτρος δὲ δόμον λίποισα\nχρύσιον ἦλθες\n\n{i}but come--if ever before\nhaving heard my voice from far away\nyou listened, and leaving your father's\ngolden home you came{/i}" at truecenter with dissolve
 
     "I remember that afternoon in the pond.{w}\n\nWe bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity, our physical closeness."
 
     hide poem with dissolve
-
-    show bg poetry:
-        linear 1.0 crop (0, 200, 1280, 720)
 
     show poem "ἄρμ᾽ ὐποσδεύξαια· κάλοι δέ σ᾽ ἆγον\nὤκεες στροῦθοι περὶ γᾶς μελαίνας\nπύκνα δινεῦντες πτέρ᾽ ἀπ᾽ ὠράν᾽ αἴθε-\nρος διὰ μέσσω,\n\n{i}in your chariot yoked with swift, lovely\nsparrows bringing you over the dark earth\nthick-feathered wings swirling down\nfrom the sky through mid-air{/i}" at truecenter with dissolve
 
@@ -33,17 +27,11 @@ label intro:
 
     hide poem with dissolve
 
-    show bg poetry:
-        linear 1.0 crop (0, 300, 1280, 720)
-
     show poem "αἶψα δ᾽ ἐξίκοντο· σὺ δ᾽, ὦ μάκαιρα\nμειδιάσαισ᾽ ἀθάνατῳ προσώπῳ,\nἤρε᾽ ὄττι δηὖτε πέπονθα κὤττι\nδηὖτε κάλημι\n\n{i}arriving quickly--you, Blessed One,\nwith a smile on your unaging face\nasking again what have I suffered\nand why am I calling again{/i}" at truecenter with dissolve
 
     "I remember that night in a particularly desolate region.{w}\n\nWe had set up camp in a small grove. It was summer, it was hot, so we decide to sleep under the stars. She indeed did sleep. As for myself, I spent the entire night contemplating her, watching the slow up-and-down of her bust as she quietly breathes."
 
     hide poem with dissolve
-
-    show bg poetry:
-        linear 1.0 crop (0, 400, 1280, 720)
 
     show poem "κὤττι μοι μάλιστα θέλω γένεσθαι\nμαινόλᾳ θύμῳ· \"τίνα δηὖτε †πείθω\nἄψ σ᾽ ἄγην† ἐς σὰν φιλότατα; τίς τ᾽, ὦ\nΨάπφ᾽, ἀδίκηει;\n\n{i}and in my wild heart what did I most wish\nto happen to me: \"Again whom must I persuade\nback into the harness of your love?\nSappho, who wrongs you?{/i}" at truecenter with dissolve
 
@@ -51,17 +39,11 @@ label intro:
 
     hide poem with dissolve
 
-    show bg poetry:
-        linear 1.0 crop (0, 500, 1280, 720)
-
     show poem "καὶ γάρ αἰ φεύγει, ταχέως διώξει,\nαἰ δὲ δῶρα μὴ δέκετ᾽, ἀλλὰ δώσει,\nαἰ δὲ μὴ φίλει, ταχέως φιλήσει,\nκωὐκ ἐθέλοισα.\"\n\n{i}For if she flees, soon she'll pursue,\nshe doesn't accept gifts, but she'll give,\nif not now loving, soon she'll love\neven against her will.\"{/i}" at truecenter with dissolve
 
     "I remember our last discussion.{w}\n\nWe were waiting outside the stadium, before dawn, before this long day of festivities starts. More daring than usual, I had not so subtly directed the conversation on the various interpretations of my repertoire's works, and was watching her closely, attentive to any sign, any reaction which could have given me hope. I saw none."
 
     hide poem with dissolve
-
-    show bg poetry:
-        linear 1.0 crop (0, 600, 1280, 720)
 
     show poem "ἔλθε μοι καὶ νῦν, χαλέπαν δὲ λῦσον\nἐκ μερίμναν, ὄσσα δέ μοι τέλεσσαι\nθῦμος ἰμέρρει, τέλεσον· σὐ δ᾽ αὔτα\nσύμμαχος ἔσσο.\n\nCome to me now again, release me from\nthis pain, everything my spirit longs\nto have fulfilled, fulfill, and you\nbe my ally" at truecenter with dissolve
 
@@ -70,8 +52,7 @@ label intro:
     hide poem with dissolve
 
     show bg poetry:
-        linear 1.0 crop (0, 717, 1280, 720)
-    pause 1.0
+        linear 3.0 crop (0, 717, 1280, 720)
 
     stop music fadeout 5.0
 
