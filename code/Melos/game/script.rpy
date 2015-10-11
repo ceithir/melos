@@ -1,6 +1,7 @@
 define antiope = Character("Antiope", image="antiope")
-image antiope = Image("sprites/antiope/default.png")
-image antiope big = Image("sprites/antiope/big.png")
+image antiope:
+    Image("sprites/antiope/default.png")
+    zoom 0.25
 
 label start:
     jump intro
