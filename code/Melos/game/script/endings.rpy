@@ -34,3 +34,192 @@ label coward:
 
     return
 
+label oblivion:
+    scene black with dissolve
+    stop music
+
+    "I feel groggy. I suppose I have slept. At least, I presently am badly sit in an armchair with no memory of a couple of hours. But I don't feel rested, not even close. My head hurts. Too much... something."
+
+    "I stand back up without haste. My mind is having difficulties putting back together what happened that night. So many things and yet so little."
+
+    "Real life strikes in, and I realize I'm late. The sun looks like it has been up for some hours now, and that means I should already be ready for departure. So I rush to pick back my belongings and make myself presentable. I do so without thinking, still half asleep. Perhaps because I don't want to really wake up, to face reality."
+
+    "Then, with a lasting headache, I walk to the place where Antiope and me agreed to meet once the party will be over. My anxiety keeps growing as I come closer to the location. When I see that she is indeed there, I'm relieved, but only partly. Because I'm still afraid of how the events of this night impacted her. Of how they changed our relationship. Of what will happen next."
+
+    "But her reaction is worst that anything I could imagine. She simply acts as she always does. She is not a single bit different from how she was two days prior. She is the same old Antiope in good and bad."
+
+    "Did the alcohol wiped out her memories, was everything what happened last night so unimportant to her, or is she just pretending? I can't say. And I don't dare to dig out for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
+
+    "So I go on with the flow. I imbue myself with my own role, I put on my mask of Ambrosia the happy musician, the good friend, the naive poet. I remodel my face into a bright smile, I chitchat cheerfully, I dance around her like I was excited by the rest of our tour. Antiope is grumpy but cool, and we go on like we always do."
+
+    "Pretending soon turns to be quite tiring, to only increase my inner depression, but it's a game I cannot stop. I am prisoner of my own cowardice, of my own character. If I put down my mask, Antiope may remove her own in response, and then anything could happen. A universe of unpredictable possibilities I'm not ready to face up right now."
+
+    "So even if the inner side of the mask is burning red hot iron inflicting me the greatest of pain, I must wear it. Until courage or madness releases me, whichever comes first."
+
+    "And I already know which virtue I'm better at."
+
+    return
+
+label apology:
+    scene
+
+    antiope "I'm sorry."
+
+    "I don't know how she found me. I must have dozed off at some point, while she kept searching. We're back in the banquet room, almost empty as dawn is upon us. The only people still around are those who fell asleep here and there, defeated by their many excesses. I could scream with all my lunges that they will not wake up. I'm still alone in the end."
+
+    "Antiope looks extremely pitiful. Ravaged. Vanned. There is no trace of her usual confidence on the desperate face looking at me."
+
+    antiope "I'm really, really sorry. I didn't want to... I'm sorry."
+
+    "I don't answer. I just look at her with cold eyes."
+
+    antiope "I'm sorry. I didn't want to hurt you. I know I did, both physically and emotionally. I was exhausted and drunk, but that's no excuse. I know my own weaknesses first and foremost, and yet I still let them control my actions."
+
+    antiope "I'm sorry. It's easy to say, but I don't know what else to say."
+
+    menu:
+        "Answer":
+            jump talk
+        "Silence":
+            jump broken
+
+label broken:
+    "I don't answer. I stand up, and I leave her to her pitiful apologies. My wrist is still nagging me, even if the pain is more psychological than physical. I walk away, slowly, without looking back, simply desiring to be alone."
+
+    jump bramble
+
+label bramble:
+    scene
+
+    "The sun is rising. I can count the passing of minutes simply from the light slowly filling up the room. I have been walking non-stop since my last one-sided talk with Antiope, going in and out, and my legs are hurting. I didn't exactly dress myself for a hike, and the cries of my body are more audible now that my rage has cooled down a little."
+
+    "I once again enter the garden, look into the pond. I don't recognize the crazed stranger looking back at me, the dark rings around her eyes, the rivers dug by tears on her cheeks, the hair more mixed up than the one of Medusa."
+
+    "But this is nothing. This, I can easily fix with a brush and some makeup. My main problem is my future from now on."
+
+    "I'm afraid of Antiope. Terrified. I knew she was violent. I always knew. I've seen her enter fights more than once, and guessed she did so many more times when I wasn't looking. The bruises she had a hard time hiding at dawn couldn't lie."
+
+    "But, I always tried to convince myself it was a part of her bigger than life character. I dismissed the idea that her violence could have other targets than random thugs or wild beasts."
+
+    "She did not inflict any permanent damage to me. Far from it. In a day or two, my wrist will be as good as new. But I saw the fire in her eyes. For a moment, she was about to pummel me senselessly. Without any good reason. Just because I was there."
+
+    "Even worse: I still love her. Thinking about her still kicks in my passions, now alongside my fears. My dreams and my nightmares are merging into a confusing oneiric story, where she plays both the heroin and the villain."
+
+    "I'm lost. I want to see her again, to talk to her, to share her life. But I don't want to confront her madness ever again."
+
+    "And the worst of the worst? Right now, I {i}need{/i} her. I have a job to do, a tight schedule to respect, and I haven't got the time to find another companion for my tour, not enough money to miss this festivals' season."
+
+    "I know I {i}need{/i} to go back to her, fix that up one way or the other, and continue with my ordinary live. I know I {i}will{/i}."
+
+    "In the water, the living incarnation of despair looks at me, and I answer her with a maddened smile."
+
+    return
+
+label talk:
+    "My own voice is grave, icy, like coming from a deep cavern. I don't do this on purpose, it's just a consequence of my extreme fatigue."
+
+    ambrosia "Sorry for what?"
+
+    "Despite my tone, Antiope looks ecstatic that I'm simply talking to her."
+
+    antiope "For my behavior. For being an idiot in general. For having attacked you in all possible manners when you were just trying to prevent me from hurting myself. No, that's not it. For having attacked you, regardless of the circumstances."
+
+    "She takes a deep breath. Antiope has talked more this night than she usually did in days. But contrary to her precedent drunken outburst, she sounds more serene, more honest, less theatrical."
+
+    antiope "It's hard to put into words, but I need to try even so. I'm no nice girl. Violence, furry, death and destruction run in my blood. That is very obvious."
+
+    "She flexes her muscles, points out the marks on her body demonstrating her daily usage of weapons."
+
+    antiope "But that's only the beginning of it. Not only am I a naked blade, but I always point it at the wrong people. I'm a living pile of stupid reflexes and biases. I don't trust anyone, I only consider the part which could endanger me in other people's actions, ignoring what good it could do to me, and without caring for the consequences for themselves."
+
+    antiope "Do you know that the first nights we passed together, I barely got any sleep because I didn't completely roll out you would rob me as soon as I close my eyes? Despite everything and anything proving me you were no bandit? It took weeks before I learned to trust you enough to get a full night of sleep."
+
+    "I try to appear unfazed, but this piece of information is indeed new to me. At that time, I remember Antiope's not sleeping a lot, but we were passing through dangerous regions, and I ruled out these memories as simple precautions against the outside danger. I never thought she was afraid of me."
+
+    antiope "I'm fighting it every day that... {i}paranoia{/i}. I don't know if it's the proper word. Sort of fear of everything. Usually, I manage to keep these urges to flee or fight the whole world in check, or at least to hide myself when they're at their worst. But when I'm stressed, exhausted, drunk, the monster shows its face again."
+
+    "She pauses."
+
+    antiope "I understand this is no excuse, only explanation. I know myself for what I really am. I know you are one of the best friends I have ever had, and that you only wanted to help me in my fight with my inner darkness. And yet, I've unleashed it against you."
+
+    antiope "Please believe me, I'm really sorry. You're the last person I want to hurt and... I don't want to lose you. Even if I would understand if you asked me to leave. You gave me a lot, and I've thanked you with nothing but disrespect and pain."
+
+    "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a wave of the hand, I invite her to sit by my side, which she promptly does."
+
+    ambrosia "Why didn't we have this conversation earlier?"
+
+    antiope "I don't really know. I went overboard a few times already when you were there, even if never as hardly as today... Most of the time, I managed to escape this talk by cutting short the dialog and fleeing... And the other times..."
+
+    ambrosia "Yes. I know. I'm the one who fled."
+
+    "I look at her right in the eyes, seeing my own face reflected in her pupils. Yes, there are a few times when I just kept silent on Antiope's sick habits. Today the first time she ever hurt me, but on several mornings, her face or fists were bearing the marks of fights she got herself into. And I never dared to ask."
+
+    "I will not say idiot things like \"I'm as much a culprit as you\". Because that's not true. But the crime of Antiope, her refusal to open up her heart before the darkness in it frees itself and almost destroys her own world... I can relate to it. It is nothing more than a distorted, flawed, extreme reflection of my own weakness."
+
+    "I readjust my position, closing the distance between me and the broken warrior. Our faces are only separated by the width of a hand when I speak again."
+
+    ambrosia "Antiope. You are a big dumb idiot. But you're not the only one."
+
+    ambrosia "The moment is not perfect, but it will never be. I cannot ask you to be honest with me when I'm not telling you the whole truth myself."
+
+    ambrosia "Antiope, despite your many flaws, despite your early and lately behavior, I know I'm about to forgive you. I somehow know that you could do much worse, and that even if that would hurt me terribly, I would still forgive you."
+
+    ambrosia "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
+
+    "Antiope's reaction is refreshingly simple. A flash of surprise succeeded by an extraordinary deluge of embarrassment. She turns almost comically pink from all the blood rising up to her head and mumbles some incomprehensible words. I smile warmly. I know she couldn't have misinterpreted my words. The tone of my voice was not friendly or motherly. It was utterly passionate."
+
+    "I feel calm. I have done it. The arrow has been shot, and there is nothing I can do to change its course now. Antiope mumbles, unable to pronounce any intelligible word. From her struggling alone, I can already guess what she wants to say, but that she doesn't know how to formulate it clearly, without hurting me more than she already did this night."
+
+    ambrosia "Take your time. No need to hurry."
+
+    antiope "I... Thanks. I understand this was not an easy thing to say, particularly in our situation. But... Ambrosia... You're a extraordinary friend, but... I have no romantic interest in you."
+
+    "Silence."
+
+    antiope "I'm sorry."
+
+    "I try to keep my voice cool and articulate."
+
+    ambrosia "I guessed so. Thank you for your frankness."
+
+    "More awkward silence sets in."
+
+    ambrosia "If I may ask... Could you give me some time alone?"
+
+    "Antiope looks really afraid at my request. That I would do something stupid certainly."
+
+    antiope "Are you sure?"
+
+    ambrosia "Certain. I will see you tomorrow, don't worry."
+
+    "She hesitates. Looks at me. I give her an encouraging nod."
+
+    antiope "To tomorrow. Promise?"
+
+    ambrosia "Promise."
+
+    "She utters some last civilities, and finally departs, not without looking back a few times, worry painted on her face. I disarm her with a bright smile each time."
+
+    "Only when I'm certain she is far from here do I allow myself to break up into tears."
+
+    scene black with dissolve
+    stop music
+
+    "I'm late. By at least one hour. I already woke up late, but it's the time I spent cleaning my face which really put me in. The minutes flew by while I was erasing all traces of sadness, tiredness, despair from my face with a professional care, water, soap and an appropriate use of cosmetics. But now I look fresh and ready again."
+
+    "Antiope is at the meeting point, and by the look of her own face, she has been worryingly waiting for quite a bit now. She did no effort to hide her own exhaustiveness, but her superb constitution still allows her to appear as strong as ever. I greet her happily and she welcomes me with open arms and a touch of awkwardness."
+
+    "And then we depart. As it was planned. Our agenda for the season is quite full, and we have no time to rest. Soon, this place of memories we will never forget is behind us. We may come back to the same location next year, but then it will not be the same. It will never be the same."
+
+    "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious. Or perhaps on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other existence as a real person."
+
+    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly be a regular heart broker. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before. And if my relationship with my amazonian beauty of friend didn't evolve the way I would have loved it to, I think it is now at least {i}healthier{/i} that it was previously."
+
+    "Soon, we've passed by the walls of the city and we're entering the main road, about to start a long trip in the countryside and the wild. Above us, the sun is high and bright. It shines with all its might, ignorant of the terrors of the night, upon the path to our future."
+
+    "And with a single step on the uncobbled path, we start our new adventure."
+
+    "Life is not always fun, nor it is fair, but it still goes on."
+
+    return
+
