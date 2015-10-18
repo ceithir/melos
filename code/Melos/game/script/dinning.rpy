@@ -85,12 +85,62 @@ label silence:
             jump sobriety
 
 label liar:
-    #TODO
-    return
+    "I answer without answering."
+
+    ambrosia "I was here and there, doing what needed to be done and that I haven't got the occasion to do of late."
+
+    "In an overplayed movement of the arm, I cover the room around us, and beyond that, the whole city."
+
+    ambrosia "Preparing the festival took almost all our time these last two weeks. But that was worth it. Especially with the extraordinary performance you offered us this morning."
+
+    antiope "An {i}extraordinary{/i} performance would have been to win."
+
+    "I can't tell by her tone if she is joking or dead serious. I'm not sure she knows herself. When Antiope plays, it's always to win, but she couldn't really hope to defeat professional athletes which trained for months, sometimes years, for this particular type of race, on an adequate soil and with an exact distance in mind, while Antiope usually runs on uneven terrains for random periods of time."
+
+    ambrosia "You can say that, but I still think your were... incredible."
+
+    "My voice is casually cheerful, but I feel a far more ardent fire rising to my cheeks as my mind fills itself with the corresponding memories."
+
+    "As per tradition, the morning was filled with numerous sportive events. Nothing as glorious as the Olympic games, but still a good deal of different competitions: jumping, wrestling, javelin throws, horse races... But I have little recollections of any of them, completely eclipsed by the one which dried out my throat. The foot race."
+
+    "More exactly, it's not the competition itself which left me unable to speak. I cannot even remember the name of the one who won it. But I do remember that she took part in it."
+
+    "It's not that unusual for a woman to participate in such an event. Actually, there is often a token Spartan female athlete alongside the males, and they generally do quite well. But that was not any woman. That was her."
+
+    "Such events are first and foremost a present to the gods, and the competitors must be as resplendent as they are skilled, the sight of their nude bodies as much an offering as their actual performances. And resplendent she was."
+
+    "I helped her oiled herself before dawn, a pleasant moment certainly, but there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun. A thousand reflections were stressing each line, each curve of her body, every movement of her sculpted muscles revealing a new detail, a new secret, a new wonder, in a never-ceasing display of beauty."
+
+    "She had gathered her hair in a strict bun, but that only managed to stress out more her face, her eyes, her nose, her lips, making her cuter than ever. Enthralled, I was unable to look at anything else for the entire duration of the race, from the moment she entered the field to the last second before she retreated in the temple, out of sight."
+
+    "Her expression when she covered the final meters, her carmine face transfigured from the intense action, her forehead constellating with drops of sweat changed into pearls of light, her determined cinnamon eyes looking far beyond the final line, her throat pulsating at the same rhythm as the world moves..."
+
+    "From that image alone, I can hear the frantic beating of her heart, feel the tickling of the lock of hair having escaped the band, taste the shortness of her warmth breath. An instant of perfection worth a poem, an ode, an Odysseus."
+
+    #Small sound effect?
+
+    "Antiope drops a cup before me and starts pouring wine into it, ending my short, probably no longer than a couple of real life seconds, but intense daydreaming."
+
+    antiope "Drink something, you're sweating. Can't blame you, it's quite hot there."
+
+    "I observe the liquid with a suspicious eye. It is watered down, but not that much, and must still be pretty potent, in good or bad."
+
+    menu:
+        "Accept":
+            jump drunk
+        "Decline":
+            jump quirk
 
 label drunk:
-    #TODO
-    return
+    "I take a sip. As suspected, the wine is quite pure, but good. I take my time to finish my cup while Antiope devours what looks like a meat pie."
+
+    "The alcohol shouldn't have had the time to kick in so quickly, but I still feel a little bolder after the last drop. I put back the empty recipient on the table with more energy that I planned to, and the clap sound attracts Antiope's attention. She points out the bottle, in an obvious silent question."
+
+    menu:
+        "Another one":
+            jump drunkard
+        "Stop there":
+            jump quirk
 
 label sobriety:
     "I politely decline. Antiope shrugs and gulps her own portion. Then she resumes her feast."
@@ -109,4 +159,61 @@ label sobriety:
             jump stupor
         "Let her do as she pleases":
             jump sick
+
+label quirk:
+    antiope "Your loss."
+
+    "From one hand, Antiope refills her own cup and gulps it straight away. From the other, she continues eating."
+
+    "The conversation somehow launched, I try to guide it to the subject I want to address."
+
+    ambrosia "Do you remember our first days together? We were going to Delphi by the land road, a trip of a few weeks through scarcely populated regions."
+
+    "Antiope shrugs and answers casually."
+
+    antiope "Of course I remember. A damn eventful trip. We even nearly got attacked by bandits once. If we hadn't spot their lookout and made a detour, things would have turned ugly."
+
+    "She displays a crooked smile at the evocation of missed violence."
+
+    ambrosia "Do you remember what we discussed during these long days and nights?"
+
+    "Antiope thinks for a few seconds, gathering her memories."
+
+    antiope "Actually... I don't. Is there something I've forgotten? Something you told me... or that I told you?"
+
+    "She suddenly raises up her defenses, searching for a trap. I reassure her."
+
+    ambrosia "Far from it. Actually, it's normal you don't remember... Because there is nothing worth remembering. We pretty much didn't talk to each other back then. Sure, we did exchange civilities and factual data about our environment and planning... But that's all. No actual conversation."
+
+    antiope "Ah, yes... I wasn't really talkative back then."
+
+    ambrosia "{i}Withdrawn{/i} would be a more accurate word. But slowly, you began to speak more openly. Can you explain why?"
+
+    antiope "I never really thought about this. I guess it's happened naturally. At first, we were pretty much strangers traveling together, and I was more wary than friendly. I'm not the kind to fake amicability in such situations. It's only with time passing on that things got better."
+
+    ambrosia "How?"
+
+    antiope "How?"
+
+    "She seems completely lost."
+
+    ambrosia "How did they get better?"
+
+    antiope "I guess... I leaned to trust you, began to relax more when being with you and... Damn, Ambrosia, you're far better are putting this feelings' stuff into words than me."
+
+    "She pours herself a new cut and takes a sip before continuing."
+
+    antiope "You're trying to make me say something or to have a point through rhetoric. I honestly find that quite boring, and even a little unfair. If there is something you want to say, just say it."
+
+    "I mentally swear. So far from subtlety."
+
+    ambrosia "Fine. Can we discuss this somewhere else? This place is a little too crowded and noisy."
+
+    "She looks down on the feast she prepared for herself, then sights exaggeratedly."
+
+    antiope "Fine, let's do it."
+
+    "She stands up, and I follow. Together, her pouting, me trying to keep my heartbeat in check, we go away from the small and hot room."
+
+    jump misconception
 

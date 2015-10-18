@@ -8,8 +8,11 @@ image antiope:
 image bg poetry = Image("images/bg/intro.jpg")
 image bg inside = LiveTile("images/bg/inside.jpg")
 
-# Has Antiope drunk too much and only keep hazy memories of the night?
-$ dreamer = True
-
 label start:
+    # Has Antiope drunk too much and only keep hazy memories of the night?
+    $ dreamer = True
+
+    # If Ambrosia has it _really_ bad
+    $ despair = False
+
     jump intro

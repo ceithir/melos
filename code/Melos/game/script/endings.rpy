@@ -12,7 +12,10 @@ label coward:
 
     "She seems tired, but yet is ready for departure, fully clothed and equipped. Her eyes are filled with concern as she hands me a flask of water. I accept mechanically, drink a little. The fresh liquid dissipates part of my forgetful stupor, revealing the terrible reality."
 
-    "I remember delaying, postponing, pushing back, assuring myself I would go after that last song, that last cup, my will to move actually decreasing as time passed on and alcohol filled up my body. I don't know which of my mind or my organism forfeited first, but at some point my memories cease. I suppose – hope – I have drunk myself to sleep."
+    if despair:
+        "I remember that after our one-sided discussion, we went back to the party. And we may have drunk. A lot. Especially me. I knocked myself out with alcohol. Not a reasonable solution, but it helped. Antiope drank a lot too, but our constitutions are not even comparable."
+    else:
+        "I remember delaying, postponing, pushing back, assuring myself I would go after that last song, that last cup, my will to move actually decreasing as time passed on and alcohol filled up my body. I don't know which of my mind or my organism forfeited first, but at some point my memories cease. I suppose – hope – I have drunk myself to sleep."
 
     "I stand, feeble on my feet, and excuse myself pitifully. I ask her to wait for me while I fetch my belongings and I run away."
 
@@ -27,6 +30,9 @@ label coward:
     "And that's exactly why I need to rebuild the illusion immediately, before anyone realizes it's a fake and could confront me on what I really am. So, I take a deep breath, readjust my posture, reorder my hair, compose myself a \"happy but tired\" smile and a couple of seconds later, the veil is back on."
 
     "I can already fool the world outside, and I'm sure I will soon be able to fool myself into thinking this was just a missed opportunity, that another will arise and that this time I will find the necessary courage."
+
+    if despair:
+        "I assure myself I will tell her my true feelings before she leaves, most certainly forever. Even if it is pointless, because it must be done."
 
     "A white lie to keep myself sane."
 
@@ -220,6 +226,98 @@ label talk:
     "And with a single step on the uncobbled path, we start our new adventure."
 
     "Life is not always fun, nor it is fair, but it still goes on."
+
+    return
+
+label kiss:
+    "I lean a little more, and my lips encounter theirs. A small smack from two closed mouths bumping into each other."
+
+    "For a full second, we stay like this."
+
+    "Then, Antiope's reflexes, having been slowed down by the incredible amount of alcohol she took in, finally takes charge."
+
+    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside. Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
+
+    "She is towering me, her fists convulsively opening and closing, her mouth sputtering, dribbling, her bloodshot eyes burning with rage."
+
+    "I try to mumble an explanation but she cuts me short."
+
+    antiope "I thought I could trust you. But you were just a smugger snake, weren't you?"
+
+    "She gets slightly closer from my defenseless body, and positions herself to kick me. I instantly put my arms before my face in a self-preservation instinct."
+
+    "Thankfully, the assault never comes. I hear her stepping backwards, spitting, then talking to me. For the last time."
+
+    antiope "Never approaches me again if you value your life."
+
+    "And walking so quickly this could as well be called running, she goes away."
+
+    #Transition?
+
+    "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even if it's on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
+
+    "My consciousness is fighting some primal creature deep inside not to tear down my hair or scratch my skin out of hate of myself. I'm not even sure the human part is winning. Perhaps I'm simply so dull at this moment I'm unable to take any action, even the most ill-advised ones."
+
+    "On the icy floor I lie, in the darkness I belong, alone I am."
+
+    return
+
+label fight:
+    "I refuse to let it end like that. I gather all my courage and I rise."
+
+    ambrosia "Antiope, you... You're completely missing the point there."
+
+    "She cocks an eyebrow. She is not used to me contradict her or simply raising my voice."
+
+    ambrosia "I did want to speak to you about our future..."
+
+    "I step back. Draw a big breath. And go."
+
+    ambrosia "But on a more personal point of view."
+
+    "Antiope looks confused."
+
+    ambrosia "It's not about our... careers. It's about us. As people. As we are now. As we may be in the future."
+
+    "Too far in to back down, but still cannot help but postpone the ineluctable. Antiope is not helping, constantly fidgeting on her seat that she is. I try to focus. I kneel to look at her right into the eyes."
+
+    ambrosia "That I'm trying to tell you is the exact opposite of what you guessed. I don't want you to leave. I want you to stay. Until the cruelty of the gods take us apart."
+
+    "I need a last break. A last breath. And here rolls the thunder."
+
+    ambrosia "Antiope, I love you."
+
+    "Antiope's reaction is priceless. She just stares at me, completely lost. If I was in the mood for a good laugh, I could giggle almost endlessly. But I'm dead serious."
+
+    antiope "No."
+
+    "Her answer is disturbing. She said it calmly, without hate, actually with a bit of... affection?"
+
+    antiope "No. You don't love me. You love the part of me I've left you see. And believe me, if you really knew me, you would not try to get closer."
+
+    antiope "You would cower in fear."
+
+    "She stands up."
+
+    antiope "I think I should move forward my agenda. The sooner we part way, the better for the both of us."
+
+    "I'm totally astonished. I try to speak, but Antiope seals my lips with one finger."
+
+    antiope "You're the best friend I've ever had Ambrosia. And that's why I must go before screwing everything up."
+
+    "And on these words, she leaves. She simply walks away, abandoning me there. I'm unable to pursue her. I... don't understand anything anymore."
+
+    scene
+
+    "There is no word to describe how relieved I am to find Antiope at our rendez-vous point as planned. After searching for her all night long, I had convinced myself she had vanished for good, fleeing by the main road under the cover of darkness. To see her in the flesh again is the best gift the new day could offer me."
+
+    "However, I'm quickly disenchanted. Antiope is physically there, and she does her job, but she does just that. She is cold, distant, and at lunch, she would evoke for the first time and not the last her accelerated planning."
+
+    "In the following weeks, I will try to understand, try to make her talk about her sudden change in behavior. But from that point onwards, she will simply be more secret, more withdrawn. More absent also, sometimes disappearing for full days while we're in town. Usually coming back with bruises she of course refuses to talk about."
+
+    "My emotions are a complex mix. There is love but also..."
+
+    "Also, I'm afraid."
 
     return
 
