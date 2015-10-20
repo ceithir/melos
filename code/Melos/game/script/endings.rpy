@@ -4,30 +4,34 @@ label coward:
     scene black with dissolve
     stop music
 
-    "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I sense a hand on my shoulder, two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
+    "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I sense a hand on my shoulder and two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
 
     #Music? Background?
 
     "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. My hair and my dress are competing with each other for the position of most messy, but that's probably only because I cannot see my face. But I can see {i}her{/i}."
 
-    "She seems tired, but yet is ready for departure, fully clothed and equipped. Her eyes are filled with concern as she hands me a flask of water. I accept mechanically, drink a little. The fresh liquid dissipates part of my forgetful stupor, revealing the terrible reality."
+    "She seems tired, but yet is ready for departure, fully clothed and equipped. Her eyes are filled with concern as she hands me a flask of water. I accept mechanically, drink a little. The fresh liquid dissipates part of my forgetful stupor, unearthing the terrible reality."
 
     if despair:
         "I remember that after our one-sided discussion, we went back to the party. And we may have drunk. A lot. Especially me. I knocked myself out with alcohol. Not a reasonable solution, but it helped. Antiope drank a lot too, but our constitutions are not even comparable."
     else:
         "I remember delaying, postponing, pushing back, assuring myself I would go after that last song, that last cup, my will to move actually decreasing as time passed on and alcohol filled up my body. I don't know which of my mind or my organism forfeited first, but at some point my memories cease. I suppose – hope – I have drunk myself to sleep."
 
-    "I stand, feeble on my feet, and excuse myself pitifully. I ask her to wait for me while I fetch my belongings and I run away."
+    "And now, I stand, feeble on my feet, and excuse myself pitifully. I ask her to wait for me while I fetch my belongings and I run away."
+
+    # Add transition (fade?)
 
     "A few minutes later, after a lighting flash toilette, I'm back and ready to go. I do a bad joke about not knowing my own limits and them we move on. In the end, the cold facts are that we have a long trip ahead of us, and we already are several hours behind our schedule."
 
-    "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does for scouting ahead. She quickly is as radiant as ever, if not more."
+    "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does while scouting ahead. She quickly is as radiant as ever, if not more."
 
-    "Me? I'm slow, gloom and depressed. Not only do I not emit any light, but I'm unable to simply reflect it like I usually do. I right now cannot play properly my own role in the play which is my life, cannot force myself to fit the mood, to drape my insignificance in the brilliance of others to make it looks like I glow a little. I'm in broad daylight, yet I'm what I really am in the dark, once stripped of the clouds of facilitating lies I usually wear as a second skin."
+    "Me? I am slow, gloom and depressed. Not only do I not emit any light, but I'm unable to simply reflect it like I usually do. At the moment, I cannot play properly my own role in the play which is my life, cannot force myself to fit the mood, to drape my insignificance in the brilliance of others to make it looks like I glow a little."
+
+    "I am in broad daylight, yet I am what I really am in the dark, once stripped of the clouds of facilitating lies I usually wear as a second skin."
 
     "I'm myself. A coward. An actor afraid of herself, afraid of letting her audience look beyond the mask. Able to speak the most complicated, lyrical, convoluted, impressive sentences as long as they're perfectly useless, but suddenly mute as soon as the truth may come out of my lips. A highly educated, perfectly trained master of form without substance."
 
-    "And that's exactly why I need to rebuild the illusion immediately, before anyone realizes it's a fake and could confront me on what I really am. So, I take a deep breath, readjust my posture, reorder my hair, compose myself a \"happy but tired\" smile and a couple of seconds later, the veil is back on."
+    "And that's exactly why I need to rebuild the illusion immediately, before anyone realizes how fake it is and could confront me on what I really am. So, I take a deep breath, readjust my posture, reorder my hair, compose myself a \"happy but tired\" smile and a couple of seconds later, the veil is back on."
 
     "I can already fool the world outside, and I'm sure I will soon be able to fool myself into thinking this was just a missed opportunity, that another will arise and that this time I will find the necessary courage."
 
@@ -44,7 +48,7 @@ label oblivion:
     scene black with dissolve
     stop music
 
-    "I feel groggy. I suppose I have slept. At least, I presently am badly sit in an armchair with no memory of a couple of hours. But I don't feel rested, not even close. My head hurts. Too much... something."
+    "I feel groggy. I suppose I have slept. At least, I'm currently badly sit in an armchair with no memory of a couple of hours. But I don't feel rested, not even close. My head hurts. Too much... something."
 
     "I stand back up without haste. My mind is having difficulties putting back together what happened that night. So many things and yet so little."
 
@@ -54,13 +58,13 @@ label oblivion:
 
     "But her reaction is worst that anything I could imagine. She simply acts as she always does. She is not a single bit different from how she was two days prior. She is the same old Antiope in good and bad."
 
-    "Did the alcohol wiped out her memories, was everything what happened last night so unimportant to her, or is she just pretending? I can't say. And I don't dare to dig out for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
+    "Did the alcohol wiped out her memories, was everything that happened last night so unimportant to her, or is she just pretending? I can't say. And I don't dare to dig out for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
 
     "So I go on with the flow. I imbue myself with my own role, I put on my mask of Ambrosia the happy musician, the good friend, the naive poet. I remodel my face into a bright smile, I chitchat cheerfully, I dance around her like I was excited by the rest of our tour. Antiope is grumpy but cool, and we go on like we always do."
 
     "Pretending soon turns to be quite tiring, to only increase my inner depression, but it's a game I cannot stop. I am prisoner of my own cowardice, of my own character. If I put down my mask, Antiope may remove her own in response, and then anything could happen. A universe of unpredictable possibilities I'm not ready to face up right now."
 
-    "So even if the inner side of the mask is burning red hot iron inflicting me the greatest of pain, I must wear it. Until courage or madness releases me, whichever comes first."
+    "So even if the inner side of the mask is a forest of red hot barbed spikes inflicting me the greatest of pain, I must wear it. Until courage or madness releases me, whichever comes first."
 
     "And I already know which virtue I'm better at."
 
@@ -68,6 +72,8 @@ label oblivion:
 
 label apology:
     scene
+
+    #Music change!
 
     antiope "I'm sorry."
 
@@ -96,6 +102,8 @@ label broken:
 
 label bramble:
     scene
+
+    #Update music, like usual
 
     "The sun is rising. I can count the passing of minutes simply from the light slowly filling up the room. I have been walking non-stop since my last one-sided talk with Antiope, going in and out, and my legs are hurting. I didn't exactly dress myself for a hike, and the cries of my body are more audible now that my rage has cooled down a little."
 
@@ -192,7 +200,7 @@ label talk:
 
     ambrosia "If I may ask... Could you give me some time alone?"
 
-    "Antiope looks really afraid at my request. That I would do something stupid certainly."
+    "As a reaction to my request, I can see fear in Antiope's eyes. That I would do something stupid certainly."
 
     antiope "Are you sure?"
 
@@ -217,15 +225,15 @@ label talk:
 
     "And then we depart. As it was planned. Our agenda for the season is quite full, and we have no time to rest. Soon, this place of memories we will never forget is behind us. We may come back to the same location next year, but then it will not be the same. It will never be the same."
 
-    "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious. Or perhaps on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other existence as a real person."
+    "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious. Or perhaps, on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other's existence as a real person."
 
-    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly be a regular heart broker. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before. And if my relationship with my amazonian beauty of friend didn't evolve the way I would have loved it to, I think it is now at least {i}healthier{/i} that it was previously."
+    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly be a regular heart broker. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
+
+    "And if my relationship with my amazonian beauty of friend didn't evolve the way I would have loved it to, I think it is now at least {i}healthier{/i} that it was previously."
 
     "Soon, we've passed by the walls of the city and we're entering the main road, about to start a long trip in the countryside and the wild. Above us, the sun is high and bright. It shines with all its might, ignorant of the terrors of the night, upon the path to our future."
 
-    "And with a single step on the uncobbled path, we start our new adventure."
-
-    "Life is not always fun, nor it is fair, but it still goes on."
+    "And with a single step on the uncobbled path, we start the first day of the rest of our lives."
 
     return
 
@@ -254,7 +262,7 @@ label kiss:
 
     #Transition?
 
-    "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even if it's on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
+    "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
 
     "My consciousness is fighting some primal creature deep inside not to tear down my hair or scratch my skin out of hate of myself. I'm not even sure the human part is winning. Perhaps I'm simply so dull at this moment I'm unable to take any action, even the most ill-advised ones."
 
@@ -287,13 +295,15 @@ label fight:
 
     ambrosia "Antiope, I love you."
 
-    "Antiope's reaction is priceless. She just stares at me, completely lost. If I was in the mood for a good laugh, I could giggle almost endlessly. But I'm dead serious."
+    "Antiope's reaction is priceless. She just stares at me, completely lost. If I was in the mood for a good laugh, I could giggle almost endlessly. But I'm not."
+
+    # Break music
 
     antiope "No."
 
     "Her answer is disturbing. She said it calmly, without hate, actually with a bit of... affection?"
 
-    antiope "No. You don't love me. You love the part of me I've left you see. And believe me, if you really knew me, you would not try to get closer."
+    antiope "No. You don't love me. You love the part of me I've left you see. And believe me, if you really knew me, you wouldn't try to get closer."
 
     antiope "You would cower in fear."
 

@@ -21,7 +21,7 @@ label stupor:
 
     "We laboriously walk together, trying not to bump into anybody, until we are finally met by the fresh air of the outside. A beautiful garden reveals itself before us, the plants, either medicinal or decorative, crowned with a surreal gray aura, the light of the moon in the darkness playing with the small layer of dew covering leaves and corollas."
 
-    "The place was full of people earlier, but many hours have passed since, the night is now at its worst hours, and the area is now deserted. There is a bench nearby, alongside a fountain, and I drag Antiope there. The stone is slightly humid, extremely cold, and I worry that letting her lie on it could be an incredibly stupid idea. But before I can move elsewhere, she just collapses there, trying to sit but ending lying on her back."
+    "The place was full of people earlier, but many hours have passed since, the night is now at its worst hours, and the area therefore deserted. There is a bench nearby, alongside a fountain, and I drag Antiope there. The stone is slightly humid, extremely cold, and I worry that letting her lie on it could be an incredibly stupid idea. But before I can move elsewhere, she just collapses there, trying to sit but ending lying on her back."
 
     "I rush to her side, but she stops me with a vindicative gesture of the hand, and straightens herself up through her own efforts. Her face is transfigured with rage, but against who or whom, only the gods know. She forces her own body to stand up again and walks a few steps away in the green."
 
@@ -65,17 +65,17 @@ label stupor:
 
     "Antiope is speaking quickly, too quickly, each word mashing with the next, her accent more pronounced than ever."
 
-    antiope "A marching army is made of thousands of people, all needing to eat. And most often than not, for most of the troops, after a few days, all their rations are gone and they have to live off the land. A ridiculous euphemism for stripping bare any field, any tree, any granary, any house."
+    antiope "A marching army is made of thousands of people, all needing to eat. And most often than not, for the main body of the troops, after a few days, all their rations are gone and they have to live off the land. A ridiculous euphemism for stripping bare any field, any tree, any granary, any house."
 
     antiope  "For a nobody in such cohorts, the art of soulless plundering is perhaps more important than knowing how to handle your weapon. The main fight may never come for many stupid or noble reasons, but your stomach still aches every day."
 
-    antiope "And, sometimes, an expedition can turn {i}really{/i} bad. The war may trail for so long that literally every edible thing around has already be ransacked. Despite the absence of real fighting, each new day brings in its share of cadavers as more and more people die from the many diseases corrupted water and rotten food bring. Apollo's wrath is far more mortal than any of Ares' bloodsheds."
+    antiope "And, sometimes, an expedition can turn {i}really{/i} bad. The war may trail for so long that literally every edible thing around has already be ransacked. Despite the absence of real fighting, each new day brings in its share of cadavers as more and more people die from the many diseases corrupted water and rotten food bring. Apollo's wrath is far more lethal than any of Ares' bloodsheds."
 
     antiope "And to make things even worse, the suffering army can then be crushed utterly regardless of its many sacrifices, pushed into a retreat so chaotic that many small isolated groups are left behind, and must now make their way back on their own, in hunger and fear. For a perfect agony, you can even add some rain or snow."
 
     antiope "A lot more will die. But quite a number will also somehow survive. Among them, some will have sacrificed all morality, decency, humanity to escape the sirens of Inferno. They succeeded in returning to their home, but they will never be the same, their behavior forever changed."
 
-    "Antiope suddenly stops talking and shuts her mouth tight. Her face shows a myriad of terrible expressions at once, hate, anger, fear, shame. She clings on her seat with both hands and applies such strength to it that she would probably crush it was it not made of stone. Her eyes are bottomless pit of darkness."
+    "Antiope suddenly stops talking and shuts her mouth tight. Her face shows a myriad of terrible expressions at once, hate, anger, fear, shame. She clings on her seat with both hands and applies such strength to it that she would probably crush it was it not made of stone. Her eyes are bottomless pits of darkness."
 
     "I hold my breath. I never saw her like that, and I'm actually terrified. She is right now a cornered beast, and I fear for what could happen with the wrong word, the wrong movement."
 
@@ -94,9 +94,13 @@ label sick:
 
     "I rush to her side, but she shoves me aside, grumbling something unintelligible. She keeps stumbling by herself, only staying afoot thanks to helping walls."
 
-    "I follow her from two steps behind as she progresses slowly and difficulty for long minutes before finally she finally stops."
+    "I follow her from two steps behind as she progresses slowly and difficulty for long minutes."
 
-    "We have reached a garden. A beautiful place, full of people earlier, now deserted due to the cold and the darkness. Every plant is now displaying a different shade of gray instead of their usual brighter colors. But I have little time for contemplation as Antiope is busy throwing up on a flowerbed."
+    "Finally, she stops, perhaps because she simply cannot move any more."
+
+    scene
+
+    "We have reached a garden. A beautiful place, full of people earlier, now deserted due to the cold and the darkness. At this hour, every plant is displaying a different shade of gray instead of their usual brighter colors. But I have little time for contemplation as Antiope is busy throwing up on a flowerbed."
 
     "Once done, she walks a little straighter in direction of a nearby fountain, washes her face, then falls back into the green to empty herself a second time."
 
@@ -159,7 +163,7 @@ label violence:
 
     "I see Antiope's fist ready to strike, but before she throws it, the gods be thanked, some reason returns to her mind. She abruptly releases me. I immediately move back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
 
-    "And then I run. I run in the night, I run back to the building, back to the light and the people. I hide myself among all these anonymous persons, in constant movement, always out of sight. I don't know if she followed me, and I don't want to know if she did. I just want to be as far as possible from her, yet I refuse to go out while she may be somewhere out there."
+    "And then I run. I run into the night, I run back to the building, back to the light and the people. I hide myself among all these anonymous persons, in constant movement, always out of sight. I don't know if she followed me, and I don't want to know if she did. I just want to be as far as possible from her, yet I refuse to go out while she may be somewhere out there."
 
     if dreamer:
         jump bramble
@@ -171,6 +175,8 @@ label drunkard:
 
     scene bg inside with pixellate
 
+    #Music reboot?
+
     "Antiope's head lies on my shoulder, her arm holds my waist, our legs keep bumping into each other. I can literally feel the heat radiating from her hot and clinging body, her soft breath upon my neck. I feel {i}wonderful{/i}."
 
     "I support her and she supports me as we walk together through the rooms of the palace. The call of nature forced us to leave our table, and this non-savory problem solved, we now are going wherever our feet have decided to guide us to party more."
@@ -179,7 +185,7 @@ label drunkard:
 
     "Air is colder. Which is actually cool. We've found a door opening to the outside. Garden. Lot of beautiful plants. There is a bench. We sit together with Antiope. She releases my hip and lets herself fall down, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
 
-    "I sit properly  – like the educated lady I am!  – then lean to look at her face to face from close. She displays an idiotic smile, her eyes glinting. The low angle makes her even more sexy, especially since she loosened her tunic to breath more freely. I could kiss right now if I dare."
+    "I sit properly  – like the educated lady I am!  – then lean to look at her face from close. She displays an idiotic smile, her eyes glinting. The low angle makes her even more sexy, especially since she loosened her tunic to breath more freely. I could kiss her right now if I dare."
 
     menu:
         "Dare":
@@ -222,7 +228,9 @@ label fake:
 
     antiope "Me? {i}Me?!{/i} Sorry, not interested. Better luck next time."
 
-    "And she falls back to her drunken haze, dozing off her drunkenness on the stone, not totally asleep, but not totally conscious either."
+    "And without a single drop of care, she just falls back to her drunken haze, dozing off her drunkenness on the stone, not totally asleep, but not totally conscious either."
+
+    # Stop music brutally?
 
     "As for myself, I'm suddenly feeling very sober. Actually, I feel like I'm seeing the world with a never-experienced before clarity."
 
@@ -240,7 +248,7 @@ label shake:
 label flee:
     "I continue to hesitate for a little more, but when she asked me again to leave, irritation making her voice rougher, I promptly obey."
 
-    "On my way back, I turn around a few times to watch Antiope still perfectly immobile on the stone, catatonic, a place flesh statue under the moon light."
+    "On my way back, I turn around a few times to watch Antiope still perfectly immobile on the stone, catatonic, a faint flesh statue under the moon light."
 
     jump oblivion
 
@@ -279,7 +287,7 @@ label misconception:
 
     "I'm completely paralyzed, my tongue frozen inside my mouth. I didn't expect the conversation to take such a turn, and can only listen as Antiope continues her monologue."
 
-    antiope "So I've searched for new opportunities. And I found some. Especially, there is a caravan to Thrace departing from Athens and going to Thrace which caught my interest, whose departure is planned in two months. I was getting bored with our usual roads, and a trip abroad sounded like a fun adventure."
+    antiope "So I've searched for new opportunities. And I found some. Especially, there is a caravan going to Thrace which caught my interest, whose departure from Athens is planned in two months. I was getting a little bored with our usual moves, and a trip abroad sounds like a fun adventure."
 
     antiope "So, don't worry about me. I've got myself covered."
 
@@ -293,7 +301,7 @@ label misconception:
 
     antiope "Is there anything else you wanted to ask me? It's quite cold there."
 
-    "The tone of her voice suggests than we go back inside, where heat, food and drinks await us."
+    "The tone of her voice suggests that we go back inside, where heat, food and drinks await us."
 
     menu:
         "Blankly give up":

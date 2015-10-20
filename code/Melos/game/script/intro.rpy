@@ -15,7 +15,7 @@ label intro:
 
     show poem "ἀλλὰ τυίδ᾽ ἔλθ᾽, αἴποτα κἀτέρωτα\nτᾶς ἔμας αὔδως ἀίοισα πήλοι\nἔκλυες, πάτρος δὲ δόμον λίποισα\nχρύσιον ἦλθες\n\n{i}but come--if ever before\nhaving heard my voice from far away\nyou listened, and leaving your father's\ngolden home you came{/i}" at truecenter with dissolve
 
-    "I remember that afternoon in the pond.{w}\n\nWe bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity, our physical closeness."
+    "I remember that afternoon in the pond.{w}\n\nWe bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity, of our physical closeness."
 
     hide poem with dissolve
 
@@ -54,19 +54,21 @@ label intro:
 
     stop music fadeout 5.0
 
-    # Add sound effect
+    # Add sound effect. Applauses _during_ the fadeout + Fade in another music shortly after
 
     "A final strum, and the last note escapes the lyre, rises into the air, rings through the night. In its mourning, it echoes the end of the song, and is answered with applauses and cheers."
 
     "About twenty persons noisily show their appreciation of this recital of Sappho's classic. I join them as well, if only to be polite. Secretly, I'm unconvinced, and I'm not alone. When I played the exact same song on the same rostrum for the same audience about an hour ago, the public response was far more enthusiast. Even if the night has only grown darker and colder since, it's obvious this show is subpar."
 
-    "Yet, despite the absence of any real passion in the voice, the technical mistakes when handling the lyre, and even a few distorted lines, I can help but be moved by this music."
+    "Yet, despite the absence of any real passion in the voice, the technical mistakes when handling the lyre, and even a few distorted lines, I can't help but be moved by this music."
 
-    "The {i}Hymn to Aphrodite{/i} is a powerful piece, one people expect and enjoy, one I have played many times in the past, and that I will probably play many times in the future too. But for several months now, I have been unable to hum its melody without picturing a specific face, without imagining a certain pair of beautiful eyes looking at me while I'm singing, without dreaming about one unique person listening to the words between the lines and understanding the special meaning this song has for me."
+    "The {i}Hymn to Aphrodite{/i} is a powerful piece, one people expect and enjoy, one I have played many times in the past, and that I will probably play many times in the future too."
 
-    "And this is but the most harmless of my recent quirks. I have turned obsessive, possessive. I sleep little and badly, cannot bear the shortest of separations, constantly observing her and overinterpreting each and every of her words and actions. I do my best to hide it, and as a professional artist trained to keep face and smile in all circumstances, I'm pretty sure I have managed to keep the mask of sanity and happiness on until now."
+    "But for several months now, I have been unable to hum its melody without picturing a specific face, without imagining a certain pair of beautiful eyes looking at me while I'm singing, without dreaming about one unique person listening to the words between the lines and understanding the special meaning this song has for me."
 
-    "But deep inside, I'm crumbling, I'm on the verge of breaking, at the gates of madness. The flames are in me, they want to go out, but I keep them locked inside, and so they consume my soul. More than the passion itself, it's the silence which is killing me. I haven't told anyone. Not her. Not anyone else, to be sure this would not reach her ears somehow. In fear of the consequences of such reveal."
+    "And this is but the most harmless of my recent quirks. I have turned obsessive, possessive. I sleep little and badly, cannot bear the shortest of separations, constantly observing her and overinterpreting each and every of her words and actions. I do my best to hide it, and as a professional artist trained to save face and smile in all circumstances, I'm pretty sure I have managed to keep the mask of sanity and happiness on until now."
+
+    "But deep inside, I'm crumbling, I'm on the verge of breaking, at the gates of madness. The flames are in me, they want to go out, but I keep them locked inside, and so they consume my soul. More than the passion itself, it's the silence which is killing me. I haven't told anyone, nor her, nor any other person, to be sure this would not reach her ears somehow. In fear of the consequences of such reveal."
 
     "I have observed her for days and nights. Yet, I never found a single hint that she may feel about me the same way that I feel about her. But I have grasped enough to understand she was born in a culture of power and steel which does not value highly romance, a world where reproduction takes precedence over proper love. And that she still lives by the spirit of her education if not by its customs."
 
@@ -80,11 +82,11 @@ label intro:
 
     "The nagging melody nonetheless calms me down a little. I review my options. This afternoon, I took part in one of the main events of the festival, in the city theater, under the gazes of hundreds of people. A grand contest of poetry in whom many artists tried their luck, including the one distracting us right now."
 
-    "Triumphing in such a competition is usually a life's goal for a singer, but this was not my main concern this year. However, I did plan my day with an extreme precision. As soon as my early and obligatory performance ended, I retreated back to the shadows, escaped discreetly the theater to hide myself in the nearby woods."
+    "Triumphing in such a competition is usually a life's goal for a singer, but this was not my main concern this year. However, I did plan my day with an extreme precision. As soon as my early and obligatory performance ended, I retreated back to the shadows, discreetly escaped the theater to hide myself in the nearby woods."
 
     "Then I sat, on the ground of a sunny clearing. Alone, while the whole city was directly or indirectly focused on the festival, from the shouting people on the theater's tiers to the humblest food vendor. To think. Think far away from the constant noise and movement of the ordinary life. Think without the weight of exhaustion and the terrors of the night overtaking me."
 
-    "And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never. The moment couldn't be more perfect. Today, the city is – we will are – giving thanks to Aphrodite. Today, we both shone in our own specialty, prove ourselves to the world, reminded it we exist by our own rights. This night, right now, her mood should be at its best, on the edge of ecstasy."
+    "And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never. The moment couldn't be more perfect. Today, the city is celebrating Aphrodite. Today, we both shone in our own specialty, prove ourselves to the world, reminded it we exist by our own rights. This night, right now, her mood should be at its best, on the edge of ecstasy."
 
     "If I don't talk to her this night, I know I will never have enough will to do it again. That my mouth will stay shut and my heart closed. So... I just need to stand up, walk away from this quiet corner of the property where a few artists and enthusiasts gathered for some impromptu rehearsals, find her in the crowd, take her apart, and open my heart to her."
 
@@ -99,7 +101,7 @@ label intro:
 label intro2:
     "I raise my head. Before me, the artist is almost done, and soon a new volunteer will take his place. It could even be me if I wanted to. I look at my own lyre, waiting impatiently in its bag at my side."
 
-    "On my left, within arm's reach, I notice a few appetizers and drinks. I pick an olive, make it roll unto my palm."
+    "On my left, within arm's reach, I notice a few appetizers and drinks. I pick an olive, make it roll upon my palm."
 
     "On my right, a group of people are having a hearty discussion about the last musical trends. Classicists versus moderns, as usual, but interesting nonetheless."
 

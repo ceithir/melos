@@ -3,13 +3,9 @@ image eyes:
     size (435, 85) crop (400, 275, 435, 85)
 
 label antiope:
-
-    #Music?
-
     scene bg inside
 
-    stop music fadeout 5.0
-    play music "music/Frozen_Silence_-_Harp.mp3" fadein 5.0
+    #Play another theme
 
     "I advance quickly through the many rooms of the building, getting around and stepping over the many revelers crossing my path with a consummate skill. I have worked at many similar parties before, and experience taught me how to move with ease despite the chaotic crowd."
 
@@ -35,7 +31,7 @@ label antiope:
     show antiope:
         alpha 1.0
 
-    "She half rises, hemmed in her movements by the food plate on her knees, but I stop her with a sign of the hand and sit at her side at the extremity of the narrow bench, pushing her a little. She holds back a grin and I show a mischievous smile. Her military mind had naturally chosen a position from which she could have easily fled. An advantage I just negated, cutting her way out."
+    "She half rises, hemmed in her movements by the food plate on her knees, but I stop her with a sign of the hand and sit by her side at the extremity of the narrow bench, pushing her a little. She holds back a grin and I show a mischievous smile. Her military mind had naturally chosen a position from which she could have easily retreated. An advantage I just negated, cutting her way out."
 
     "From so close, it's obvious I'm at least half a head taller than her, which never ends to surprise me. She looks big in everyday life, thanks to her headstrong confidence and athletic build, but is actually pretty average when using factual measurements."
 
@@ -47,7 +43,9 @@ label antiope:
 
     "My shoulder brushes against her own, my robe touching the skin left nude on that place by her old style of clothing. Some judge it barbaric. She judges it practical. I judge it sexy as..."
 
-    antiope "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
+    # Add animation for interruption? Or music change?
+
+    Character("Ἀντιόπη") "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
 
     "Her voice returns me to the real world. Sort of. Before answering, I savor my own name in her mouth like it is the divine nectar it refers to. She pronounces it with a slight but unmissable accent, giving it a strange sonority unique to her, a cute quirk I have learned to enjoy."
 
@@ -95,7 +93,7 @@ label liar:
 
     antiope "An {i}extraordinary{/i} performance would have been to win."
 
-    "I can't tell by her tone if she is joking or dead serious. I'm not sure she knows herself. When Antiope plays, it's always to win, but she couldn't really hope to defeat professional athletes which trained for months, sometimes years, for this particular type of race, on an adequate soil and with an exact distance in mind, while Antiope usually runs on uneven terrains for random periods of time."
+    "I can't tell by her tone if she is joking or dead serious. I'm not sure she knows herself. When Antiope plays, it's always to win, but she couldn't really hope to defeat professional athletes who trained for months, sometimes years, for this particular type of race, on an adequate soil and with an exact distance in mind, while Antiope usually runs on uneven terrains for random periods of time."
 
     ambrosia "You can say that, but I still think your were... incredible."
 
@@ -107,7 +105,7 @@ label liar:
 
     "It's not that unusual for a woman to participate in such an event. Actually, there is often a token Spartan female athlete alongside the males, and they generally do quite well. But that was not any woman. That was her."
 
-    "Such events are first and foremost a present to the gods, and the competitors must be as resplendent as they are skilled, the sight of their nude bodies as much an offering as their actual performances. And resplendent she was."
+    "These events are first and foremost a present to the gods, and the competitors must be as resplendent as they are skilled, the sight of their nude bodies as much an offering as their actual performances. And resplendent she was."
 
     "I helped her oiled herself before dawn, a pleasant moment certainly, but there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun. A thousand reflections were stressing each line, each curve of her body, every movement of her sculpted muscles revealing a new detail, a new secret, a new wonder, in a never-ceasing display of beauty."
 
@@ -201,11 +199,11 @@ label quirk:
 
     antiope "I guess... I leaned to trust you, began to relax more when being with you and... Damn, Ambrosia, you're far better are putting this feelings' stuff into words than me."
 
-    "She pours herself a new cut and takes a sip before continuing."
+    "She pours herself a new cup and takes a sip before continuing."
 
     antiope "You're trying to make me say something or to have a point through rhetoric. I honestly find that quite boring, and even a little unfair. If there is something you want to say, just say it."
 
-    "I mentally swear. So far from subtlety."
+    "I mentally swear."
 
     ambrosia "Fine. Can we discuss this somewhere else? This place is a little too crowded and noisy."
 
