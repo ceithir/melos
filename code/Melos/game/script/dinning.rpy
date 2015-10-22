@@ -11,7 +11,7 @@ label antiope:
 
     "I make a breach through human walls with a smile and a gentle but firm arm, adroitly avoid stepping on discarded leftovers and other unsavory things, nicely dismiss people asking for a song."
 
-    "While my reflexes alone handle my movements and keep my pace, I gaze at every single person, my sight jumping from face to face, hunting the only prey worth it. A hundred different eyes meet mine, but not the ones I desire. Until they finally lock into perfection."
+    "While my reflexes alone handle my movements and keep my pace, I gaze at every single person, my sight jumping from face to face, hunting the only prey worth it. A hundred different eyes meet mine, but not the ones I desire. Until they finally lock onto perfection."
 
     show eyes:
         alpha 0.0 xpos 423 ypos 255
@@ -68,11 +68,11 @@ label silence:
 
     antiope "Eat like a wolf. As much as you can while you can, so to be ready for when you will have nothing eat."
 
-    "Typical. She knows a seemingly endless list of rules, proverbs, little tales implying carnivorous animals and survival. This one is actually pretty tame compared to the most bloody, dark and depressing you've heard from her."
+    "Typical. She knows a seemingly endless list of rules, proverbs, little tales referring to carnivorous animals and survival. This one is actually pretty tame compared to the bloody, dark and depressing streams of advice she normally comes out with."
 
-    "And she does live by them. Always stuffing herself to the limit each time the food is free. It's a wonder how she keeps her physique, even if her stupidly hard and harsh daily routine probably helps a lot."
+    "And she does live by them. Always stuffing herself to the limit each time the food is free. It's a wonder how she keeps her physique, although her stupidly hard and harsh daily routine probably helps a lot."
 
-    "Yet another habit one could find ridiculous at first, but touching once you realized it has been forcefully implemented into her, a scar from a childhood she refuses to talk about."
+    "It is yet another habit one could find ridiculous at first, but touching once you realized it has been forcefully implemented into her, a scar from a childhood she refuses to talk about."
 
     "After finishing her (first) plate, she pours herself a cup of wine, then offers me one. The alcohol is a local brew, and even if it has been heavily watered down, the powerful smell is enough for me to understand how potent it still is."
 
@@ -147,7 +147,7 @@ label sobriety:
 
     "She actually started sweating, and her skin is now turning red from the wine and the effort, fighting to keep her speed against her own fullness and inebriation. But she doesn't stop nonetheless."
 
-    "I'm getting worried. Her meal trance is exceptionally extreme today, and this can only turn badly. The only time I saw herself eat and drink {i}that{/i} much, she made herself sick. She tried to play brave the next day and refused any help, but I cannot forget her weakness, her inability to even walk straight, her paleness, her badly hidden outbreaks of vomiting."
+    "I'm getting worried. Her meal trance is exceptionally extreme today, and this can only turn out badly. The only time I saw herself eat and drink {i}that{/i} much, she made herself sick. She tried to play brave the next day and refused any help, but I cannot forget her weakness, her inability to even walk straight, her paleness, her badly hidden outbreaks of vomiting."
 
     "I should probably stop her now. But... Antiope is very {i}touchy{/i} about her food."
 
@@ -169,7 +169,7 @@ label quirk:
 
     "Antiope shrugs and answers casually."
 
-    antiope "Of course I remember. A damn eventful trip. We even nearly got attacked by bandits once. If we hadn't spot their lookout and made a detour, things would have turned ugly."
+    antiope "Of course I remember. A damn eventful trip. We even nearly got attacked by bandits once. If we hadn't spotted their lookout and made a detour, things would have turned ugly."
 
     "She displays a crooked smile at the evocation of missed violence."
 

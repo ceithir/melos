@@ -25,7 +25,7 @@ label coward:
 
     "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does while scouting ahead. She quickly is as radiant as ever, if not more."
 
-    "Me? I am slow, gloom and depressed. Not only do I not emit any light, but I'm unable to simply reflect it like I usually do. At the moment, I cannot play properly my own role in the play which is my life, cannot force myself to fit the mood, to drape my insignificance in the brilliance of others to make it looks like I glow a little."
+    "Me? I am slow, gloomy and depressed. Not only do I not emit any light, but I'm unable to simply reflect it like I usually do. At the moment, I cannot play properly my own role in the play which is my life, cannot force myself to fit the mood, to drape my insignificance in the brilliance of others to make it looks like I glow a little."
 
     "I am in broad daylight, yet I am what I really am in the dark, once stripped of the clouds of facilitating lies I usually wear as a second skin."
 
@@ -48,7 +48,7 @@ label oblivion:
     scene black with dissolve
     stop music
 
-    "I feel groggy. I suppose I have slept. At least, I'm currently badly sit in an armchair with no memory of a couple of hours. But I don't feel rested, not even close. My head hurts. Too much... something."
+    "I feel groggy. I suppose I have slept. At least, I'm currently uncomfortably seated sit in an armchair with no memory of a couple of hours. But I don't feel rested, not even close. My head hurts. Too much... something."
 
     "I stand back up without haste. My mind is having difficulties putting back together what happened that night. So many things and yet so little."
 
@@ -58,7 +58,7 @@ label oblivion:
 
     "But her reaction is worst that anything I could imagine. She simply acts as she always does. She is not a single bit different from how she was two days prior. She is the same old Antiope in good and bad."
 
-    "Did the alcohol wiped out her memories, was everything that happened last night so unimportant to her, or is she just pretending? I can't say. And I don't dare to dig out for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
+    "Did the alcohol wipe out her memories?  Was everything that happened last night so unimportant to her? Or is she just pretending? I can't say. And I don't dare to dig further for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
 
     "So I go on with the flow. I imbue myself with my own role, I put on my mask of Ambrosia the happy musician, the good friend, the naive poet. I remodel my face into a bright smile, I chitchat cheerfully, I dance around her like I was excited by the rest of our tour. Antiope is grumpy but cool, and we go on like we always do."
 
@@ -117,7 +117,7 @@ label bramble:
 
     "She did not inflict any permanent damage to me. Far from it. In a day or two, my wrist will be as good as new. But I saw the fire in her eyes. For a moment, she was about to pummel me senselessly. Without any good reason. Just because I was there."
 
-    "Even worse: I still love her. Thinking about her still kicks in my passions, now alongside my fears. My dreams and my nightmares are merging into a confusing oneiric story, where she plays both the heroin and the villain."
+    "Even worse: I still love her. Thinking about her still kicks in my passions, now alongside my fears. My dreams and my nightmares are merging into a confusing oneiric story, where she plays both the heroine and the villain."
 
     "I'm lost. I want to see her again, to talk to her, to share her life. But I don't want to confront her madness ever again."
 
@@ -146,7 +146,7 @@ label talk:
 
     antiope "But that's only the beginning of it. Not only am I a naked blade, but I always point it at the wrong people. I'm a living pile of stupid reflexes and biases. I don't trust anyone, I only consider the part which could endanger me in other people's actions, ignoring what good it could do to me, and without caring for the consequences for themselves."
 
-    antiope "Do you know that the first nights we passed together, I barely got any sleep because I didn't completely roll out you would rob me as soon as I close my eyes? Despite everything and anything proving me you were no bandit? It took weeks before I learned to trust you enough to get a full night of sleep."
+    antiope "Do you know that the first nights we passed together, I barely got any sleep because I didn't completely rule out you wouldn't rob me as soon as I close my eyes? Despite everything and anything proving me you were no bandit? It took weeks before I learned to trust you enough to get a full night of sleep."
 
     "I try to appear unfazed, but this piece of information is indeed new to me. At that time, I remember Antiope's not sleeping a lot, but we were passing through dangerous regions, and I ruled out these memories as simple precautions against the outside danger. I never thought she was afraid of me."
 
@@ -227,7 +227,7 @@ label talk:
 
     "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious. Or perhaps, on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other's existence as a real person."
 
-    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly be a regular heart broker. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
+    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly break my heart on a regular basis. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
 
     "And if my relationship with my amazonian beauty of friend didn't evolve the way I would have loved it to, I think it is now at least {i}healthier{/i} that it was previously."
 
@@ -238,7 +238,7 @@ label talk:
     return
 
 label kiss:
-    "I lean a little more, and my lips encounter theirs. A small smack from two closed mouths bumping into each other."
+    "I lean a little more, and my lips encounter hers. A small smack from two closed mouths bumping into each other."
 
     "For a full second, we stay like this."
 
@@ -264,7 +264,7 @@ label kiss:
 
     "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
 
-    "My consciousness is fighting some primal creature deep inside not to tear down my hair or scratch my skin out of hate of myself. I'm not even sure the human part is winning. Perhaps I'm simply so dull at this moment I'm unable to take any action, even the most ill-advised ones."
+    "My consciousness is fighting some primal creature deep inside not to tear down my hair or scratch my skin out of hate of myself. I'm not even sure the human part is winning. Perhaps I'm simply so dull at this moment I'm unable to take any action, even one that's most ill-advised."
 
     "On the icy floor I lie, in the darkness I belong, alone I am."
 
@@ -303,13 +303,13 @@ label fight:
 
     "Her answer is disturbing. She said it calmly, without hate, actually with a bit of... affection?"
 
-    antiope "No. You don't love me. You love the part of me I've left you see. And believe me, if you really knew me, you wouldn't try to get closer."
+    antiope "No. You don't love me. You love the part of me I've let you see. And believe me, if you really knew me, you wouldn't try to get closer."
 
     antiope "You would cower in fear."
 
     "She stands up."
 
-    antiope "I think I should move forward my agenda. The sooner we part way, the better for the both of us."
+    antiope "I think I should move forward my agenda. The sooner we part ways, the better for the both of us."
 
     "I'm totally astonished. I try to speak, but Antiope seals my lips with one finger."
 
@@ -323,7 +323,7 @@ label fight:
 
     "However, I'm quickly disenchanted. Antiope is physically there, and she does her job, but she does just that. She is cold, distant, and at lunch, she would evoke for the first time and not the last her accelerated planning."
 
-    "In the following weeks, I will try to understand, try to make her talk about her sudden change in behavior. But from that point onwards, she will simply be more secret, more withdrawn. More absent also, sometimes disappearing for full days while we're in town. Usually coming back with bruises she of course refuses to talk about."
+    "In the following weeks, I will try to understand, try to make her talk about her sudden change in behavior. But from that point onwards, she will simply be more secret, more withdrawn. More absent also, sometimes disappearing for full days while we're in town. Usually coming back with bruises she refuses to talk about."
 
     "My emotions are a complex mix. There is love but also..."
 

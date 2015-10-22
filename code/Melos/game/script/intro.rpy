@@ -88,7 +88,7 @@ label intro:
 
     "And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never. The moment couldn't be more perfect. Today, the city is celebrating Aphrodite. Today, we both shone in our own specialty, prove ourselves to the world, reminded it we exist by our own rights. This night, right now, her mood should be at its best, on the edge of ecstasy."
 
-    "If I don't talk to her this night, I know I will never have enough will to do it again. That my mouth will stay shut and my heart closed. So... I just need to stand up, walk away from this quiet corner of the property where a few artists and enthusiasts gathered for some impromptu rehearsals, find her in the crowd, take her apart, and open my heart to her."
+    "If I don't talk to her this night, I know I will never have enough will to do it again. That my mouth will stay shut and my heart closed. So... I just need to stand up, walk away from this quiet corner of the property where a few artists and enthusiasts gathered for some impromptu rehearsals, find her in the crowd, take her aside, and open my heart to her."
 
     "As simple as that."
 
@@ -116,7 +116,7 @@ label intro3:
 
     "I'm pitifully delaying, trying to find something to do, anything, to push back the moment. Even the time I'm currently using to think about this is a form of temporizing."
 
-    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing down with a blank page pressed against their chest.\n\nEasy and infinitely regretful."
+    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing away with a blank page pressed against their chest.\n\nEasy and infinitely regretful."
 
     "I gather my will.\n\nI clench my teeth.\n\nI rise."
 

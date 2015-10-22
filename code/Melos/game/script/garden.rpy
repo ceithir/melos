@@ -1,11 +1,11 @@
 label stupor:
-    "I know I must stop her before she really harms herself. However, once more, I'm hesitation on the \"how\"."
+    "I know I must stop her before she really harms herself. However, once more, I'm hesitant on the \"how\"."
 
     "Yet, when she finishes her current dish and tries to grab the carafe one more time, I instinctively react. I catch the recipient myself and push it out of her reach. Her fingers close on the emptiness, and she bats an eyelid, disconcerted by this interruption of her freshly forged ritual."
 
     ambrosia "You've had enough I think."
 
-    "My voice is soft, gentle. I force myself to look at her right into the eyes and to appear both kind and firm. I'm pretty sure this is too much for my acting skills, but I try nonetheless."
+    "My voice is soft, gentle. I force myself to look at her right into her eyes and to appear both kind and firm. I'm pretty sure this is too much for my acting skills, but I try nonetheless."
 
     "Antiope is still disturbed. She looks down at her food, but I put my open hand under her stare, like a barrier between her and the remaining snacks."
 
@@ -51,7 +51,7 @@ label stupor:
 
     "The unexpected change of topic troubles me for a second, but she does not sound like she is trying to simply avoid the conversation, so I respond as calmly as I'm currently able to."
 
-    ambrosia "The one where a little boy would rather have his insides rip apart by the fox he stole than to be caught red-handed? Yes, I know of it."
+    ambrosia "The one where a little boy would rather have his insides ripped apart by the fox he stole than to be caught red-handed? Yes, I know of it."
 
     antiope "Yes, that one. What do you think of it?"
 
@@ -88,13 +88,13 @@ label stupor:
 label sick:
     "Antiope eats and drinks, drinks and eats, eats and drinks. I keep watching her, hypnotized, while she lives in her own world of never-ending binge."
 
-    "Finally, her body shows its limits. With each new plate, with each new cup, her movements slow down, her actions are more hesitant, more imprecise. Until finally, her febrile hands let go a ripped fruit, which splashes into the ground."
+    "Finally, her body shows its limits. With each new plate, with each new cup, her movements slow down, her actions are more hesitant, more imprecise. Until finally, her febrile hands let go of a ripped fruit, which splashes onto the ground."
 
     "She looks at the stain with absent eyes for several couples of seconds, and suddenly she rises from her seat and tries to stagger away."
 
     "I rush to her side, but she shoves me aside, grumbling something unintelligible. She keeps stumbling by herself, only staying afoot thanks to helping walls."
 
-    "I follow her from two steps behind as she progresses slowly and difficulty for long minutes."
+    "I follow her from two steps behind as she progresses slowly and with difficulty for long minutes."
 
     "Finally, she stops, perhaps because she simply cannot move any more."
 
@@ -183,7 +183,7 @@ label drunkard:
 
     scene
 
-    "Air is colder. Which is actually cool. We've found a door opening to the outside. Garden. Lot of beautiful plants. There is a bench. We sit together with Antiope. She releases my hip and lets herself fall down, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
+    "Air is colder. Which is actually cool. Antiope and I have found a door opening to the outside. Garden. Lot of beautiful plants. There is a bench. She releases my hip and lets herself fall down on it, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
 
     "I sit properly  – like the educated lady I am!  – then lean to look at her face from close. She displays an idiotic smile, her eyes glinting. The low angle makes her even more sexy, especially since she loosened her tunic to breath more freely. I could kiss her right now if I dare."
 
@@ -277,11 +277,11 @@ label misconception:
 
     "I simply cannot hide that my heart started beating faster than a hummingbird flaps its wings. There is a seriousness I'm not used to in Antiope's voice as she continues."
 
-    antiope "We've been going like this for... More than a year I guess? We've had our hardships, neither money or glory deigned rain upon us, but overall, it was a pretty nice adventure. We've had a good deal of fun, partook in some cool events, including this one. I also learned a lot, and I think you did too."
+    antiope "We've been going like this for... More than a year I guess? We've had our hardships, neither money or glory deigned rain upon us, but overall, it was a pretty nice adventure. We've had a good deal of fun, partook in some amazing events, including this one. I also learned a lot, and I think you did too."
 
     antiope "However, it's obvious, even for me, than we reached a turning point. I've checked our planning for the next months, and I couldn't miss the pattern. Except for a few surviving long trips, we're not going to move much. The reason for this is that you gained a bit of fame in the region, and several people have already commissioned you for their own events."
 
-    antiope "This is incredibly cool, but that's a clear sign you're about to set in. Soon, your patrons' support will be enough for you to stop traveling for days to reach a miserable shrine in the middle of nowhere just in time for the big yearly festival, in hope this will boost your career and fill your purse. You're about to jump the big gap between poor errant artist and comfortable resident artist."
+    antiope "This is incredible, but that's a clear sign you're about to set in. Soon, your patrons' support will be enough for you to stop having to travel for days to reach a miserable shrine in the middle of nowhere just in time for the big yearly festival, in hope it will boost your career and fill your purse. You're about to jump the big gap between poor errant artist and comfortable resident artist."
 
     antiope "Which of course means you will soon have no more use for a full-time scout."
 
