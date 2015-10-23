@@ -329,5 +329,11 @@ label fight:
 
     "Also, I'm afraid."
 
+    "The harder she tries to hide, the more pressure she puts on herself. Her temper has shortened radically, the slightest of vexations releases her rage. She is a hornet's net on two legs, and could break at any moment, unleashing the fury of nature over whoever will be there at that wrong instant."
+
+    "Namely me."
+
+    "And so, as the day of our final separation that she herself decided is closing in, if my heart rejects it, wants for time to stand still until I manage to fix up our relationship, my brain is starting to long for it.{w}\n\nThat it may come before the executioner's sword falls on my neck."
+
     return
 
