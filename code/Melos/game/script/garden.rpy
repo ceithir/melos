@@ -17,7 +17,15 @@ label stupor:
 
     "Seeing her in pain, I immediately stand up and help her. My left arm around her shoulders, I guide her to a calmer and cooler location. I can feel her weight pushed upon me for lack of ability to support herself alone, her erratic, hot, wine-laden breath against my neck, her moist skin under my palm. She is already quite sick."
 
-    scene
+    window hide
+    show bg inside as trans_inside:
+        linear 2.0 xpos -1280
+    show bg garden as trans_garden:
+        xpos 1280
+        linear 2.0 xpos 0
+    pause 2.0
+    scene bg garden
+    window show
 
     "We laboriously walk together, trying not to bump into anybody, until we are finally met by the fresh air of the outside. A beautiful garden reveals itself before us, the plants, either medicinal or decorative, crowned with a surreal gray aura, the light of the moon in the darkness playing with the small layer of dew covering leaves and corollas."
 
@@ -26,6 +34,13 @@ label stupor:
     "I rush to her side, but she stops me with a vindicative gesture of the hand, and straightens herself up through her own efforts. Her face is transfigured with rage, but against who or whom, only the gods know. She forces her own body to stand up again and walks a few steps away in the green."
 
     "There she throws up."
+
+    show antiope:
+        xalign 1.0 yalign 1.0
+        linear 1.0 xalign 0.75
+    pause 1.0
+    show antiope:
+        xalign 0.75
 
     "After that, she goes for the fountain, a little more steady on her feet, and washes her face in the icy water. Finally, she rests on the bench, properly sit this time. She looks {i}better{/i}, but she certainly does not look {i}fine{/i}. She at least has the decency of appearing embarrassed when she finally talks to me."
 
@@ -88,21 +103,40 @@ label stupor:
 label sick:
     "Antiope eats and drinks, drinks and eats, eats and drinks. I keep watching her, hypnotized, while she lives in her own world of never-ending binge."
 
-    "Finally, her body shows its limits. With each new plate, with each new cup, her movements slow down, her actions are more hesitant, more imprecise. Until finally, her febrile hands let go of a ripped fruit, which splashes onto the ground."
+    "However her body shows its limits. With each new plate, with each new cup, her movements slow down, her actions are more hesitant, more imprecise. Until finally, her febrile hands let go of a ripped fruit, which splashes onto the ground."
 
     "She looks at the stain with absent eyes for several couples of seconds, and suddenly she rises from her seat and tries to stagger away."
 
+    show antiope at right with moveoutright
+
     "I rush to her side, but she shoves me aside, grumbling something unintelligible. She keeps stumbling by herself, only staying afoot thanks to helping walls."
+
+    #Add footstep sound
 
     "I follow her from two steps behind as she progresses slowly and with difficulty for long minutes."
 
-    "Finally, she stops, perhaps because she simply cannot move any more."
+    "At one point, she stops, perhaps because she simply cannot move anymore."
 
-    scene
+    window hide
+    show bg inside as trans_inside:
+        linear 2.0 xpos -1280
+    show bg garden as trans_garden:
+        xpos 1280
+        linear 2.0 xpos 0
+    pause 2.0
+    scene bg garden
+    window show
 
     "We have reached a garden. A beautiful place, full of people earlier, now deserted due to the cold and the darkness. At this hour, every plant is displaying a different shade of gray instead of their usual brighter colors. But I have little time for contemplation as Antiope is busy throwing up on a flowerbed."
 
     "Once done, she walks a little straighter in direction of a nearby fountain, washes her face, then falls back into the green to empty herself a second time."
+
+    show antiope:
+        xalign 1.0 yalign 1.0
+        linear 1.0 xalign 0.75
+    pause 1.0
+    show antiope:
+        xalign 0.75
 
     "Finally {i}slightly{/i} better, she sits on a stone bench and stops moving altogether, her dead eyes looking at some point far far away."
 
@@ -153,7 +187,14 @@ label chase:
 label violence:
     "A mistake."
 
+    stop music
      #Add some sound
+
+    show antiope:
+        linear 0.5 zoom 4.0 yalign 0.0
+    pause 0.5
+    show antiope with hpunch:
+        zoom 4.0 yalign 0.0
 
     "Antiope's reaction is as immediate as terrible. Her fingers instantly lock on my wrist with a bestial strength. She pushes back my arm like she was deflecting some sword blow, getting to her feet in the same movement. My heart starts beating furiously, from raw fear. I see death in her eyes, an unsheathed killing instinct."
 
@@ -161,7 +202,21 @@ label violence:
 
     "My voice is a desperate plea. Panic gets the better of me, overriding all my conscious thoughts. I don't know what to do, but I'm trying to do it regardless, my whole body shaking."
 
-    "I see Antiope's fist ready to strike, but before she throws it, the gods be thanked, some reason returns to her mind. She abruptly releases me. I immediately move back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
+    "I see Antiope's fist ready to strike."
+
+    "But before she throws it, the gods be thanked, some reason returns to her mind and she abruptly releases me."
+
+    show antiope:
+        linear 0.5 zoom 1.0 xalign 0.5 yalign 1.0
+    pause 0.5
+    show antiope:
+        xalign 0.5 yalign 1.0
+        zoom 1.0
+
+    "I immediately move back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
+
+    #Add running sound
+    hide antiope with moveoutright
 
     "And then I run. I run into the night, I run back to the building, back to the light and the people. I hide myself among all these anonymous persons, in constant movement, always out of sight. I don't know if she followed me, and I don't want to know if she did. I just want to be as far as possible from her, yet I refuse to go out while she may be somewhere out there."
 
@@ -171,9 +226,9 @@ label violence:
         jump apology
 
 label drunkard:
-    scene bg inside with pixellate
+    show bg inside with pixellate
 
-    scene bg inside with pixellate
+    show bg inside with pixellate
 
     #Music reboot?
 
@@ -181,9 +236,23 @@ label drunkard:
 
     "I support her and she supports me as we walk together through the rooms of the palace. The call of nature forced us to leave our table, and this non-savory problem solved, we now are going wherever our feet have decided to guide us to party more."
 
-    scene
+    window hide
+    show bg inside as trans_inside:
+        linear 2.0 xpos -1280
+    show bg garden as trans_garden:
+        xpos 1280
+        linear 2.0 xpos 0
+    pause 2.0
+    scene bg garden
+    window show
 
-    "Air is colder. Which is actually cool. Antiope and I have found a door opening to the outside. Garden. Lot of beautiful plants. There is a bench. She releases my hip and lets herself fall down on it, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
+    "Air is colder. Which is actually cool. Antiope and I have found a door opening to the outside. Garden. Lot of beautiful plants."
+
+    show antiope:
+        zoom 2.0
+        xalign 0.5 yalign -0.15
+
+    "There is a bench. She releases my hip and lets herself fall down on it, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
 
     "I sit properly  – like the educated lady I am!  – then lean to look at her face from close. She displays an idiotic smile, her eyes glinting. The low angle makes her even more sexy, especially since she loosened her tunic to breath more freely. I could kiss her right now if I dare."
 
@@ -255,9 +324,24 @@ label flee:
 label misconception:
     "I didn't really plan that much ahead, and I decide to just walk until I find an appropriate place. After several minutes of Antiope's complaining, our random meandering finally ends in the perfect location."
 
-    scene
+    window hide
+    show bg inside as trans_inside:
+        linear 2.0 xpos -1280
+    show bg garden as trans_garden:
+        xpos 1280
+        linear 2.0 xpos 0
+    pause 2.0
+    scene bg garden
+    window show
 
     "The moon in the clear sky shines upon a beautiful garden, the pale light drawing many strange shadows for the gray flowers on each side of the lane, sometimes sparkling upon an early or late drop of dew. The path leads to a small fountain, with stone seats around for the tired and those needing to have a long, not rushed, talk. The air is really cold, but thanks to that the place is void of people."
+
+    show antiope:
+        xalign -0.25 yalign 1.0
+        linear 1.0 xalign 0.75
+    pause 1.0
+    show antiope:
+        xalign 0.75
 
     "Antiope passes beyond me and sits casually on a bench, her crossed legs resting on the edge of the pond."
 

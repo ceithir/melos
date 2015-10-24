@@ -7,6 +7,9 @@ image antiope:
 
 image bg poetry = Image("images/bg/intro.jpg")
 image bg inside = LiveTile("images/bg/inside.jpg")
+image bg garden = LiveTile("images/bg/dark-garden.jpg")
+image bg sky = LiveTile("images/bg/sky.jpg")
+image bg black = Solid("#000")
 
 label start:
     # Has Antiope drunk too much and only keep hazy memories of the night?

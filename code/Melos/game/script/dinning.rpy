@@ -27,7 +27,6 @@ label antiope:
         alpha 0.0 xpos 23 ypos -20 zoom 4.0
         linear 0.5 alpha 1.0
     pause 0.5
-
     show antiope:
         alpha 1.0
 
@@ -40,6 +39,8 @@ label antiope:
     show antiope:
         linear 2.0 zoom 1.0 xpos 462 ypos 50
     pause 2.0
+    show antiope:
+        zoom 1.0 xpos 462 ypos 50
 
     "My shoulder brushes against her own, my robe touching the skin left nude on that place by her old style of clothing. Some judge it barbaric. She judges it practical. I judge it sexy as..."
 

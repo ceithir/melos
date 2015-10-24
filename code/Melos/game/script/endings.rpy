@@ -1,5 +1,3 @@
-image bg black = Solid("#000")
-
 label coward:
     scene black with dissolve
     stop music
@@ -10,6 +8,8 @@ label coward:
 
     "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. My hair and my dress are competing with each other for the position of most messy, but that's probably only because I cannot see my face. But I can see {i}her{/i}."
 
+    show antiope with fade
+
     "She seems tired, but yet is ready for departure, fully clothed and equipped. Her eyes are filled with concern as she hands me a flask of water. I accept mechanically, drink a little. The fresh liquid dissipates part of my forgetful stupor, unearthing the terrible reality."
 
     if despair:
@@ -19,9 +19,17 @@ label coward:
 
     "And now, I stand, feeble on my feet, and excuse myself pitifully. I ask her to wait for me while I fetch my belongings and I run away."
 
-    # Add transition (fade?)
+    #Add running sound?
+
+    hide antiope with moveoutright
+
+    pause 0.5
+
+    show antiope with moveinright
 
     "A few minutes later, after a lighting flash toilette, I'm back and ready to go. I do a bad joke about not knowing my own limits and them we move on. In the end, the cold facts are that we have a long trip ahead of us, and we already are several hours behind our schedule."
+
+    scene bg sky with dissolve
 
     "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does while scouting ahead. She quickly is as radiant as ever, if not more."
 
@@ -52,13 +60,23 @@ label oblivion:
 
     "I stand back up without haste. My mind is having difficulties putting back together what happened that night. So many things and yet so little."
 
+    #Music?
+
     "Real life strikes in, and I realize I'm late. The sun looks like it has been up for some hours now, and that means I should already be ready for departure. So I rush to pick back my belongings and make myself presentable. I do so without thinking, still half asleep. Perhaps because I don't want to really wake up, to face reality."
 
-    "Then, with a lasting headache, I walk to the place where Antiope and me agreed to meet once the party will be over. My anxiety keeps growing as I come closer to the location. When I see that she is indeed there, I'm relieved, but only partly. Because I'm still afraid of how the events of this night impacted her. Of how they changed our relationship. Of what will happen next."
+    scene bg sky with fade
+
+    "Then, with a lasting headache, I walk to the place where Antiope and me agreed to meet once the party will be over. My anxiety keeps growing as I come closer to the location."
+
+    show antiope with dissolve
+
+    "When I see that she is indeed there, I'm relieved, but only partly. Because I'm still afraid of how the events of this night impacted her. Of how they changed our relationship. Of what will happen next."
 
     "But her reaction is worst that anything I could imagine. She simply acts as she always does. She is not a single bit different from how she was two days prior. She is the same old Antiope in good and bad."
 
     "Did the alcohol wipe out her memories?  Was everything that happened last night so unimportant to her? Or is she just pretending? I can't say. And I don't dare to dig further for the truth. She is there. We're talking like friends, still sharing the same intimacy. I'm not brave enough to risk breaking this special bond once again."
+
+    hide antiope with dissolve
 
     "So I go on with the flow. I imbue myself with my own role, I put on my mask of Ambrosia the happy musician, the good friend, the naive poet. I remodel my face into a bright smile, I chitchat cheerfully, I dance around her like I was excited by the rest of our tour. Antiope is grumpy but cool, and we go on like we always do."
 
@@ -71,11 +89,14 @@ label oblivion:
     return
 
 label apology:
-    scene
+    scene bg black with fade
 
     #Music change!
 
     antiope "I'm sorry."
+
+    show bg inside with fade
+    show antiope with fade
 
     "I don't know how she found me. I must have dozed off at some point, while she kept searching. We're back in the banquet room, almost empty as dawn is upon us. The only people still around are those who fell asleep here and there, defeated by their many excesses. I could scream with all my lunges that they will not wake up. I'm still alone in the end."
 
@@ -101,11 +122,13 @@ label broken:
     jump bramble
 
 label bramble:
-    scene
+    scene bg sky with fade
 
     #Update music, like usual
 
     "The sun is rising. I can count the passing of minutes simply from the light slowly filling up the room. I have been walking non-stop since my last one-sided talk with Antiope, going in and out, and my legs are hurting. I didn't exactly dress myself for a hike, and the cries of my body are more audible now that my rage has cooled down a little."
+
+    scene bg garden with fade
 
     "I once again enter the garden, look into the pond. I don't recognize the crazed stranger looking back at me, the dark rings around her eyes, the rivers dug by tears on her cheeks, the hair more mixed up than the one of Medusa."
 
@@ -212,16 +235,22 @@ label talk:
 
     ambrosia "Promise."
 
+    hide antiope with Dissolve(1.0)
+
     "She utters some last civilities, and finally departs, not without looking back a few times, worry painted on her face. I disarm her with a bright smile each time."
 
     "Only when I'm certain she is far from here do I allow myself to break up into tears."
 
-    scene black with dissolve
+    scene sky with fade
     stop music
 
     "I'm late. By at least one hour. I already woke up late, but it's the time I spent cleaning my face which really put me in. The minutes flew by while I was erasing all traces of sadness, tiredness, despair from my face with a professional care, water, soap and an appropriate use of cosmetics. But now I look fresh and ready again."
 
+    show antiope with fade
+
     "Antiope is at the meeting point, and by the look of her own face, she has been worryingly waiting for quite a bit now. She did no effort to hide her own exhaustiveness, but her superb constitution still allows her to appear as strong as ever. I greet her happily and she welcomes me with open arms and a touch of awkwardness."
+
+    hide antiope with dissolve
 
     "And then we depart. As it was planned. Our agenda for the season is quite full, and we have no time to rest. Soon, this place of memories we will never forget is behind us. We may come back to the same location next year, but then it will not be the same. It will never be the same."
 
@@ -238,13 +267,30 @@ label talk:
     return
 
 label kiss:
-    "I lean a little more, and my lips encounter hers. A small smack from two closed mouths bumping into each other."
+    "I lean a little more."
+
+    show antiope:
+        linear 1.0 zoom 4.0 yalign -0.025 xpos 0.55
+    pause 1.0
+
+    "My lips encounter hers. A small smack from two closed mouths bumping into each other."
 
     "For a full second, we stay like this."
 
+    stop music fadeout 1.0
+
     "Then, Antiope's reflexes, having been slowed down by the incredible amount of alcohol she took in, finally takes charge."
 
-    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside. Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
+    hide antiope with fade
+    show bg garden with hpunch
+
+    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside."
+
+    show bg black with vpunch
+
+    "Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
+
+    show antiope with dissolve
 
     "She is towering me, her fists convulsively opening and closing, her mouth sputtering, dribbling, her bloodshot eyes burning with rage."
 
@@ -252,15 +298,22 @@ label kiss:
 
     antiope "I thought I could trust you. But you were just a smugger snake, weren't you?"
 
-    "She gets slightly closer from my defenseless body, and positions herself to kick me. I instantly put my arms before my face in a self-preservation instinct."
+    "She gets closer from my defenseless body, and positions herself to kick me."
 
-    "Thankfully, the assault never comes. I hear her stepping backwards, spitting, then talking to me. For the last time."
+    hide antiope with fade
+
+    "I instantly put my arms before my face in a self-preservation instinct."
+
+    #Add footstep sound
+
+    "But the assault never comes. I hear her stepping backwards, spitting, then talking to me. For the last time."
 
     antiope "Never approaches me again if you value your life."
 
     "And walking so quickly this could as well be called running, she goes away."
 
-    #Transition?
+    #Another music?
+    play music "music/Frozen_Silence_-_Harp.mp3" fadein 1.0
 
     "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
 
@@ -317,7 +370,8 @@ label fight:
 
     "And on these words, she leaves. She simply walks away, abandoning me there. I'm unable to pursue her. I... don't understand anything anymore."
 
-    scene
+    scene bg sky with fade
+    #Music!
 
     "There is no word to describe how relieved I am to find Antiope at our rendez-vous point as planned. After searching for her all night long, I had convinced myself she had vanished for good, fleeing by the main road under the cover of darkness. To see her in the flesh again is the best gift the new day could offer me."
 
