@@ -98,6 +98,8 @@ label apology:
     show bg inside with fade
     show antiope with fade
 
+    play music "music/Frozen_Silence_-_Harp.mp3" fadein 1.0
+
     "I don't know how she found me. I must have dozed off at some point, while she kept searching. We're back in the banquet room, almost empty as dawn is upon us. The only people still around are those who fell asleep here and there, defeated by their many excesses. I could scream with all my lunges that they will not wake up. I'm still alone in the end."
 
     "Antiope looks extremely pitiful. Ravaged. Vanned. There is no trace of her usual confidence on the desperate face looking at me."
@@ -124,7 +126,7 @@ label broken:
 label bramble:
     scene bg sky with fade
 
-    #Update music, like usual
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
 
     "The sun is rising. I can count the passing of minutes simply from the light slowly filling up the room. I have been walking non-stop since my last one-sided talk with Antiope, going in and out, and my legs are hurting. I didn't exactly dress myself for a hike, and the cries of my body are more audible now that my rage has cooled down a little."
 
@@ -241,8 +243,8 @@ label talk:
 
     "Only when I'm certain she is far from here do I allow myself to break up into tears."
 
+    play music "music/JAyFS_-_Quiet_village.mp3" fadein 2.0
     scene sky with fade
-    stop music
 
     "I'm late. By at least one hour. I already woke up late, but it's the time I spent cleaning my face which really put me in. The minutes flew by while I was erasing all traces of sadness, tiredness, despair from my face with a professional care, water, soap and an appropriate use of cosmetics. But now I look fresh and ready again."
 
@@ -344,15 +346,17 @@ label fight:
 
     ambrosia "That I'm trying to tell you is the exact opposite of what you guessed. I don't want you to leave. I want you to stay. Until the cruelty of the gods take us apart."
 
+    stop music fadeout 0.5
+
     "I need a last break. A last breath. And here rolls the thunder."
 
     ambrosia "Antiope, I love you."
 
     "Antiope's reaction is priceless. She just stares at me, completely lost. If I was in the mood for a good laugh, I could giggle almost endlessly. But I'm not."
 
-    # Break music
-
     antiope "No."
+
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
 
     "Her answer is disturbing. She said it calmly, without hate, actually with a bit of... affection?"
 
@@ -371,7 +375,6 @@ label fight:
     "And on these words, she leaves. She simply walks away, abandoning me there. I'm unable to pursue her. I... don't understand anything anymore."
 
     scene bg sky with fade
-    #Music!
 
     "There is no word to describe how relieved I am to find Antiope at our rendez-vous point as planned. After searching for her all night long, I had convinced myself she had vanished for good, fleeing by the main road under the cover of darkness. To see her in the flesh again is the best gift the new day could offer me."
 

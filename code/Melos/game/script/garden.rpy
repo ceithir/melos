@@ -226,11 +226,14 @@ label violence:
         jump apology
 
 label drunkard:
-    show bg inside with pixellate
+    stop music fadeout 0.5
+    show antiope with fade
 
-    show bg inside with pixellate
+    show antiope with pixellate
 
-    #Music reboot?
+    show antiope with pixellate
+
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 2.0
 
     "Antiope's head lies on my shoulder, her arm holds my waist, our legs keep bumping into each other. I can literally feel the heat radiating from her hot and clinging body, her soft breath upon my neck. I feel {i}wonderful{/i}."
 
@@ -275,13 +278,13 @@ label fake:
 
     "I laugh. I haven't brought my lyre with me, but I stand up and start an impromptu rehearsal {i}a cappella{/i}."
 
-    stop music fadeout 0
+    stop music fadeout 1.0
 
     ambrosia "With his venom{w}\nirresistible{w}\nand bittersweet"
 
     ambrosia "that loosener{w}\nof limbs, Love{w}\nreptile-like{w}\nstrikes me down"
 
-    play music "music/Frozen_Silence_-_Harp.mp3"
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
 
     "Damn, I must be more tired than I thought. This sounds similar to the original poem, but some words are not what they should be. My teacher would have turned mad had she heard me. It's a personal interpretation of a classic, but not the classic itself."
 

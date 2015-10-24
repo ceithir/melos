@@ -48,13 +48,18 @@ label intro:
     "I remember these moments, and many others, small and big, casual and special, every precious little brick of the time I spent with her.{w}\n\nI remember, and I am happy.{w}\n\nI remember, and I am sad."
 
     hide poem with dissolve
+    window hide dissolve
 
     show bg poetry:
-        linear 3.0 crop (0, 717, 1280, 720)
+        linear 2.0 crop (0, 717, 1280, 720)
+    pause 2.0
+    show bg poetry:
+        crop (0, 717, 1280, 720)
 
+    window show dissolve
     stop music fadeout 5.0
 
-    # Add sound effect. Applauses _during_ the fadeout + Fade in another music shortly after
+    # Add sound effect. Applauses _during_ the fadeout + Fade in another music shortly after -> Which music?
 
     "A final strum, and the last note escapes the lyre, rises into the air, rings through the night. In its mourning, it echoes the end of the song, and is answered with applauses and cheers."
 
@@ -121,6 +126,8 @@ label intro3:
     "I gather my will.\n\nI clench my teeth.\n\nI rise."
 
     "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you jumped into the water, you have no other choice than to swim or sink."
+
+    stop music fadeout 1.0
 
     show bg poetry as trans_poetry:
         crop (0, 717, 1280, 720)

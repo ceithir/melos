@@ -5,7 +5,7 @@ image eyes:
 label antiope:
     scene bg inside
 
-    #Play another theme
+    play music "music/FTDrop - delight.wav" fadein 1.0
 
     "I advance quickly through the many rooms of the building, getting around and stepping over the many revelers crossing my path with a consummate skill. I have worked at many similar parties before, and experience taught me how to move with ease despite the chaotic crowd."
 
