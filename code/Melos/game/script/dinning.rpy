@@ -44,8 +44,6 @@ label antiope:
 
     "My shoulder brushes against her own, my robe touching the skin left nude on that place by her old style of clothing. Some judge it barbaric. She judges it practical. I judge it sexy as..."
 
-    # Add animation for interruption? Or music change?
-
     Character("Ἀντιόπη") "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
 
     "Her voice returns me to the real world. Sort of. Before answering, I savor my own name in her mouth like it is the divine nectar it refers to. She pronounces it with a slight but unmissable accent, giving it a strange sonority unique to her, a cute quirk I have learned to enjoy."
@@ -116,9 +114,13 @@ label liar:
 
     "From that image alone, I can hear the frantic beating of her heart, feel the tickling of the lock of hair having escaped the band, taste the shortness of her warmth breath. An instant of perfection worth a poem, an ode, an Odysseus."
 
-    #Small sound effect?
+    stop music
+    play sound "sound/63898__robinhood76__00651-putting-pot-on-table-2.ogg"
 
     "Antiope drops a cup before me and starts pouring wine into it, ending my short, probably no longer than a couple of real life seconds, but intense daydreaming."
+
+    stop sound
+    play music "music/FTDrop - delight.wav" fadein 1.0
 
     antiope "Drink something, you're sweating. Can't blame you, it's quite hot there."
 

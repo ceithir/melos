@@ -57,11 +57,13 @@ label intro:
         crop (0, 717, 1280, 720)
 
     window show dissolve
-    stop music fadeout 5.0
+    stop music fadeout 3.0
 
-    # Add sound effect. Applauses _during_ the fadeout + Fade in another music shortly after -> Which music?
+    play sound "sound/193064__soundslikewillem__crowd-after-encore.ogg"
 
     "A final strum, and the last note escapes the lyre, rises into the air, rings through the night. In its mourning, it echoes the end of the song, and is answered with applauses and cheers."
+
+    stop sound
 
     "About twenty persons noisily show their appreciation of this recital of Sappho's classic. I join them as well, if only to be polite. Secretly, I'm unconvinced, and I'm not alone. When I played the exact same song on the same rostrum for the same audience about an hour ago, the public response was far more enthusiast. Even if the night has only grown darker and colder since, it's obvious this show is subpar."
 

@@ -4,8 +4,6 @@ label coward:
 
     "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I sense a hand on my shoulder and two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
 
-    #Music? Background?
-
     "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. My hair and my dress are competing with each other for the position of most messy, but that's probably only because I cannot see my face. But I can see {i}her{/i}."
 
     show antiope with fade
@@ -19,7 +17,7 @@ label coward:
 
     "And now, I stand, feeble on my feet, and excuse myself pitifully. I ask her to wait for me while I fetch my belongings and I run away."
 
-    #Add running sound?
+    play sound "sound/134991__zombiechaser3__running-sounds.ogg"
 
     hide antiope with moveoutright
 
@@ -27,9 +25,14 @@ label coward:
 
     show antiope with moveinright
 
+    stop sound fadeout 1.0
+
     "A few minutes later, after a lighting flash toilette, I'm back and ready to go. I do a bad joke about not knowing my own limits and them we move on. In the end, the cold facts are that we have a long trip ahead of us, and we already are several hours behind our schedule."
 
+    stop sound
+
     scene bg sky with dissolve
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
 
     "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does while scouting ahead. She quickly is as radiant as ever, if not more."
 
@@ -60,11 +63,10 @@ label oblivion:
 
     "I stand back up without haste. My mind is having difficulties putting back together what happened that night. So many things and yet so little."
 
-    #Music?
-
     "Real life strikes in, and I realize I'm late. The sun looks like it has been up for some hours now, and that means I should already be ready for departure. So I rush to pick back my belongings and make myself presentable. I do so without thinking, still half asleep. Perhaps because I don't want to really wake up, to face reality."
 
     scene bg sky with fade
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
 
     "Then, with a lasting headache, I walk to the place where Antiope and me agreed to meet once the party will be over. My anxiety keeps growing as I come closer to the location."
 
@@ -90,8 +92,6 @@ label oblivion:
 
 label apology:
     scene bg black with fade
-
-    #Music change!
 
     antiope "I'm sorry."
 
@@ -283,11 +283,13 @@ label kiss:
 
     "Then, Antiope's reflexes, having been slowed down by the incredible amount of alcohol she took in, finally takes charge."
 
+    play sound "sound/144015__satanicupsman__bone-flesh-crush-punch.ogg"
     hide antiope with fade
     show bg garden with hpunch
 
     "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside."
 
+    stop sound
     show bg black with vpunch
 
     "Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
@@ -306,15 +308,13 @@ label kiss:
 
     "I instantly put my arms before my face in a self-preservation instinct."
 
-    #Add footstep sound
-
     "But the assault never comes. I hear her stepping backwards, spitting, then talking to me. For the last time."
 
     antiope "Never approaches me again if you value your life."
 
     "And walking so quickly this could as well be called running, she goes away."
 
-    #Another music?
+    stop sound
     play music "music/Frozen_Silence_-_Harp.mp3" fadein 1.0
 
     "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."

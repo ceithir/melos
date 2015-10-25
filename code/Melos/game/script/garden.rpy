@@ -111,8 +111,6 @@ label sick:
 
     "I rush to her side, but she shoves me aside, grumbling something unintelligible. She keeps stumbling by herself, only staying afoot thanks to helping walls."
 
-    #Add footstep sound
-
     "I follow her from two steps behind as she progresses slowly and with difficulty for long minutes."
 
     "At one point, she stops, perhaps because she simply cannot move anymore."
@@ -188,7 +186,7 @@ label violence:
     "A mistake."
 
     stop music
-     #Add some sound
+    play sound "sound/144015__satanicupsman__bone-flesh-crush-punch.ogg"
 
     show antiope:
         linear 0.5 zoom 4.0 yalign 0.0
@@ -197,6 +195,8 @@ label violence:
         zoom 4.0 yalign 0.0
 
     "Antiope's reaction is as immediate as terrible. Her fingers instantly lock on my wrist with a bestial strength. She pushes back my arm like she was deflecting some sword blow, getting to her feet in the same movement. My heart starts beating furiously, from raw fear. I see death in her eyes, an unsheathed killing instinct."
+
+    stop sound
 
     ambrosia "Antiope, please stop!"
 
@@ -215,10 +215,15 @@ label violence:
 
     "I immediately move back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
 
-    #Add running sound
-    hide antiope with moveoutright
+    play sound "sound/134991__zombiechaser3__running-sounds.ogg"
+
+    show bg black as eclipse:
+        alpha 0.0
+        linear 1.0 alpha 1.0
 
     "And then I run. I run into the night, I run back to the building, back to the light and the people. I hide myself among all these anonymous persons, in constant movement, always out of sight. I don't know if she followed me, and I don't want to know if she did. I just want to be as far as possible from her, yet I refuse to go out while she may be somewhere out there."
+
+    stop sound
 
     if dreamer:
         jump bramble
