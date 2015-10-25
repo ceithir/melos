@@ -1,16 +1,35 @@
+Text:
+    Everything written in English and not a quote (see Poetry section) is CC-BY-SA 3.0 Éric "Skarn" Berthe (https://creativecommons.org/licenses/by-sa/3.0/)
+
+Sprites:
+    © Katta (http://gamesbykatta.tumblr.com/)
+
+Backgrounds:
+    Based on various public domain paintings:
+        "Sappho and Alcaeus", by Lawrence Alma-Tadema (https://commons.wikimedia.org/wiki/File:Sappho_and_Alcaeus.jpg)
+        "Il Parassita", by Roberto Bompiani (https://commons.wikimedia.org/wiki/File:Parassita-big.jpg)
+        "Parklandschaft mit zwei Windhunden.", by Albert F. Laurens (https://commons.wikimedia.org/wiki/File:Albert_F_Laurens_Parklandschaft_mit_zwei_Windhunden.jpg)
+        "The Dawn", by Hendrik Lot (https://commons.wikimedia.org/wiki/File:Hendrik_Lot_-_Landschap_bij_ochtendstond.jpg)
+        "Classical Poets on a Moonlit Shore in Ancient Greece", by Ivan Aivazovsky (https://commons.wikimedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD_%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8%D1%87_%D0%90%D0%B9%D0%B2%D0%B0%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)
+
 Music:
-    https://www.jamendo.com/en/track/26433/harp-music
-    https://www.jamendo.com/en/track/25227/harp
-    https://soundcloud.com/ftdrop/delight
-    https://www.jamendo.com/en/track/1274406/quiet-village
+    "Harp Music", CC-BY-NC-SA 3.0 Celestial Aeon Project (https://www.jamendo.com/en/track/26433/harp-music)
+    "Harp", CC-BY-NC-SA Frozen 3.0 Silence (https://www.jamendo.com/en/track/25227/harp)
+    "Delight", CC-BY-NC-ND 2.0 FTDrop (https://soundcloud.com/ftdrop/delight)
+    "Quiet village", CC-BY-SA 3.0 JAyFS (https://www.jamendo.com/en/track/1274406/quiet-village)
 
 Poetry:
     Hymn to Aphrodite:
-        Original Greek: http://wikilivres.ca/wiki/The_Poems_of_Sappho#Greek
-        Translation: http://www.sappho.com/poetry/sappho.html#Immortal%20Aphrodite
+        Original Greek courtesy of http://wikilivres.ca/wiki/The_Poems_of_Sappho#Greek
+        Translation quoted from Diane Rayor's "Sappho — A New Translation of the Complete Works"
     With his venom:
-        Quoted from Mary Barnard's "Sappho - A new translation"
+        Quoted from Mary Barnard's "Sappho — A new translation"
 
-Backgrounds:
-    Various public domain paitings slightly altered
+Sound:
+    
 
+GUI:
+    © Anne
+
+Code:
+    MIT for everything, be it Ren'Py source (http://www.renpy.org/) or the little of custom code this project uses
