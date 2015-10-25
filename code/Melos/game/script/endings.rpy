@@ -32,7 +32,7 @@ label coward:
     stop sound
 
     scene bg sky with dissolve
-    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 1.0
 
     "As the walk goes on under the light on the sun, she starts shining, the physical effort purifying her body, her pace sure and quick, her cheeks pinkish from the extra ardor put into the back-and-forth sprints she regularly does while scouting ahead. She quickly is as radiant as ever, if not more."
 
@@ -66,7 +66,7 @@ label oblivion:
     "Real life strikes in, and I realize I'm late. The sun looks like it has been up for some hours now, and that means I should already be ready for departure. So I rush to pick back my belongings and make myself presentable. I do so without thinking, still half asleep. Perhaps because I don't want to really wake up, to face reality."
 
     scene bg sky with fade
-    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 1.0
 
     "Then, with a lasting headache, I walk to the place where Antiope and me agreed to meet once the party will be over. My anxiety keeps growing as I come closer to the location."
 
@@ -98,7 +98,7 @@ label apology:
     show bg inside with fade
     show antiope with fade
 
-    play music "music/Frozen_Silence_-_Harp.mp3" fadein 1.0
+    play music "music/Frozen_Silence_-_Harp.ogg" fadein 1.0
 
     "I don't know how she found me. I must have dozed off at some point, while she kept searching. We're back in the banquet room, almost empty as dawn is upon us. The only people still around are those who fell asleep here and there, defeated by their many excesses. I could scream with all my lunges that they will not wake up. I'm still alone in the end."
 
@@ -126,7 +126,7 @@ label broken:
 label bramble:
     scene bg sky with fade
 
-    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 1.0
 
     "The sun is rising. I can count the passing of minutes simply from the light slowly filling up the room. I have been walking non-stop since my last one-sided talk with Antiope, going in and out, and my legs are hurting. I didn't exactly dress myself for a hike, and the cries of my body are more audible now that my rage has cooled down a little."
 
@@ -183,7 +183,7 @@ label talk:
 
     antiope "Please believe me, I'm really sorry. You're the last person I want to hurt and... I don't want to lose you. Even if I would understand if you asked me to leave. You gave me a lot, and I've thanked you with nothing but disrespect and pain."
 
-    "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a wave of the hand, I invite her to sit by my side, which she promptly does."
+    "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a ogge of the hand, I invite her to sit by my side, which she promptly does."
 
     ambrosia "Why didn't we have this conversation earlier?"
 
@@ -243,7 +243,7 @@ label talk:
 
     "Only when I'm certain she is far from here do I allow myself to break up into tears."
 
-    play music "music/JAyFS_-_Quiet_village.mp3" fadein 2.0
+    play music "music/JAyFS_-_Quiet_village.ogg" fadein 2.0
     scene sky with fade
 
     "I'm late. By at least one hour. I already woke up late, but it's the time I spent cleaning my face which really put me in. The minutes flew by while I was erasing all traces of sadness, tiredness, despair from my face with a professional care, water, soap and an appropriate use of cosmetics. But now I look fresh and ready again."
@@ -315,7 +315,7 @@ label kiss:
     "And walking so quickly this could as well be called running, she goes away."
 
     stop sound
-    play music "music/Frozen_Silence_-_Harp.mp3" fadein 1.0
+    play music "music/Frozen_Silence_-_Harp.ogg" fadein 1.0
 
     "The sound of her departure has long died, but I still cannot stand up. Perhaps because I only want to lie down and cry right now, even on the cold hard ground. Everything went so quickly and so badly. Why did I do that? That was beyond idiotic, and made me lose everything. I have but myself to blame for my infinite stupidity."
 
@@ -356,7 +356,7 @@ label fight:
 
     antiope "No."
 
-    play music "music/Celestial_Aeon_Project_-_Harp_Music.mp3" fadein 1.0
+    play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 1.0
 
     "Her answer is disturbing. She said it calmly, without hate, actually with a bit of... affection?"
 

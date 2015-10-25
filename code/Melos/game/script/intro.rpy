@@ -3,7 +3,7 @@ image poem = ParameterizedText(text_align=0.5)
 label intro:
     scene bg poetry:
         size (1280, 720) crop (0, 0, 1280, 720)
-    play music "music/Frozen_Silence_-_Harp.mp3" fadein 5.0
+    play music "music/Frozen_Silence_-_Harp.ogg" fadein 5.0
 
     show poem "Ποικιλόθρον᾽ ἀθάνατ᾽ ᾽Αφρόδιτα,\nπαῖ Δίος, δολόπλοκε, λίσσομαί σε\nμή μ᾽ ἄσαισι μήτ᾽ ὀνίαισι δάμνα,\nπότνια, θῦμον.\n\n{i}On the throne of many hues, Immortal Aphrodite,\nchild of Zeus, weaving wiles--I beg you\nnot to subdue my spirit, Queen,\nwith pain or sorrow{/i}" at truecenter with dissolve
 
@@ -83,7 +83,7 @@ label intro:
 
     "Afraid of bewilderment.{w} Afraid of rejection.{w} Afraid of fear.{w} Afraid of anger.{w}\n\nAfraid this will break our special relationship.{w}\n\nAfraid that by wanting too much of her, I will lose her whole."
 
-    play music "music/Frozen_Silence_-_Harp.mp3" fadein 5.0
+    play music "music/Frozen_Silence_-_Harp.ogg" fadein 5.0
 
     "As a background noise for my worries, the man on the scene starts playing. I recognize a composition from Alcaeus. A supposedly appropriate answer to the last piece, as he was Sappho's senior and rival. But a poor idea in the end, as the stanzas I hear simply cannot compare to the majesty of Sappho's texts. She was the uncontested Tenth Muse, and the artistic world still mourns her death a couple of decades ago."
 

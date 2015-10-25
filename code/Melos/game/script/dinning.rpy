@@ -5,7 +5,7 @@ image eyes:
 label antiope:
     scene bg inside
 
-    play music "music/FTDrop - delight.wav" fadein 1.0
+    play music "music/FTDrop - delight.ogg" fadein 1.0
 
     "I advance quickly through the many rooms of the building, getting around and stepping over the many revelers crossing my path with a consummate skill. I have worked at many similar parties before, and experience taught me how to move with ease despite the chaotic crowd."
 
@@ -61,7 +61,7 @@ label antiope:
 label silence:
     "I sincerely think about outgoing the truth. I came there for this, to stop hiding. But now that we are face to face, my lips are sealed. I don't want to say a lie, as small as it could be, but still cannot open up."
 
-    "So I stay silent, dismissing the question with a mysterious smile and a wave of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
+    "So I stay silent, dismissing the question with a mysterious smile and a ogge of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
 
     "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays a all teeth out smile."
 
@@ -120,7 +120,7 @@ label liar:
     "Antiope drops a cup before me and starts pouring wine into it, ending my short, probably no longer than a couple of real life seconds, but intense daydreaming."
 
     stop sound
-    play music "music/FTDrop - delight.wav" fadein 1.0
+    play music "music/FTDrop - delight.ogg" fadein 1.0
 
     antiope "Drink something, you're sweating. Can't blame you, it's quite hot there."
 
