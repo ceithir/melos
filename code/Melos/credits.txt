@@ -26,10 +26,10 @@ Poetry:
         Quoted from Mary Barnard's "Sappho — A new translation"
 
 Sound:
-    "Crowd at a Concert of a Music Festival", CC-BY-NC 3.0 soundslikewillem (https://www.freesound.org/people/soundslikewillem/sounds/193064/)
     "KITCHEN common sounds", CC-BY-NC 3.0 Robinhood76 (https://www.freesound.org/people/Robinhood76/sounds/63898/)
     "bone_flesh crush/ punch", CC0 (https://www.freesound.org/people/satanicupsman/sounds/144015/)
     "Running", CC0 (https://www.freesound.org/people/zombiechaser3/sounds/134991/)
+    "gymnasium, end of final game, applause and cheers", CC-BY 3.0 xtrgamr (https://www.freesound.org/people/xtrgamr/sounds/243800/)
 
 GUI:
     © Anne
