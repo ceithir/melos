@@ -111,6 +111,8 @@ label sick:
 
     "I rush to her side, but she shoves me aside, grumbling something unintelligible. She keeps stumbling by herself, only staying afoot thanks to helping walls."
 
+    hide antiope with moveoutright
+
     "I follow her from two steps behind as she progresses slowly and with difficulty for long minutes."
 
     "At one point, she stops, perhaps because she simply cannot move anymore."
@@ -192,7 +194,7 @@ label violence:
         linear 0.5 zoom 4.0 yalign 0.0
     pause 0.5
     show antiope with hpunch:
-        zoom 4.0 yalign 0.0
+        zoom 4.0 yalign 0.0 xpos 1025
 
     "Antiope's reaction is as immediate as terrible. Her fingers instantly lock on my wrist with a bestial strength. She pushes back my arm like she was deflecting some sword blow, getting to her feet in the same movement. My heart starts beating furiously, from raw fear. I see death in her eyes, an unsheathed killing instinct."
 
@@ -204,16 +206,10 @@ label violence:
 
     "I see Antiope's fist ready to strike."
 
-    "But before she throws it, the gods be thanked, some reason returns to her mind and she abruptly releases me."
+    show antiope at center with fade:
+        zoom 1.0 xalign 0.5 yalign 1.0
 
-    show antiope:
-        linear 0.5 zoom 1.0 xalign 0.5 yalign 1.0
-    pause 0.5
-    show antiope:
-        xalign 0.5 yalign 1.0
-        zoom 1.0
-
-    "I immediately move back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
+    "But before she throws it, the gods be thanked, some reason returns to her mind and she abruptly releases me. My now free body reflexively moves back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
 
     play sound "sound/134991__zombiechaser3__running-sounds.ogg"
 
@@ -301,13 +297,15 @@ label fake:
 
     ambrosia "You."
 
-    "Her bemused look is quite hilarious, but I refrain from laughing. However, she does. It's a joyless, inebriate laugh, an unfunny sound which snatches my heart out of my chest and tears it apart without a single remorse."
+    "Her bemused look is quite hilarious, but I refrain from laughing.{w}\n\nHowever, she does. "
+
+    "It's a joyless, inebriate laugh, an unfunny sound which snatches my heart out of my chest and tears it apart without a single remorse."
 
     antiope "Me? {i}Me?!{/i} Sorry, not interested. Better luck next time."
 
     "And without a single drop of care, she just falls back to her drunken haze, dozing off her drunkenness on the stone, not totally asleep, but not totally conscious either."
 
-    # Stop music brutally?
+    stop music
 
     "As for myself, I'm suddenly feeling very sober. Actually, I feel like I'm seeing the world with a never-experienced before clarity."
 
@@ -393,7 +391,7 @@ label misconception:
 
     antiope "Is there anything else you wanted to ask me? It's quite cold there."
 
-    "The tone of her voice suggests that we go back inside, where heat, food and drinks await us."
+    "The tone of her voice suggests that we should go back inside, where heat, food and drinks await us."
 
     menu:
         "Blankly give up":

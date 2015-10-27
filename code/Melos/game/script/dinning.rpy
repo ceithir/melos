@@ -124,11 +124,12 @@ label liar:
     "Antiope drops a cup before me and starts pouring wine into it, ending my short, probably no longer than a couple of real life seconds, but intense daydreaming."
 
     stop sound
-    play music "music/FTDrop - delight.ogg" fadein 1.0
 
     antiope "Drink something, you're sweating. Can't blame you, it's quite hot there."
 
     "I observe the liquid with a suspicious eye. It is watered down, but not that much, and must still be pretty potent, in good or bad."
+
+    play music "music/FTDrop - delight.ogg" fadein 1.0
 
     menu:
         "Accept":
@@ -219,6 +220,8 @@ label quirk:
     antiope "Fine, let's do it."
 
     "She stands up, and I follow. Together, her pouting, me trying to keep my heartbeat in check, we go away from the small and hot room."
+
+    hide antiope with moveoutright
 
     jump misconception
 

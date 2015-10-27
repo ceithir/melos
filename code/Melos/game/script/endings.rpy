@@ -150,7 +150,7 @@ label bramble:
 
     scene bg garden with fade
 
-    "I once again enter the garden, look into the pond. I don't recognize the crazed stranger looking back at me, the dark rings around her eyes, the rivers dug by tears on her cheeks, the hair more mixed up than the one of Medusa."
+    "I once again enter the garden, look into the pond. I don't recognize the crazed stranger looking back at me, the dark rings around her eyes, the rivers dug by tears on her cheeks, the hair more mixed up than the ones of Medusa."
 
     "But this is nothing. This, I can easily fix with a brush and some makeup. My main problem is my future from now on."
 
@@ -203,7 +203,7 @@ label talk:
 
     antiope "Please believe me, I'm really sorry. You're the last person I want to hurt and... I don't want to lose you. Even if I would understand if you asked me to leave. You gave me a lot, and I've thanked you with nothing but disrespect and pain."
 
-    "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a ogge of the hand, I invite her to sit by my side, which she promptly does."
+    "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a wave of the hand, I invite her to sit by my side, which she promptly does."
 
     ambrosia "Why didn't we have this conversation earlier?"
 
