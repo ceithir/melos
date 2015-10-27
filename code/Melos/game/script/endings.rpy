@@ -1,3 +1,17 @@
+init python:
+    def ending(name, number):
+        ending_text_string = "Ending %s: %s" % (number, name)
+        ending_text = Text(ending_text_string, text_align=0.5, xalign=0.5, yalign=0.5, size=48, color="#000")
+
+        renpy.music.stop(channel='sound')
+        renpy.music.stop(channel='music', fadeout=10)
+        _window_hide()
+        renpy.show("ending_background", what=Solid("#fff"))
+        renpy.show("ending_text", what=ending_text)
+        renpy.with_statement(fade)
+        renpy.pause()
+        renpy.jump('_renpy_return')
+
 label coward:
     scene black with dissolve
     stop music
@@ -53,6 +67,8 @@ label coward:
 
     "Still a lie."
 
+    $ ending("Coward", 6)
+
     return
 
 label oblivion:
@@ -87,6 +103,8 @@ label oblivion:
     "So even if the inner side of the mask is a forest of red hot barbed spikes inflicting me the greatest of pain, I must wear it. Until courage or madness releases me, whichever comes first."
 
     "And I already know which virtue I'm better at."
+
+    $ ending("Oblivion", 5)
 
     return
 
@@ -151,6 +169,8 @@ label bramble:
     "I know I {i}need{/i} to go back to her, fix that up one way or the other, and continue with my ordinary live. I know I {i}will{/i}."
 
     "In the water, the living incarnation of despair looks at me, and I answer her with a maddened smile."
+
+    $ ending("Despair", 4)
 
     return
 
@@ -266,6 +286,8 @@ label talk:
 
     "And with a single step on the uncobbled path, we start the first day of the rest of our lives."
 
+    $ ending("Truth", 1)
+
     return
 
 label kiss:
@@ -321,7 +343,7 @@ label kiss:
 
     "On the icy floor I lie, in the darkness I belong, alone I am."
 
-    return
+    $ ending("Kiss", 2)
 
 label fight:
     "I refuse to let it end like that. I gather all my courage and I rise."
@@ -389,6 +411,8 @@ label fight:
     "Namely me."
 
     "And so, as the day of our final separation that she herself decided is closing in, if my heart rejects it, wants for time to stand still until I manage to fix up our relationship, my brain is starting to long for it.{w}\n\nThat it may come before the executioner's sword falls on my neck."
+
+    $ ending("Secret", 3)
 
     return
 
