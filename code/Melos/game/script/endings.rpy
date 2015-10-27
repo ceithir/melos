@@ -287,12 +287,10 @@ label kiss:
     hide antiope with fade
     show bg garden with hpunch
 
-    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside."
-
     stop sound
     show bg black with vpunch
 
-    "Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
+    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside.\n\nUnable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
 
     show antiope with dissolve
 

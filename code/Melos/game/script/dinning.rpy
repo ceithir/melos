@@ -44,13 +44,17 @@ label antiope:
 
     "My shoulder brushes against her own, my robe touching the skin left nude on that place by her old style of clothing. Some judge it barbaric. She judges it practical. I judge it sexy as..."
 
+    stop music
+
     Character("Ἀντιόπη") "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
+
+    play music "music/FTDrop - delight.ogg" fadein 1.0
 
     "Her voice returns me to the real world. Sort of. Before answering, I savor my own name in her mouth like it is the divine nectar it refers to. She pronounces it with a slight but unmissable accent, giving it a strange sonority unique to her, a cute quirk I have learned to enjoy."
 
-    "On the opposite side, despite my talents as a singer, I'm unable to breath proper life into her own name. I pronounce it perfectly, but it sounds so bland when it should ring like the thunder in the summer sky. {i}Antiope{/i}! A warrior name, an amazon name, a mythological name, yet one escaping me as her bearer escapes me."
+    "On the opposite side, despite my talents as a singer, I'm unable to breath proper life into her own name. I pronounce it perfectly, but it sounds so bland when I say it, while it should ring like the thunder in the summer sky. {i}Antiope{/i}! A warrior name, an amazon name, a mythological name, yet one escaping me as her bearer escapes me."
 
-    "She cocks an eyebrow at me not answering her mundane question."
+    "She cocks an eyebrow at me not answering her mundane question, and I break the daydreaming once more."
 
     menu:
         "Remain silent":
@@ -61,7 +65,7 @@ label antiope:
 label silence:
     "I sincerely think about outgoing the truth. I came there for this, to stop hiding. But now that we are face to face, my lips are sealed. I don't want to say a lie, as small as it could be, but still cannot open up."
 
-    "So I stay silent, dismissing the question with a mysterious smile and a ogge of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
+    "So I stay silent, dismissing the question with a mysterious smile and a wave of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
 
     "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays a all teeth out smile."
 
