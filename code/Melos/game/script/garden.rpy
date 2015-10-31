@@ -19,9 +19,9 @@ label stupor:
 
     window hide
     show bg inside as trans_inside:
-        linear 2.0 xpos -1280
+        linear 2.0 xpos -config.screen_width
     show bg garden as trans_garden:
-        xpos 1280
+        xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
     scene bg garden
@@ -119,9 +119,9 @@ label sick:
 
     window hide
     show bg inside as trans_inside:
-        linear 2.0 xpos -1280
+        linear 2.0 xpos -config.screen_width
     show bg garden as trans_garden:
-        xpos 1280
+        xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
     scene bg garden
@@ -190,11 +190,11 @@ label violence:
     stop music
     play sound "sound/144015__satanicupsman__bone-flesh-crush-punch.ogg"
 
-    show antiope:
-        linear 0.5 zoom 4.0 yalign 0.0
+    show antiope angry:
+        linear 0.5 zoom 4.0 yalign 0.075
     pause 0.5
-    show antiope with hpunch:
-        zoom 4.0 yalign 0.0 xpos 1025
+    show antiope angry with hpunch:
+        zoom 4.0 yalign 0.075
 
     "Antiope's reaction is as immediate as terrible. Her fingers instantly lock on my wrist with a bestial strength. She pushes back my arm like she was deflecting some sword blow, getting to her feet in the same movement. My heart starts beating furiously, from raw fear. I see death in her eyes, an unsheathed killing instinct."
 
@@ -206,7 +206,7 @@ label violence:
 
     "I see Antiope's fist ready to strike."
 
-    show antiope at center with fade:
+    show antiope angry at center with fade:
         zoom 1.0 xalign 0.5 yalign 1.0
 
     "But before she throws it, the gods be thanked, some reason returns to her mind and she abruptly releases me. My now free body reflexively moves back a few steps, my hurt wrist pressed against my chest, the skin having turned red where she pressed it."
@@ -230,9 +230,9 @@ label drunkard:
     stop music fadeout 0.5
     show antiope with fade
 
-    show antiope with pixellate
+    show bg inside with pixellate
 
-    show antiope with pixellate
+    show antiope bliss with pixellate
 
     play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 2.0
 
@@ -242,9 +242,9 @@ label drunkard:
 
     window hide
     show bg inside as trans_inside:
-        linear 2.0 xpos -1280
+        linear 2.0 xpos -config.screen_width
     show bg garden as trans_garden:
-        xpos 1280
+        xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
     scene bg garden
@@ -252,9 +252,9 @@ label drunkard:
 
     "Air is colder. Which is actually cool. Antiope and I have found a door opening to the outside. Garden. Lot of beautiful plants."
 
-    show antiope:
+    show antiope bliss:
         zoom 2.0
-        xalign 0.5 yalign -0.15
+        xalign 0.5 yalign 0.0
 
     "There is a bench. She releases my hip and lets herself fall down on it, stretched out upon the full width of the stone seat, her back against the rock and her head bobbing in the air."
 
@@ -332,9 +332,9 @@ label misconception:
 
     window hide
     show bg inside as trans_inside:
-        linear 2.0 xpos -1280
+        linear 2.0 xpos -config.screen_width
     show bg garden as trans_garden:
-        xpos 1280
+        xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
     scene bg garden

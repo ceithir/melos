@@ -2,7 +2,7 @@ image poem = ParameterizedText(text_align=0.5)
 
 label intro:
     scene bg poetry:
-        size (1280, 720) crop (0, 0, 1280, 720)
+        size (config.screen_width, config.screen_height) crop (0, 0, config.screen_width, config.screen_height)
     play music "music/Frozen_Silence_-_Harp.ogg" fadein 5.0
 
     show poem "Ποικιλόθρον᾽ ἀθάνατ᾽ ᾽Αφρόδιτα,\nπαῖ Δίος, δολόπλοκε, λίσσομαί σε\nμή μ᾽ ἄσαισι μήτ᾽ ὀνίαισι δάμνα,\nπότνια, θῦμον.\n\n{i}On the throne of many hues, Immortal Aphrodite,\nchild of Zeus, weaving wiles--I beg you\nnot to subdue my spirit, Queen,\nwith pain or sorrow{/i}" at truecenter with dissolve
@@ -51,10 +51,10 @@ label intro:
     window hide dissolve
 
     show bg poetry:
-        linear 2.0 crop (0, 717, 1280, 720)
+        linear 2.0 crop (0, 717, config.screen_width, config.screen_height)
     pause 2.0
     show bg poetry:
-        crop (0, 717, 1280, 720)
+        crop (0, 717, config.screen_width, config.screen_height)
 
     window show dissolve
     stop music fadeout 3.0
@@ -146,10 +146,10 @@ label intro3:
     stop music fadeout 1.0
 
     show bg poetry as trans_poetry:
-        crop (0, 717, 1280, 720)
-        linear 2.0 xpos -1280
+        crop (0, 717, config.screen_width, config.screen_height)
+        linear 2.0 xpos -config.screen_width
     show bg inside as trans_inside:
-        xpos 1280
+        xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
 

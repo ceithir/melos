@@ -114,7 +114,7 @@ label apology:
     antiope "I'm sorry."
 
     show bg inside with fade
-    show antiope with fade
+    show antiope sad with fade
 
     play music "music/Frozen_Silence_-_Harp.ogg" fadein 1.0
 
@@ -142,6 +142,7 @@ label broken:
     jump bramble
 
 label bramble:
+    stop music fadeout 1.0
     scene bg sky with fade
 
     play music "music/Celestial_Aeon_Project_-_Harp_Music.ogg" fadein 1.0
@@ -179,9 +180,13 @@ label talk:
 
     ambrosia "Sorry for what?"
 
+    show antiope bliss
+
     "Despite my tone, Antiope looks ecstatic that I'm simply talking to her."
 
     antiope "For my behavior. For being an idiot in general. For having attacked you in all possible manners when you were just trying to prevent me from hurting myself. No, that's not it. For having attacked you, regardless of the circumstances."
+
+    show antiope
 
     "She takes a deep breath. Antiope has talked more this night than she usually did in days. But contrary to her precedent drunken outburst, she sounds more serene, more honest, less theatrical."
 
@@ -225,6 +230,8 @@ label talk:
 
     ambrosia "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
 
+    show antiope bliss
+
     "Antiope's reaction is refreshingly simple. A flash of surprise succeeded by an extraordinary deluge of embarrassment. She turns almost comically pink from all the blood rising up to her head and mumbles some incomprehensible words. I smile warmly. I know she couldn't have misinterpreted my words. The tone of my voice was not friendly or motherly. It was utterly passionate."
 
     "I feel calm. I have done it. The arrow has been shot, and there is nothing I can do to change its course now. Antiope mumbles, unable to pronounce any intelligible word. From her struggling alone, I can already guess what she wants to say, but that she doesn't know how to formulate it clearly, without hurting me more than she already did this night."
@@ -234,6 +241,8 @@ label talk:
     antiope "I... Thanks. I understand this was not an easy thing to say, particularly in our situation. But... Ambrosia... You're a extraordinary friend, but... I have no romantic interest in you."
 
     "Silence."
+
+    show antiope sad
 
     antiope "I'm sorry."
 
@@ -293,8 +302,8 @@ label talk:
 label kiss:
     "I lean a little more."
 
-    show antiope:
-        linear 1.0 zoom 4.0 yalign -0.025 xpos 0.55
+    show antiope bliss:
+        linear 1.0 zoom 4.0 ypos -100
     pause 1.0
 
     "My lips encounter hers. A small smack from two closed mouths bumping into each other."
@@ -314,7 +323,7 @@ label kiss:
 
     "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside.\n\nUnable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
 
-    show antiope with dissolve
+    show antiope angry with dissolve
 
     "She is towering me, her fists convulsively opening and closing, her mouth sputtering, dribbling, her bloodshot eyes burning with rage."
 

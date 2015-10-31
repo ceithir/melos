@@ -1,6 +1,6 @@
 image eyes:
-    Image("sprites/antiope/default.png")
-    size (435, 85) crop (400, 275, 435, 85)
+    Image("images/sprites/antiope/Anthiope_normalb.png")
+    size (435, 85) crop (530, 365, 435, 85)
 
 label antiope:
     scene bg inside
@@ -14,7 +14,7 @@ label antiope:
     "While my reflexes alone handle my movements and keep my pace, I gaze at every single person, my sight jumping from face to face, hunting the only prey worth it. A hundred different eyes meet mine, but not the ones I desire. Until they finally lock onto perfection."
 
     show eyes:
-        alpha 0.0 xpos 423 ypos 255
+        alpha 0.0 xalign 0.5 ypos 250
         linear 0.5 alpha 1.0
     pause 0.5
 
@@ -24,7 +24,7 @@ label antiope:
     "They may right now display the slight luster symptomatic of an important consumption of alcohol. But they still shine like twin suns. The reflected flames of the candles dance upon the dark and brown ocean, shifting with the emotions of their owner. Enlarged from the surprise of the sudden encounter. Contracted as she observes the intruder. Sparkling when she recognizes me."
 
     show antiope behind eyes:
-        alpha 0.0 xpos 23 ypos -20 zoom 4.0
+        alpha 0.0 xalign 0.5 ypos -112 zoom 3.70
         linear 0.5 alpha 1.0
     pause 0.5
     show antiope:
@@ -37,10 +37,10 @@ label antiope:
     hide eyes
 
     show antiope:
-        linear 2.0 zoom 1.0 xpos 462 ypos 50
-    pause 2.0
+        linear 1.0 zoom 1.0 xalign 0.5 ypos 27
+    pause 1.0
     show antiope:
-        zoom 1.0 xpos 462 ypos 50
+        zoom 1.0 xalign 0.5 ypos 27
 
     "My shoulder brushes against her own, my robe touching the skin left nude on that place by her old style of clothing. Some judge it barbaric. She judges it practical. I judge it sexy as..."
 
@@ -68,6 +68,8 @@ label silence:
     "So I stay silent, dismissing the question with a mysterious smile and a wave of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
 
     "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays a all teeth out smile."
+
+    show antiope bliss
 
     antiope "Eat like a wolf. As much as you can while you can, so to be ready for when you will have nothing eat."
 
@@ -187,9 +189,13 @@ label quirk:
 
     antiope "Actually... I don't. Is there something I've forgotten? Something you told me... or that I told you?"
 
+    show antiope angry
+
     "She suddenly raises up her defenses, searching for a trap. I reassure her."
 
     ambrosia "Far from it. Actually, it's normal you don't remember... Because there is nothing worth remembering. We pretty much didn't talk to each other back then. Sure, we did exchange civilities and factual data about our environment and planning... But that's all. No actual conversation."
+
+    show antiope
 
     antiope "Ah, yes... I wasn't really talkative back then."
 
