@@ -36,7 +36,7 @@ label antiope:
 
     "Her military mind had naturally chosen a position from which she could have easily retreated. An advantage I just negated, cutting her way out."
 
-    "From so close, it's obvious I'm at least half a head taller than her, which never ends to surprise me. She looks big in everyday life, thanks to her headstrong confidence and athletic build, but is actually pretty average when using factual measurements."
+    "From so close, it's obvious I'm half a head taller than her, which never ends to surprise me. She looks big in everyday life, thanks to her headstrong confidence and athletic build, but is actually pretty average when using factual measurements."
 
     hide eyes
 

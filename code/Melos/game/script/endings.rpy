@@ -16,7 +16,7 @@ label coward:
     scene black with dissolve
     stop music
 
-    "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I sense a hand on my shoulder and two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
+    "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I'm aware of a hand on my shoulder, of two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
 
     "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. My hair and my dress are competing with each other for the position of most messy, but that's probably only because I cannot see my face. But I can see {i}her{/i}."
 
@@ -298,7 +298,7 @@ label talk:
 
     "Soon, we've passed by the walls of the city and we're entering the main road, about to start a long trip in the countryside and the wild. Above us, the sun is high and bright. It shines with all its might, ignorant of the terrors of the night, upon the path to our future."
 
-    "And with a single step on the uncobbled path, we start the first day of the rest of our lives."
+    "And with a single step on the uncobbled road, we start the first day of the rest of our lives."
 
     $ ending("Truth", 1)
 
