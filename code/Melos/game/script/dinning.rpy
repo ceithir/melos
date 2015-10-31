@@ -69,8 +69,6 @@ label silence:
 
     "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays a all teeth out smile."
 
-    show antiope bliss
-
     antiope "Eat like a wolf. As much as you can while you can, so to be ready for when you will have nothing eat."
 
     "Typical. She knows a seemingly endless list of rules, proverbs, little tales referring to carnivorous animals and survival. This one is actually pretty tame compared to the bloody, dark and depressing streams of advice she normally comes out with."
@@ -189,13 +187,13 @@ label quirk:
 
     antiope "Actually... I don't. Is there something I've forgotten? Something you told me... or that I told you?"
 
-    show antiope angry
+    show antiope angry with dissolve
 
     "She suddenly raises up her defenses, searching for a trap. I reassure her."
 
     ambrosia "Far from it. Actually, it's normal you don't remember... Because there is nothing worth remembering. We pretty much didn't talk to each other back then. Sure, we did exchange civilities and factual data about our environment and planning... But that's all. No actual conversation."
 
-    show antiope
+    show antiope with dissolve
 
     antiope "Ah, yes... I wasn't really talkative back then."
 

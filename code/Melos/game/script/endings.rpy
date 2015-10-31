@@ -180,13 +180,13 @@ label talk:
 
     ambrosia "Sorry for what?"
 
-    show antiope bliss
+    show antiope bliss with dissolve
 
     "Despite my tone, Antiope looks ecstatic that I'm simply talking to her."
 
     antiope "For my behavior. For being an idiot in general. For having attacked you in all possible manners when you were just trying to prevent me from hurting myself. No, that's not it. For having attacked you, regardless of the circumstances."
 
-    show antiope
+    show antiope with dissolve
 
     "She takes a deep breath. Antiope has talked more this night than she usually did in days. But contrary to her precedent drunken outburst, she sounds more serene, more honest, less theatrical."
 
@@ -230,7 +230,7 @@ label talk:
 
     ambrosia "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
 
-    show antiope bliss
+    show antiope bliss with dissolve
 
     "Antiope's reaction is refreshingly simple. A flash of surprise succeeded by an extraordinary deluge of embarrassment. She turns almost comically pink from all the blood rising up to her head and mumbles some incomprehensible words. I smile warmly. I know she couldn't have misinterpreted my words. The tone of my voice was not friendly or motherly. It was utterly passionate."
 
@@ -242,7 +242,7 @@ label talk:
 
     "Silence."
 
-    show antiope sad
+    show antiope sad with dissolve
 
     antiope "I'm sorry."
 
