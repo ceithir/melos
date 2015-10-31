@@ -3,13 +3,14 @@ label stupor:
 
     "Yet, when she finishes her current dish and tries to grab the carafe one more time, I instinctively react. I catch the recipient myself and push it out of her reach. Her fingers close on the emptiness, and she bats an eyelid, disconcerted by this interruption of her freshly forged ritual."
 
-    ambrosia "You've had enough I think."
+    show ambrosia
+    ambrosia default "You've had enough I think."
 
     "My voice is soft, gentle. I force myself to look at her right into her eyes and to appear both kind and firm. I'm pretty sure this is too much for my acting skills, but I try nonetheless."
 
     "Antiope is still disturbed. She looks down at her food, but I put my open hand under her stare, like a barrier between her and the remaining snacks."
 
-    ambrosia "That's. Enough."
+    ambrosia angry "That's. Enough."
 
     "Her face goes up again, and we look at each other. She is in a worst state that I thought. She seems absent, lost."
 
@@ -29,7 +30,9 @@ label stupor:
 
     "We laboriously walk together, trying not to bump into anybody, until we are finally met by the fresh air of the outside. A beautiful garden reveals itself before us, the plants, either medicinal or decorative, crowned with a surreal gray aura, the light of the moon in the darkness playing with the small layer of dew covering leaves and corollas."
 
-    "The place was full of people earlier, but many hours have passed since, the night is now at its worst hours, and the area therefore deserted. There is a bench nearby, alongside a fountain, and I drag Antiope there. The stone is slightly humid, extremely cold, and I worry that letting her lie on it could be an incredibly stupid idea. But before I can move elsewhere, she just collapses there, trying to sit but ending lying on her back."
+    "The place was full of people earlier, but many hours have passed since, the night is now at its worst hours, and the area therefore deserted."
+
+    "There is a bench nearby, alongside a fountain, and I drag Antiope there. The stone is slightly humid, extremely cold, and I worry that letting her lie on it could be an incredibly stupid idea. But before I can move elsewhere, she just collapses there, trying to sit but ending lying on her back."
 
     "I rush to her side, but she stops me with a vindicative gesture of the hand, and straightens herself up through her own efforts. Her face is transfigured with rage, but against who or whom, only the gods know. She forces her own body to stand up again and walks a few steps away in the green."
 
@@ -46,9 +49,12 @@ label stupor:
 
     antiope "I may have overdone it."
 
-    "Anger fills me in. The most painful, burning, self-destructive variety. The kind only felt when someone dear to you endanger themselves without realizing how much their loss would affect those who love them.{w}\n\nI love Antiope with all my heart. And that's why at this very moment, I'm more furious than the three Erinyes together."
+    "Anger fills me in. The most painful, burning, self-destructive variety. The kind only felt when someone dear to you endanger themselves without realizing how much their loss would affect those who love them."
 
-    ambrosia "Yes. Yes you did."
+    "I love Antiope with all my heart. And that's why at this very moment, I'm more furious than the three Erinyes together."
+
+    show ambrosia
+    ambrosia angry "Yes. Yes you did."
 
     "Antiope looks shocked. She is not used to seeing me angry, and especially not at her. She tries to calm down the game."
 
@@ -66,7 +72,7 @@ label stupor:
 
     "The unexpected change of topic troubles me for a second, but she does not sound like she is trying to simply avoid the conversation, so I respond as calmly as I'm currently able to."
 
-    ambrosia "The one where a little boy would rather have his insides ripped apart by the fox he stole than to be caught red-handed? Yes, I know of it."
+    ambrosia default "The one where a little boy would rather have his insides ripped apart by the fox he stole than to be caught red-handed? Yes, I know of it."
 
     antiope "Yes, that one. What do you think of it?"
 
@@ -84,7 +90,9 @@ label stupor:
 
     antiope  "For a nobody in such cohorts, the art of soulless plundering is perhaps more important than knowing how to handle your weapon. The main fight may never come for many stupid or noble reasons, but your stomach still aches every day."
 
-    antiope "And, sometimes, an expedition can turn {i}really{/i} bad. The war may trail for so long that literally every edible thing around has already be ransacked. Despite the absence of real fighting, each new day brings in its share of cadavers as more and more people die from the many diseases corrupted water and rotten food bring. Apollo's wrath is far more lethal than any of Ares' bloodsheds."
+    antiope "And, sometimes, an expedition can turn {i}really{/i} bad. The war may trail for so long that literally every edible thing around has already be ransacked."
+
+    antiope "Despite the absence of real fighting, each new day brings in its share of cadavers as more and more people die from the many diseases corrupted water and rotten food bring. Apollo's wrath is far more lethal than any of Ares' bloodsheds."
 
     antiope "And to make things even worse, the suffering army can then be crushed utterly regardless of its many sacrifices, pushed into a retreat so chaotic that many small isolated groups are left behind, and must now make their way back on their own, in hunger and fear. For a perfect agony, you can even add some rain or snow."
 
@@ -155,14 +163,20 @@ label sick:
 label posttraumatic:
     "I approach, and speak softly."
 
-    ambrosia "It's okay."
+    ambrosia smile "It's okay."
 
     "And then, in a natural, gentle, void of any afterthoughts, movement, I put my hand on her shoulder. A friendly gesture to establish a physical bond upon a moral one."
 
     jump violence
 
 label glimpse:
-    "Time passes.{w} Slowly.{w}\n\nAntiope does not budge a muscle.{w} I don't dare moving either."
+    "Time passes."
+
+    "Slowly."
+
+    "Antiope does not budge a muscle."
+
+    "I don't dare moving either."
 
     "We stay like this for minutes? Hours? I can't say. I just know that after an eternity in the cold, Antiope finally stands up and goes away. Without a word, without even looking at me, she just walks away into the night."
 
@@ -200,7 +214,8 @@ label violence:
 
     stop sound
 
-    ambrosia "Antiope, please stop!"
+    show ambrosia
+    ambrosia worried "Antiope, please stop!"
 
     "My voice is a desperate plea. Panic gets the better of me, overriding all my conscious thoughts. I don't know what to do, but I'm trying to do it regardless, my whole body shaking."
 
@@ -269,11 +284,12 @@ label drunkard:
 label fake:
     "I flounder a little. Antiope is as relaxed as she will ever be, so it's now or never."
 
-    ambrosia "Antiope, there is something I must tell you."
+    show ambrosia
+    ambrosia  smile "Antiope, there is something I must tell you."
 
     "She looks at me, a little surprised, but still blissfully happy."
 
-    ambrosia "It's not easy to say..."
+    ambrosia worried "It's not easy to say..."
 
     antiope "Then sing it!"
 
@@ -281,7 +297,7 @@ label fake:
 
     stop music fadeout 1.0
 
-    ambrosia "With his venom{w}\nirresistible{w}\nand bittersweet"
+    ambrosia smile "With his venom{w}\nirresistible{w}\nand bittersweet"
 
     ambrosia "that loosener{w}\nof limbs, Love{w}\nreptile-like{w}\nstrikes me down"
 
@@ -295,9 +311,11 @@ label fake:
 
     "So long for the romantic atmosphere. I kneel a little so to look at her straight in the eyes."
 
-    ambrosia "You."
+    ambrosia default "You."
 
-    "Her bemused look is quite hilarious, but I refrain from laughing.{w}\n\nHowever, she does. "
+    "Her bemused look is quite hilarious, but I refrain from laughing."
+
+    "However, she does. "
 
     "It's a joyless, inebriate laugh, an unfunny sound which snatches my heart out of my chest and tears it apart without a single remorse."
 
@@ -311,7 +329,9 @@ label fake:
 
     "For example, I {i}should{/i} bring Antiope back inside before she catches a cold. But I'm already departing without her, letting her enjoy her friendly carved rock and the freshness of the night by herself."
 
-    "A petty vengeance perhaps.{w} But it's either being angry, nasty, mean, or bursting into tears right on the spot."
+    "A petty vengeance perhaps."
+
+    "But it's either being angry, nasty, mean, or bursting into tears right on the spot."
 
     jump oblivion
 
@@ -340,7 +360,11 @@ label misconception:
     scene bg garden
     window show
 
-    "The moon in the clear sky shines upon a beautiful garden, the pale light drawing many strange shadows for the gray flowers on each side of the lane, sometimes sparkling upon an early or late drop of dew. The path leads to a small fountain, with stone seats around for the tired and those needing to have a long, not rushed, talk. The air is really cold, but thanks to that the place is void of people."
+    show ambrosia
+
+    "The moon in the clear sky shines upon a beautiful garden, the pale light drawing many strange shadows for the gray flowers on each side of the lane, sometimes sparkling upon an early or late drop of dew."
+
+    "The path leads to a small fountain, with stone seats around for the tired and those needing to have a long, not rushed, talk. The air is really cold, but thanks to that the place is void of people."
 
     show antiope:
         xalign -0.25 yalign 1.0
@@ -355,7 +379,7 @@ label misconception:
 
     "I take my time to settle by her side, in a more formal and less provoking position."
 
-    ambrosia "I think so."
+    ambrosia default "I think so."
 
     "I take a deep breath, and let the words flow in."
 
@@ -371,7 +395,9 @@ label misconception:
 
     antiope "However, it's obvious, even for me, than we reached a turning point. I've checked our planning for the next months, and I couldn't miss the pattern. Except for a few surviving long trips, we're not going to move much. The reason for this is that you gained a bit of fame in the region, and several people have already commissioned you for their own events."
 
-    antiope "This is incredible, but that's a clear sign you're about to set in. Soon, your patrons' support will be enough for you to stop having to travel for days to reach a miserable shrine in the middle of nowhere just in time for the big yearly festival, in hope it will boost your career and fill your purse. You're about to jump the big gap between poor errant artist and comfortable resident artist."
+    antiope "This is incredible, but that's a clear sign you're about to set in."
+
+    antiope "Soon, your patrons' support will be enough for you to stop having to travel for days to reach a miserable shrine in the middle of nowhere just in time for the big yearly festival, in hope it will boost your career and fill your purse. You're about to jump the big gap between poor errant artist and comfortable resident artist."
 
     antiope "Which of course means you will soon have no more use for a full-time scout."
 
@@ -383,7 +409,7 @@ label misconception:
 
     "I... I think I didn't even breath for the whole duration of Antiope's speech. As for her, she picks herself up, ready to go."
 
-    ambrosia "Did I cover all your worries, or is there something else you wanted to tell me?"
+    antiope "Did I cover all your worries, or is there something else you wanted to tell me?"
 
     "I... Antiope just explained to me, lengthily, how she prepared everything to quit me, and even if she made some efforts to make it looks like she does this for my own good, significant efforts actually for someone normally quite blunt, she couldn't help but remark she was starting to get bored."
 

@@ -21,7 +21,9 @@ label antiope:
     show eyes:
         alpha 1.0
 
-    "They may right now display the slight luster symptomatic of an important consumption of alcohol. But they still shine like twin suns. The reflected flames of the candles dance upon the dark and brown ocean, shifting with the emotions of their owner. Enlarged from the surprise of the sudden encounter. Contracted as she observes the intruder. Sparkling when she recognizes me."
+    "They may right now display the slight luster symptomatic of an important consumption of alcohol. But they still shine like twin suns."
+
+    "The reflected flames of the candles dance upon the dark and brown ocean, shifting with the emotions of their owner. Enlarged from the surprise of the sudden encounter. Contracted as she observes the intruder. Sparkling when she recognizes me."
 
     show antiope behind eyes:
         alpha 0.0 xalign 0.5 ypos -112 zoom 3.70
@@ -30,7 +32,9 @@ label antiope:
     show antiope:
         alpha 1.0
 
-    "She half rises, hemmed in her movements by the food plate on her knees, but I stop her with a sign of the hand and sit by her side at the extremity of the narrow bench, pushing her a little. She holds back a grin and I show a mischievous smile. Her military mind had naturally chosen a position from which she could have easily retreated. An advantage I just negated, cutting her way out."
+    "She half rises, hemmed in her movements by the food plate on her knees, but I stop her with a sign of the hand and sit by her side at the extremity of the narrow bench, pushing her a little. She holds back a grin and I show a mischievous smile."
+
+    "Her military mind had naturally chosen a position from which she could have easily retreated. An advantage I just negated, cutting her way out."
 
     "From so close, it's obvious I'm at least half a head taller than her, which never ends to surprise me. She looks big in everyday life, thanks to her headstrong confidence and athletic build, but is actually pretty average when using factual measurements."
 
@@ -46,7 +50,7 @@ label antiope:
 
     stop music
 
-    Character("Ἀντιόπη") "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
+    antiope "Ambrosia, where have you been? I looked after you when the party started, but you were nowhere to be found."
 
     play music "music/FTDrop - delight.ogg" fadein 1.0
 
@@ -88,17 +92,20 @@ label silence:
 label liar:
     "I answer without answering."
 
-    ambrosia "I was here and there, doing what needed to be done and that I haven't got the occasion to do of late."
+    show ambrosia
+    ambrosia default "I was here and there, doing what needed to be done and that I haven't got the occasion to do of late."
 
     "In an overplayed movement of the arm, I cover the room around us, and beyond that, the whole city."
 
-    ambrosia "Preparing the festival took almost all our time these last two weeks. But that was worth it. Especially with the extraordinary performance you offered us this morning."
+    ambrosia default "Preparing the festival took almost all our time these last two weeks. But that was worth it. Especially with the extraordinary performance you offered us this morning."
 
     antiope "An {i}extraordinary{/i} performance would have been to win."
 
-    "I can't tell by her tone if she is joking or dead serious. I'm not sure she knows herself. When Antiope plays, it's always to win, but she couldn't really hope to defeat professional athletes who trained for months, sometimes years, for this particular type of race, on an adequate soil and with an exact distance in mind, while Antiope usually runs on uneven terrains for random periods of time."
+    "I can't tell by her tone if she is joking or dead serious. I'm not sure she knows herself."
 
-    ambrosia "You can say that, but I still think your were... incredible."
+    "When Antiope plays, it's always to win, but she couldn't really hope to defeat professional athletes who trained for months, sometimes years, for this particular type of race, on an adequate soil and with an exact distance in mind, while Antiope usually runs on uneven terrains for random periods of time."
+
+    ambrosia smile "You can say that, but I still think your were... incredible."
 
     "My voice is casually cheerful, but I feel a far more ardent fire rising to my cheeks as my mind fills itself with the corresponding memories."
 
@@ -110,7 +117,9 @@ label liar:
 
     "These events are first and foremost a present to the gods, and the competitors must be as resplendent as they are skilled, the sight of their nude bodies as much an offering as their actual performances. And resplendent she was."
 
-    "I helped her oiled herself before dawn, a pleasant moment certainly, but there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun. A thousand reflections were stressing each line, each curve of her body, every movement of her sculpted muscles revealing a new detail, a new secret, a new wonder, in a never-ceasing display of beauty."
+    "I helped her oiled herself before dawn. A pleasant moment certainly. But there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun."
+
+    "A thousand reflections were stressing each line, each curve of her body, every movement of her sculpted muscles revealing a new detail, a new secret, a new wonder, in a never-ceasing display of beauty."
 
     "She had gathered her hair in a strict bun, but that only managed to stress out more her face, her eyes, her nose, her lips, making her cuter than ever. Enthralled, I was unable to look at anything else for the entire duration of the race, from the moment she entered the field to the last second before she retreated in the temple, out of sight."
 
@@ -173,7 +182,7 @@ label quirk:
 
     "The conversation somehow launched, I try to guide it to the subject I want to address."
 
-    ambrosia "Do you remember our first days together? We were going to Delphi by the land road, a trip of a few weeks through scarcely populated regions."
+    ambrosia default "Do you remember our first days together? We were going to Delphi by the land road, a trip of a few weeks through scarcely populated regions."
 
     "Antiope shrugs and answers casually."
 
@@ -181,7 +190,7 @@ label quirk:
 
     "She displays a crooked smile at the evocation of missed violence."
 
-    ambrosia "Do you remember what we discussed during these long days and nights?"
+    ambrosia default "Do you remember what we discussed during these long days and nights?"
 
     "Antiope thinks for a few seconds, gathering her memories."
 
@@ -191,17 +200,17 @@ label quirk:
 
     "She suddenly raises up her defenses, searching for a trap. I reassure her."
 
-    ambrosia "Far from it. Actually, it's normal you don't remember... Because there is nothing worth remembering. We pretty much didn't talk to each other back then. Sure, we did exchange civilities and factual data about our environment and planning... But that's all. No actual conversation."
+    ambrosia smile "Far from it. Actually, it's normal you don't remember... Because there is nothing worth remembering. We pretty much didn't talk to each other back then. Sure, we did exchange civilities and factual data about our environment and planning... But that's all. No actual conversation."
 
     show antiope with dissolve
 
     antiope "Ah, yes... I wasn't really talkative back then."
 
-    ambrosia "{i}Withdrawn{/i} would be a more accurate word. But slowly, you began to speak more openly. Can you explain why?"
+    ambrosia default "{i}Withdrawn{/i} would be a more accurate word. But slowly, you began to speak more openly. Can you explain why?"
 
     antiope "I never really thought about this. I guess it's happened naturally. At first, we were pretty much strangers traveling together, and I was more wary than friendly. I'm not the kind to fake amicability in such situations. It's only with time passing on that things got better."
 
-    ambrosia "How?"
+    ambrosia default "How?"
 
     antiope "How?"
 

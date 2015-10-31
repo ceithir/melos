@@ -178,7 +178,8 @@ label bramble:
 label talk:
     "My own voice is grave, icy, like coming from a deep cavern. I don't do this on purpose, it's just a consequence of my extreme fatigue."
 
-    ambrosia "Sorry for what?"
+    show ambrosia
+    ambrosia angry "Sorry for what?"
 
     show antiope bliss with dissolve
 
@@ -210,7 +211,7 @@ label talk:
 
     "I sigh. Lengthily. Some part of me is still angry at her, but I simply cannot resist her when she is looking at me like that. With a wave of the hand, I invite her to sit by my side, which she promptly does."
 
-    ambrosia "Why didn't we have this conversation earlier?"
+    ambrosia default "Why didn't we have this conversation earlier?"
 
     antiope "I don't really know. I went overboard a few times already when you were there, even if never as hardly as today... Most of the time, I managed to escape this talk by cutting short the dialog and fleeing... And the other times..."
 
@@ -228,11 +229,13 @@ label talk:
 
     ambrosia "Antiope, despite your many flaws, despite your early and lately behavior, I know I'm about to forgive you. I somehow know that you could do much worse, and that even if that would hurt me terribly, I would still forgive you."
 
-    ambrosia "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
+    ambrosia smile "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
 
     show antiope bliss with dissolve
 
-    "Antiope's reaction is refreshingly simple. A flash of surprise succeeded by an extraordinary deluge of embarrassment. She turns almost comically pink from all the blood rising up to her head and mumbles some incomprehensible words. I smile warmly. I know she couldn't have misinterpreted my words. The tone of my voice was not friendly or motherly. It was utterly passionate."
+    "Antiope's reaction is refreshingly simple. A flash of surprise succeeded by an extraordinary deluge of embarrassment. She turns almost comically pink from all the blood rising up to her head and mumbles some incomprehensible words."
+
+    "I smile warmly. I know she couldn't have misinterpreted my words. The tone of my voice was not friendly or motherly. It was utterly passionate."
 
     "I feel calm. I have done it. The arrow has been shot, and there is nothing I can do to change its course now. Antiope mumbles, unable to pronounce any intelligible word. From her struggling alone, I can already guess what she wants to say, but that she doesn't know how to formulate it clearly, without hurting me more than she already did this night."
 
@@ -248,7 +251,7 @@ label talk:
 
     "I try to keep my voice cool and articulate."
 
-    ambrosia "I guessed so. Thank you for your frankness."
+    ambrosia default "I guessed so. Thank you for your frankness."
 
     "More awkward silence sets in."
 
@@ -285,7 +288,9 @@ label talk:
 
     "And then we depart. As it was planned. Our agenda for the season is quite full, and we have no time to rest. Soon, this place of memories we will never forget is behind us. We may come back to the same location next year, but then it will not be the same. It will never be the same."
 
-    "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious. Or perhaps, on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other's existence as a real person."
+    "As we walk through the city, eying the people cleaning the excesses of yesterday, the distance between us becomes even more obvious."
+
+    "Or perhaps, on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other's existence as a real person."
 
     "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly break my heart on a regular basis. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
 
@@ -321,7 +326,7 @@ label kiss:
     stop sound
     show bg black with vpunch
 
-    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside.\n\nUnable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
+    "Her forehead hits my own in a violent headbutt. She returns to her feet in a single bound, shoving me aside. Unable to find back my balance, I fall on my behind and the ground is not gentle with me. But this is nothing compared to Antiope's fury."
 
     show antiope angry with dissolve
 
@@ -357,7 +362,7 @@ label kiss:
 label fight:
     "I refuse to let it end like that. I gather all my courage and I rise."
 
-    ambrosia "Antiope, you... You're completely missing the point there."
+    ambrosia worried "Antiope, you... You're completely missing the point there."
 
     "She cocks an eyebrow. She is not used to me contradict her or simply raising my voice."
 
@@ -365,7 +370,7 @@ label fight:
 
     "I step back. Draw a big breath. And go."
 
-    ambrosia "But on a more personal point of view."
+    ambrosia default "But on a more personal point of view."
 
     "Antiope looks confused."
 
@@ -373,7 +378,7 @@ label fight:
 
     "Too far in to back down, but still cannot help but postpone the ineluctable. Antiope is not helping, constantly fidgeting on her seat that she is. I try to focus. I kneel to look at her right into the eyes."
 
-    ambrosia "That I'm trying to tell you is the exact opposite of what you guessed. I don't want you to leave. I want you to stay. Until the cruelty of the gods take us apart."
+    ambrosia "What I'm trying to tell you is the exact opposite of what you guessed. I don't want you to leave. I want you to stay. Until the cruelty of the gods take us apart."
 
     stop music fadeout 0.5
 
@@ -419,7 +424,7 @@ label fight:
 
     "Namely me."
 
-    "And so, as the day of our final separation that she herself decided is closing in, if my heart rejects it, wants for time to stand still until I manage to fix up our relationship, my brain is starting to long for it.{w}\n\nThat it may come before the executioner's sword falls on my neck."
+    "And so, as the day of our final separation that she herself decided is closing in, if my heart rejects it, wants for time to stand still until I manage to fix up our relationship, my brain is starting to long for it. That it may come before the executioner's sword falls on my neck."
 
     $ ending("Secret", 3)
 

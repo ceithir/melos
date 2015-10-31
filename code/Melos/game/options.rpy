@@ -28,7 +28,7 @@ init -1 python hide:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
     config.name = "Melos"
-    config.version = "0.1"
+    config.version = "0.4"
 
     #########################################
     # Themes
@@ -39,44 +39,41 @@ init -1 python hide:
     ## The theme function takes a number of parameters that can
     ## customize the color scheme.
 
-    theme.tv(
-        ## Theme: TV
-        ## Color scheme: Ice Queen
-
+    theme.diamond(
         ## The color of an idle widget face.
-        widget = "#D9D9D9",
+        widget = "#ffe69c",
 
         ## The color of a focused widget face.
-        widget_hover = "#F0F2F2",
+        widget_hover = "#f5c153",
 
         ## The color of the text in a widget.
-        widget_text = "#ffffff",
+        widget_text = "#b5743a",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#737373",
+        widget_selected = "#7a4229",
 
         ## The color of a disabled widget face.
-        disabled = "#F0F2F2",
+        disabled = "#ffe69c",
 
         ## The color of disabled widget text.
-        disabled_text = "#FBFBFB",
+        disabled_text = "#ddbc7e",
 
         ## The color of informational labels.
-        label = "#D9D9D9",
+        label = "#7a4229",
 
         ## The color of a frame containing widgets.
-        frame = "#ffffff",
+        frame = "#8ab395",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#E6E6E6",
+        mm_root = "GUI/title.png",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#E6E6E6",
+        gm_root = "#7a4229",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
@@ -96,7 +93,7 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("frame.png", 12, 12)
+    style.window.background = Frame("GUI/textbox.png", 0, 0)
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -104,20 +101,20 @@ init -1 python hide:
     # style.window.left_margin = 6
     # style.window.right_margin = 6
     # style.window.top_margin = 6
-    # style.window.bottom_margin = 6
+    style.window.bottom_margin = 3
 
     ## Padding is space inside the window, where the background is
     ## drawn.
 
-    # style.window.left_padding = 6
-    # style.window.right_padding = 6
-    # style.window.top_padding = 6
-    # style.window.bottom_padding = 6
+    style.window.left_padding = 330
+    style.window.right_padding = 100
+    style.window.top_padding = 55
+    style.window.bottom_padding = 30
 
     ## This is the minimum height of the window, including the margins
     ## and padding.
 
-    # style.window.yminimum = 250
+    style.window.yminimum = 243
 
 
     #########################################
@@ -145,12 +142,14 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "GUI/GoudyBookletter1911.otf"
 
     ## The default size of text.
 
-    # style.default.size = 22
-
+    style.default.size = 24
+    style.default.color = "#4f3131"
+    style.default.first_indent = 20
+    
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
 
@@ -350,4 +349,22 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+
+# Textbox styling
+
+    style.say_label.color="#4f3131"
+    style.say_label.font="GUI/Bocklin.ttf"
+    style.say_label.bold=False 
+    style.say_label.size=55 
+    
+    style.say_who_window.background = Frame("GUI/namebox.png", 0, 0) #Background skin
+    style.say_label.outlines=[(0, "#420202"),(1, "#d5d9b4")] 
+    style.say_label.drop_shadow = (-2, 2)
+    style.say_label.drop_shadow_color = "#420202"
+    style.say_who_window.left_padding = 60
+    style.say_who_window.top_padding = 5
+    style.say_who_window.bottom_padding = 5
+    style.say_who_window.xminimum = 320
+    style.say_who_window.yminimum = 48
+    style.say_label.xalign=0.45
     

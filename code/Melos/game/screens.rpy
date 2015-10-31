@@ -17,6 +17,7 @@ screen say(who, what, side_image=None, two_window=False):
 
         # The one window variant.
         window:
+           # ypos 993            
             id "window"
 
             has vbox:
@@ -33,20 +34,24 @@ screen say(who, what, side_image=None, two_window=False):
         vbox:
             style "say_two_window_vbox"
 
-            if who:
-                window:
-                    style "say_who_window"
-
-                    text who:
-                        id "who"
 
             window:
+                ypos 315              
                 id "window"
 
                 has vbox:
                     style "say_vbox"
 
                 text what id "what"
+            
+            if who:
+                window:
+                    xpos 230
+                    ypos -125                    
+                    style "say_who_window"
+
+                    text who:
+                        id "who"                
 
     # If there's a side image, display it above the text.
     if side_image:
@@ -73,14 +78,14 @@ screen choice(items):
 
         vbox:
             style "menu"
-            spacing 2
+            spacing 10
 
             for caption, action, chosen in items:
 
                 if action:
 
                     button:
-                        action action
+                        action action at xfade
                         style "menu_choice_button"
 
                         text caption style "menu_choice"
@@ -95,11 +100,14 @@ init -2:
 
     style menu_choice is button_text:
         clear
+        color "#4f3131"
 
     style menu_choice_button is button:
-        xminimum int(config.screen_width * 0.75)
-        xmaximum int(config.screen_width * 0.75)
-
+        xminimum 494
+        xmaximum 494
+        yminimum 58
+        idle_background Frame("GUI/choice.png",28,9)
+        hover_background Frame("GUI/choice_hover.png",28,9)
 
 ##############################################################################
 # Input
@@ -182,20 +190,24 @@ screen main_menu():
     # The background of the main menu.
     window:
         style "mm_root"
-
+    add "GUI/title_frame.png"
     # The main menu buttons.
-    frame:
-        style_group "mm"
-        xalign .98
-        yalign .98
-
-        has vbox
-
-        textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Preferences") action ShowMenu("preferences")
-        textbutton _("Help") action Help()
-        textbutton _("Quit") action Quit(confirm=False)
+    hbox:
+        xpos 672
+        ypos 673
+        imagebutton idle "GUI/title_start.png" hover "GUI/title_start_hover.png" action Start() at ttfade
+    hbox:
+        xpos 788
+        ypos 673
+        imagebutton idle "GUI/title_load.png" hover "GUI/title_load_hover.png" action ShowMenu("main_load") at ttfade
+    hbox:
+        xpos 904
+        ypos 673
+        imagebutton idle "GUI/title_pref.png" hover "GUI/title_pref_hover.png" action ShowMenu("main_preferences") at ttfade
+    hbox:
+        xpos 1155
+        ypos 673
+        imagebutton idle "GUI/title_quit.png" hover "GUI/title_quit_hover.png" action Quit() at ttfade  
 
 init -2:
 
@@ -251,87 +263,180 @@ init -2:
 # a single screen, file_picker. We then use the file_picker screen
 # from simple load and save screens.
 
-screen file_picker():
+screen load_save_slot:
+    #tag menu
+    #modal True
+#    $ file_text = "%2s. %s\n  %s" % (
+#                        FileSlotName(number, 4),
+#                        FileTime(number, empty=_("Empty Slot")),
+#                        FileSaveName(number))
 
-    frame:
-        style "file_picker_frame"
-
-        has vbox
-
-        # The buttons at the top allow the user to pick a
-        # page of files.
-        hbox:
-            style_group "file_picker_nav"
-
-            textbutton _("Previous"):
-                action FilePagePrevious()
-
-            textbutton _("Auto"):
-                action FilePage("auto")
-
-            textbutton _("Quick"):
-                action FilePage("quick")
-
-            for i in range(1, 9):
-                textbutton str(i):
-                    action FilePage(i)
-
-            textbutton _("Next"):
-                action FilePageNext()
-
-        $ columns = 2
-        $ rows = 5
-
-        # Display a grid of file slots.
-        grid columns rows:
-            transpose True
-            xfill True
-            style_group "file_picker"
-
-            # Display ten file slots, numbered 1 - 10.
-            for i in range(1, columns * rows + 1):
-
-                # Each file slot is a button.
-                button:
-                    action FileAction(i)
-                    xfill True
-
-                    has hbox
-
-                    # Add the screenshot.
-                    add FileScreenshot(i)
-
-                    $ file_name = FileSlotName(i, columns * rows)
-                    $ file_time = FileTime(i, empty=_("Empty Slot."))
-                    $ save_name = FileSaveName(i)
-
-                    text "[file_name]. [file_time!t]\n[save_name!t]"
-
-                    key "save_delete" action FileDelete(i)
-
-
-screen save():
+    add FileScreenshot(number) xpos 11 ypos 11
+#    text file_text xalign .5 yalign 10.0 
+                    
+screen save:
 
     # This ensures that any other menu screen is replaced.
     tag menu
+    add "GUI/base.png"
+    imagemap:
+        alpha False
+        ground "GUI/slots.png"
+        idle "GUI/idle.png"
+        hover "GUI/slots.png"
+        insensitive "GUI/idle.png"
+            
+        hotspot (202, 94, 441, 258) at slotfade clicked FileAction(1):
+            use load_save_slot(number=1)
+        hotspot (725, 94, 441, 258) at slotfade clicked FileAction(2):
+            use load_save_slot(number=2)
+        hotspot (202, 400, 441, 258) at slotfade clicked FileAction(3):
+            use load_save_slot(number=3)     
+        hotspot (725, 400, 441, 258) at slotfade clicked FileAction(4):
+            use load_save_slot(number=4)   
+              
+        hotspot (563, 728, 77, 29) at textfade clicked FilePage("auto")
+        hotspot (652, 728, 24, 29) at textfade clicked FilePage("1")
+        hotspot (681, 728, 24, 29) at textfade clicked FilePage("2")   
+        hotspot (716, 728, 24, 29) at textfade clicked FilePage("3")
+        hotspot (750, 728, 24, 29) at textfade clicked FilePage("4")
+        hotspot (784, 728, 24, 29) at textfade clicked FilePage("5")
 
-    use navigation
-    use file_picker
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action Return() at xfade
 
-screen load():
+    hbox:
+        xpos 405
+        ypos 9
+        imagebutton idle "GUI/button_save.png" hover "GUI/button_save_hover.png" selected_idle "GUI/button_save_hover.png" selected_hover "GUI/button_save_hover.png" action ShowMenu("save") at xfade
+    hbox:
+        xpos 498
+        ypos 9
+        imagebutton idle "GUI/button_load.png" hover "GUI/button_load_hover.png" selected_idle "GUI/button_load_hover.png" selected_hover "GUI/button_load_hover.png"  action ShowMenu("load") at xfade
+    hbox:
+        xpos 596
+        ypos 9
+        imagebutton idle "GUI/button_pref.png" hover "GUI/button_pref_hover.png" selected_idle "GUI/button_pref_hover.png" selected_hover "GUI/button_pref_hover.png"  action ShowMenu("preferences") at xfade
+
+    hbox:
+        xpos 809
+        ypos 9
+        imagebutton idle "GUI/button_main.png" hover "GUI/button_main_hover.png" selected_idle "GUI/button_main_hover.png" selected_hover "GUI/button_main_hover.png" action MainMenu() at xfade
+    hbox:
+        xpos 903
+        ypos 9
+        imagebutton idle "GUI/button_quit.png" hover "GUI/button_quit_hover.png" selected_idle "GUI/button_quit_hover.png" selected_hover "GUI/button_quit_hover.png" action Quit() at xfade 
+
+screen load:
 
     # This ensures that any other menu screen is replaced.
     tag menu
+    add "GUI/base.png"
+    imagemap:
+        alpha False
+        ground "GUI/slots.png"
+        idle "GUI/idle.png"
+        hover "GUI/slots.png"
+        insensitive "GUI/idle.png"
+            
+        hotspot (202, 94, 441, 258) at slotfade clicked FileAction(1):
+            use load_save_slot(number=1)
+        hotspot (725, 94, 441, 258) at slotfade clicked FileAction(2):
+            use load_save_slot(number=2)
+        hotspot (202, 400, 441, 258) at slotfade clicked FileAction(3):
+            use load_save_slot(number=3)     
+        hotspot (725, 400, 441, 258) at slotfade clicked FileAction(4):
+            use load_save_slot(number=4)   
+              
+        hotspot (563, 728, 77, 29) at textfade clicked FilePage("auto")
+        hotspot (652, 728, 24, 29) at textfade clicked FilePage("1")
+        hotspot (681, 728, 24, 29) at textfade clicked FilePage("2")   
+        hotspot (716, 728, 24, 29) at textfade clicked FilePage("3")
+        hotspot (750, 728, 24, 29) at textfade clicked FilePage("4")
+        hotspot (784, 728, 24, 29) at textfade clicked FilePage("5")
 
-    use navigation
-    use file_picker
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action Return() at xfade
 
-init -2:
-    style file_picker_frame is menu_frame
-    style file_picker_nav_button is small_button
-    style file_picker_nav_button_text is small_button_text
-    style file_picker_button is large_button
-    style file_picker_text is large_button_text
+    hbox:
+        xpos 405
+        ypos 9
+        imagebutton idle "GUI/button_save.png" hover "GUI/button_save_hover.png" selected_idle "GUI/button_save_hover.png" selected_hover "GUI/button_save_hover.png" action ShowMenu("save") at xfade
+    hbox:
+        xpos 498
+        ypos 9
+        imagebutton idle "GUI/button_load.png" hover "GUI/button_load_hover.png" selected_idle "GUI/button_load_hover.png" selected_hover "GUI/button_load_hover.png"  action ShowMenu("load") at xfade
+    hbox:
+        xpos 596
+        ypos 9
+        imagebutton idle "GUI/button_pref.png" hover "GUI/button_pref_hover.png" selected_idle "GUI/button_pref_hover.png" selected_hover "GUI/button_pref_hover.png"  action ShowMenu("preferences") at xfade
+
+    hbox:
+        xpos 809
+        ypos 9
+        imagebutton idle "GUI/button_main.png" hover "GUI/button_main_hover.png" selected_idle "GUI/button_main_hover.png" selected_hover "GUI/button_main_hover.png" action MainMenu() at xfade
+    hbox:
+        xpos 903
+        ypos 9
+        imagebutton idle "GUI/button_quit.png" hover "GUI/button_quit_hover.png" selected_idle "GUI/button_quit_hover.png" selected_hover "GUI/button_quit_hover.png" action Quit() at xfade  
+
+
+screen main_load:
+
+    # This ensures that any other menu screen is replaced.
+    tag menu
+    add "GUI/title.png"
+    add "GUI/base.png"
+    imagemap:
+        alpha False
+        ground "GUI/slots.png"
+        idle "GUI/idle.png"
+        hover "GUI/slots.png"
+        insensitive "GUI/idle.png"
+            
+        hotspot (202, 94, 441, 258) at slotfade clicked FileLoad(1):
+            use load_save_slot(number=1)
+        hotspot (725, 94, 441, 258) at slotfade clicked FileLoad(2):
+            use load_save_slot(number=2)
+        hotspot (202, 400, 441, 258) at slotfade clicked FileLoad(3):
+            use load_save_slot(number=3)     
+        hotspot (725, 400, 441, 258) at slotfade clicked FileLoad(4):
+            use load_save_slot(number=4)   
+              
+        hotspot (563, 728, 77, 29) at textfade clicked FilePage("auto")
+        hotspot (652, 728, 24, 29) at textfade clicked FilePage("1")
+        hotspot (681, 728, 24, 29) at textfade clicked FilePage("2")   
+        hotspot (716, 728, 24, 29) at textfade clicked FilePage("3")
+        hotspot (750, 728, 24, 29) at textfade clicked FilePage("4")
+        hotspot (784, 728, 24, 29) at textfade clicked FilePage("5")
+
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action Return() at xfade
+
+    hbox:
+        xpos 405
+        ypos 9
+        imagebutton idle "GUI/button_save.png" hover "GUI/button_save_hover.png" selected_idle "GUI/button_save_hover.png" selected_hover "GUI/button_save_hover.png" action ShowMenu("save") at xfade
+    hbox:
+        xpos 498
+        ypos 9
+        imagebutton idle "GUI/button_load.png" hover "GUI/button_load_hover.png" selected_idle "GUI/button_load_hover.png" selected_hover "GUI/button_load_hover.png"  action ShowMenu("main_load") at xfade
+    hbox:
+        xpos 596
+        ypos 9
+        imagebutton idle "GUI/button_pref.png" hover "GUI/button_pref_hover.png" selected_idle "GUI/button_pref_hover.png" selected_hover "GUI/button_pref_hover.png"  action ShowMenu("main_preferences") at xfade
+
+    hbox:
+        xpos 809
+        ypos 9
+        imagebutton idle "GUI/button_main.png" hover "GUI/button_main_hover.png" selected_idle "GUI/button_main_hover.png" selected_hover "GUI/button_main_hover.png" action Return() at xfade
+    hbox:
+        xpos 903
+        ypos 9
+        imagebutton idle "GUI/button_quit.png" hover "GUI/button_quit_hover.png" selected_idle "GUI/button_quit_hover.png" selected_hover "GUI/button_quit_hover.png" action Quit() at xfade  
+
+
+init -2 python:
+    config.thumbnail_width = 415
+    config.thumbnail_height = 231
+    config.quit_action = Quit(confirm=False)
 
 
 ##############################################################################
@@ -343,113 +448,160 @@ init -2:
 screen preferences():
 
     tag menu
+    add "GUI/base.png"
+    add "GUI/preferences.png"
+    
+    hbox:
+        xpos 180
+        ypos 168
+        imagebutton idle "GUI/window.png" hover "GUI/window.png" selected_idle "GUI/window_hover.png" selected_hover "GUI/window_hover.png" action Preference("display", "window") at xxfade
+        
+    hbox:
+        xpos 180
+        ypos 233
+        imagebutton idle "GUI/fullscreen.png" hover "GUI/fullscreen.png" selected_idle "GUI/fullscreen_hover.png" selected_hover "GUI/fullscreen_hover.png" action  Preference("display", "fullscreen") at xxfade
+    
+    hbox:
+        xpos 180
+        ypos 328
+        imagebutton idle "GUI/seen.png" hover "GUI/seen.png" selected_idle "GUI/seen_hover.png" selected_hover "GUI/seen_hover.png" action Preference("skip", "seen") at xxfade
+    hbox:
+        xpos 180
+        ypos 393
+        imagebutton idle "GUI/all.png" hover "GUI/all.png" selected_idle "GUI/all_hover.png" selected_hover "GUI/all_hover.png" action Preference("skip", "all") at xxfade
+    hbox:
+        xpos 180
+        ypos 493
+        imagebutton idle "GUI/stop.png" hover "GUI/stop.png" selected_idle "GUI/stop_hover.png" selected_hover "GUI/stop_hover.png" action Preference("after choices", "stop") at xxfade
+    hbox:
+        xpos 180
+        ypos 558
+        imagebutton idle "GUI/keep.png" hover "GUI/keep.png" selected_idle "GUI/keep_hover.png" selected_hover "GUI/keep_hover.png" action Preference("after choices", "skip") at xxfade
+        
 
-    # Include the navigation.
-    use navigation
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action Return() at xfade
+    
+    hbox:
+        xpos 405
+        ypos 9
+        imagebutton idle "GUI/button_save.png" hover "GUI/button_save_hover.png" selected_idle "GUI/button_save_hover.png" selected_hover "GUI/button_save_hover.png" action ShowMenu("save") at xfade
+    hbox:
+        xpos 498
+        ypos 9
+        imagebutton idle "GUI/button_load.png" hover "GUI/button_load_hover.png" selected_idle "GUI/button_load_hover.png" selected_hover "GUI/button_load_hover.png"  action ShowMenu("load") at xfade
+    hbox:
+        xpos 596
+        ypos 9
+        imagebutton idle "GUI/button_pref.png" hover "GUI/button_pref_hover.png" selected_idle "GUI/button_pref_hover.png" selected_hover "GUI/button_pref_hover.png"  action ShowMenu("preferences") at xfade
 
-    # Put the navigation columns in a three-wide grid.
-    grid 3 1:
-        style_group "prefs"
-        xfill True
+    hbox:
+        xpos 809
+        ypos 9
+        imagebutton idle "GUI/button_main.png" hover "GUI/button_main_hover.png" selected_idle "GUI/button_main_hover.png" selected_hover "GUI/button_main_hover.png" action MainMenu() at xfade
+    hbox:
+        xpos 903
+        ypos 9
+        imagebutton idle "GUI/button_quit.png" hover "GUI/button_quit_hover.png" selected_idle "GUI/button_quit_hover.png" selected_hover "GUI/button_quit_hover.png" action Quit() at xfade 
 
-        # The left column.
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 217) value Preference("auto-forward time")
+    
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 335) value Preference("text speed")  
+    
+    vbox:
+        style_group "pref"
 
-                label _("Display")
-                textbutton _("Window") action Preference("display", "window")
-                textbutton _("Fullscreen") action Preference("display", "fullscreen")
+        bar pos (700, 455) value Preference("music volume")        
+   
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 578) value Preference("sound volume")     
 
-            frame:
-                style_group "pref"
-                has vbox
+ 
+screen main_preferences():
 
-                label _("Transitions")
-                textbutton _("All") action Preference("transitions", "all")
-                textbutton _("None") action Preference("transitions", "none")
+    tag menu
+    add "GUI/title.png"
+    add "GUI/base.png"
+    add "GUI/preferences.png"
+    
+    hbox:
+        xpos 180
+        ypos 168
+        imagebutton idle "GUI/window.png" hover "GUI/window.png" selected_idle "GUI/window_hover.png" selected_hover "GUI/window_hover.png" action Preference("display", "window") at xxfade
+        
+    hbox:
+        xpos 180
+        ypos 233
+        imagebutton idle "GUI/fullscreen.png" hover "GUI/fullscreen.png" selected_idle "GUI/fullscreen_hover.png" selected_hover "GUI/fullscreen_hover.png" action  Preference("display", "fullscreen") at xxfade
+    
+    hbox:
+        xpos 180
+        ypos 328
+        imagebutton idle "GUI/seen.png" hover "GUI/seen.png" selected_idle "GUI/seen_hover.png" selected_hover "GUI/seen_hover.png" action Preference("skip", "seen") at xxfade
+    hbox:
+        xpos 180
+        ypos 393
+        imagebutton idle "GUI/all.png" hover "GUI/all.png" selected_idle "GUI/all_hover.png" selected_hover "GUI/all_hover.png" action Preference("skip", "all") at xxfade
+    hbox:
+        xpos 180
+        ypos 493
+        imagebutton idle "GUI/stop.png" hover "GUI/stop.png" selected_idle "GUI/stop_hover.png" selected_hover "GUI/stop_hover.png" action Preference("after choices", "stop") at xxfade
+    hbox:
+        xpos 180
+        ypos 558
+        imagebutton idle "GUI/keep.png" hover "GUI/keep.png" selected_idle "GUI/keep_hover.png" selected_hover "GUI/keep_hover.png" action Preference("after choices", "skip") at xxfade
+        
 
-            frame:
-                style_group "pref"
-                has vbox
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action Return() at xfade
+    
+    hbox:
+        xpos 405
+        ypos 9
+        imagebutton idle "GUI/button_save.png" hover "GUI/button_save_hover.png" selected_idle "GUI/button_save_hover.png" selected_hover "GUI/button_save_hover.png" action ShowMenu("save") at xfade
+    hbox:
+        xpos 498
+        ypos 9
+        imagebutton idle "GUI/button_load.png" hover "GUI/button_load_hover.png" selected_idle "GUI/button_load_hover.png" selected_hover "GUI/button_load_hover.png"  action ShowMenu("main_load") at xfade
+    hbox:
+        xpos 596
+        ypos 9
+        imagebutton idle "GUI/button_pref.png" hover "GUI/button_pref_hover.png" selected_idle "GUI/button_pref_hover.png" selected_hover "GUI/button_pref_hover.png"  action ShowMenu("main_preferences") at xfade
 
-                label _("Text Speed")
-                bar value Preference("text speed")
+    hbox:
+        xpos 809
+        ypos 9
+        imagebutton idle "GUI/button_main.png" hover "GUI/button_main_hover.png" selected_idle "GUI/button_main_hover.png" selected_hover "GUI/button_main_hover.png" action Return() at xfade
+    hbox:
+        xpos 903
+        ypos 9
+        imagebutton idle "GUI/button_quit.png" hover "GUI/button_quit_hover.png" selected_idle "GUI/button_quit_hover.png" selected_hover "GUI/button_quit_hover.png" action Quit() at xfade 
 
-            frame:
-                style_group "pref"
-                has vbox
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 217) value Preference("auto-forward time")
+    
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 335) value Preference("text speed")  
+    
+    vbox:
+        style_group "pref"
 
-                textbutton _("Joystick...") action Preference("joystick")
-
-
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Skip")
-                textbutton _("Seen Messages") action Preference("skip", "seen")
-                textbutton _("All Messages") action Preference("skip", "all")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                textbutton _("Begin Skipping") action Skip()
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("After Choices")
-                textbutton _("Stop Skipping") action Preference("after choices", "stop")
-                textbutton _("Keep Skipping") action Preference("after choices", "skip")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Auto-Forward Time")
-                bar value Preference("auto-forward time")
-
-                if config.has_voice:
-                    textbutton _("Wait for Voice") action Preference("wait for voice", "toggle")
-
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Music Volume")
-                bar value Preference("music volume")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Sound Volume")
-                bar value Preference("sound volume")
-
-                if config.sample_sound:
-                    textbutton _("Test"):
-                        action Play("sound", config.sample_sound)
-                        style "soundtest_button"
-
-            if config.has_voice:
-                frame:
-                    style_group "pref"
-                    has vbox
-
-                    label _("Voice Volume")
-                    bar value Preference("voice volume")
-
-                    textbutton _("Voice Sustain") action Preference("voice sustain", "toggle")
-                    if config.sample_voice:
-                        textbutton _("Test"):
-                            action Play("voice", config.sample_voice)
-                            style "soundtest_button"
+        bar pos (700, 455) value Preference("music volume")        
+   
+    vbox:
+        style_group "pref"
+        
+        bar pos (700, 578) value Preference("sound volume")     
 
 init -2:
     style pref_frame:
@@ -465,8 +617,15 @@ init -2:
         xalign 1.0
 
     style pref_slider:
-        xmaximum 192
-        xalign 1.0
+        is default
+        xminimum 450
+        xmaximum 450
+        yminimum 30
+        left_bar "GUI/bar.png"
+        right_bar "GUI/bar.png"
+        thumb "GUI/slider.png"
+        left_gutter 61
+        right_gutter 60
 
     style soundtest_button:
         xalign 1.0
@@ -482,32 +641,26 @@ screen yesno_prompt(message, yes_action, no_action):
 
     modal True
 
-    window:
-        style "gm_root"
-
-    frame:
+    add "GUI/base.png"
+    
+    imagebutton idle "GUI/button_x.png" hover "GUI/button_x.png" xpos 1281 ypos 34 focus_mask True action no_action at xfade
+    
+    vbox:
         style_group "yesno"
-
-        xfill True
-        xmargin .05
-        ypos .1
-        yanchor 0
-        ypadding .05
-
-        has vbox:
-            xalign .5
-            yalign .5
-            spacing 30
+        xalign .5
+        yalign .45
+        spacing 30
 
         label _(message):
             xalign 0.5
 
-        hbox:
+        vbox:
             xalign 0.5
-            spacing 100
+            spacing 30
+            
+            imagebutton idle "GUI/yes.png" hover "GUI/yes_hover.png" action yes_action at xxfade
+            imagebutton idle "GUI/no.png" hover "GUI/no_hover.png" action no_action at xxfade
 
-            textbutton _("Yes") action yes_action
-            textbutton _("No") action no_action
 
     # Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -532,17 +685,15 @@ screen quick_menu():
     hbox:
         style_group "quick"
 
-        xalign 1.0
-        yalign 1.0
-
-        textbutton _("Back") action Rollback()
-        textbutton _("Save") action ShowMenu('save')
-        textbutton _("Q.Save") action QuickSave()
-        textbutton _("Q.Load") action QuickLoad()
-        textbutton _("Skip") action Skip()
-        textbutton _("F.Skip") action Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Prefs") action ShowMenu('preferences')
+        xalign 0.98
+        yalign 0.997
+        
+        textbutton _("Auto") action Preference("auto-forward", "toggle") at textfade
+        textbutton _("Skip") action Skip() at textfade
+        textbutton _("Save") action ShowMenu('save') at textfade
+        textbutton _("Load") action ShowMenu('load') at textfade
+        textbutton _("Main") action MainMenu() at textfade
+        textbutton _("Quit") action Quit() at textfade
 
 init -2:
     style quick_button:
@@ -552,10 +703,20 @@ init -2:
 
     style quick_button_text:
         is default
-        size 12
-        idle_color "#8888"
-        hover_color "#ccc"
-        selected_idle_color "#cc08"
-        selected_hover_color "#cc0"
-        insensitive_color "#4448"
+        size 24
+        color "#4f3131"
+#        hover_color "#ccc"
+#        selected_idle_color "#cc08"
+#        selected_hover_color "#cc0"
+#        insensitive_color "#4448"
+        font "GUI/Bocklin.ttf"
+        outlines [(0, "#420202"),(1, "#d5d9b4")]
+        drop_shadow_color "#420202"
+        drop_shadow (-1, 1)
+
+
+
+
+
+
 

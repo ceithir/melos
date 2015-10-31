@@ -1,51 +1,56 @@
-image poem = ParameterizedText(text_align=0.5)
+image poem = ParameterizedText(text_align=0.5, color="#FFFFFF", font="GUI/GenR102.ttf", size=32)
 
 label intro:
     scene bg poetry:
         size (config.screen_width, config.screen_height) crop (0, 0, config.screen_width, config.screen_height)
     play music "music/Frozen_Silence_-_Harp.ogg" fadein 5.0
 
-    show poem "Ποικιλόθρον᾽ ἀθάνατ᾽ ᾽Αφρόδιτα,\nπαῖ Δίος, δολόπλοκε, λίσσομαί σε\nμή μ᾽ ἄσαισι μήτ᾽ ὀνίαισι δάμνα,\nπότνια, θῦμον.\n\n{i}On the throne of many hues, Immortal Aphrodite,\nchild of Zeus, weaving wiles--I beg you\nnot to subdue my spirit, Queen,\nwith pain or sorrow{/i}" at truecenter with dissolve
+    show poem "Ποικιλόθρον᾽ ἀθάνατ᾽ ᾽Αφρόδιτα,\nπαῖ Δίος, δολόπλοκε, λίσσομαί σε\nμή μ᾽ ἄσαισι μήτ᾽ ὀνίαισι δάμνα,\nπότνια, θῦμον.\n\n{i}On the throne of many hues, Immortal Aphrodite,\nchild of Zeus, weaving wiles--I beg you\nnot to subdue my spirit, Queen,\nwith pain or sorrow{/i}" with dissolve:
+        xalign 0.5 yalign 0.33
 
     window show dissolve
 
-    "I remember that morning on the road.{w}\n\nI had finally managed to have her talk a little about her past. For a second, for a few words, she opened the door of her heart to me, and I felt like I had unlocked the path to Elysium."
+    "I remember that morning on the road."
 
-    hide poem with dissolve
+    "I had finally managed to have her talk a little about her past. For a second, for a few words, she opened the door of her heart to me, and I felt like I had unlocked the path to Elysium."
 
-    show poem "ἀλλὰ τυίδ᾽ ἔλθ᾽, αἴποτα κἀτέρωτα\nτᾶς ἔμας αὔδως ἀίοισα πήλοι\nἔκλυες, πάτρος δὲ δόμον λίποισα\nχρύσιον ἦλθες\n\n{i}but come--if ever before\nhaving heard my voice from far away\nyou listened, and leaving your father's\ngolden home you came{/i}" at truecenter with dissolve
+    show poem "ἀλλὰ τυίδ᾽ ἔλθ᾽, αἴποτα κἀτέρωτα\nτᾶς ἔμας αὔδως ἀίοισα πήλοι\nἔκλυες, πάτρος δὲ δόμον λίποισα\nχρύσιον ἦλθες\n\n{i}but come--if ever before\nhaving heard my voice from far away\nyou listened, and leaving your father's\ngolden home you came{/i}" with dissolve
 
-    "I remember that afternoon in the pond.{w}\n\nWe bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity, of our physical closeness."
+    "I remember that afternoon in the pond."
 
-    hide poem with dissolve
+    "We bathed together, not for the first time nor the last. But from that moment onwards, I was suddenly well aware of our common nudity, of our physical closeness."
 
-    show poem "ἄρμ᾽ ὐποσδεύξαια· κάλοι δέ σ᾽ ἆγον\nὤκεες στροῦθοι περὶ γᾶς μελαίνας\nπύκνα δινεῦντες πτέρ᾽ ἀπ᾽ ὠράν᾽ αἴθε-\nρος διὰ μέσσω,\n\n{i}in your chariot yoked with swift, lovely\nsparrows bringing you over the dark earth\nthick-feathered wings swirling down\nfrom the sky through mid-air{/i}" at truecenter with dissolve
+    show poem "ἄρμ᾽ ὐποσδεύξαια· κάλοι δέ σ᾽ ἆγον\nὤκεες στροῦθοι περὶ γᾶς μελαίνας\nπύκνα δινεῦντες πτέρ᾽ ἀπ᾽ ὠράν᾽ αἴθε-\nρος διὰ μέσσω,\n\n{i}in your chariot yoked with swift, lovely\nsparrows bringing you over the dark earth\nthick-feathered wings swirling down\nfrom the sky through mid-air{/i}" with dissolve
 
-    "I remember that evening in a tavern overflowing with people.{w}\n\nOur table was crowd, but that did not bother her. Actually, she was smiling, joking, {i}flirting{/i} with the man next seat. I kept my best polite face, but deep inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other."
+    "I remember that evening in a tavern overflowing with people."
 
-    hide poem with dissolve
+    "Our table was crowd, but that did not bother her. Actually, she was smiling, joking, {i}flirting{/i} with the man next seat. I kept my best polite face, but deep inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other."
 
-    show poem "αἶψα δ᾽ ἐξίκοντο· σὺ δ᾽, ὦ μάκαιρα\nμειδιάσαισ᾽ ἀθάνατῳ προσώπῳ,\nἤρε᾽ ὄττι δηὖτε πέπονθα κὤττι\nδηὖτε κάλημι\n\n{i}arriving quickly--you, Blessed One,\nwith a smile on your unaging face\nasking again what have I suffered\nand why am I calling again{/i}" at truecenter with dissolve
+    show poem "αἶψα δ᾽ ἐξίκοντο· σὺ δ᾽, ὦ μάκαιρα\nμειδιάσαισ᾽ ἀθάνατῳ προσώπῳ,\nἤρε᾽ ὄττι δηὖτε πέπονθα κὤττι\nδηὖτε κάλημι\n\n{i}arriving quickly--you, Blessed One,\nwith a smile on your unaging face\nasking again what have I suffered\nand why am I calling again{/i}" with dissolve
 
-    "I remember that night in a particularly desolate region.{w}\n\nWe had set up camp in a small grove. It was summer, it was hot, so we decide to sleep under the stars. She indeed did sleep. As for myself, I spent the entire night contemplating her, watching the slow up-and-down of her bust as she quietly breathes."
+    "I remember that night in a particularly desolate region."
 
-    hide poem with dissolve
+    "We had set up camp in a small grove. It was summer, it was hot, so we decide to sleep under the stars. She indeed did sleep. As for myself, I spent the entire night contemplating her, watching the slow up-and-down of her bust as she quietly breathes."
 
-    show poem "κὤττι μοι μάλιστα θέλω γένεσθαι\nμαινόλᾳ θύμῳ· \"τίνα δηὖτε †πείθω\nἄψ σ᾽ ἄγην† ἐς σὰν φιλότατα; τίς τ᾽, ὦ\nΨάπφ᾽, ἀδίκηει;\n\n{i}and in my wild heart what did I most wish\nto happen to me: \"Again whom must I persuade\nback into the harness of your love?\nSappho, who wrongs you?{/i}" at truecenter with dissolve
+    show poem "κὤττι μοι μάλιστα θέλω γένεσθαι\nμαινόλᾳ θύμῳ· \"τίνα δηὖτε †πείθω\nἄψ σ᾽ ἄγην† ἐς σὰν φιλότατα; τίς τ᾽, ὦ\nΨάπφ᾽, ἀδίκηει;\n\n{i}and in my wild heart what did I most wish\nto happen to me: \"Again whom must I persuade\nback into the harness of your love?\nSappho, who wrongs you?{/i}" with dissolve
 
-    "I remember our first encounter.{w}\n\nI knew nothing of her except of her skills with the spear and the snare. She was certainly a fugitive on the run from the authorities, a potential thief, bandit, murderer. Yet I still entrusted my safety to her. Out of necessity I tried to convince myself then. But perhaps, already, unconsciously, under the whispers of some malicious goddess."
+    "I remember our first encounter."
 
-    hide poem with dissolve
+    "I knew nothing of her except of her skills with the spear and the snare. She was certainly a fugitive on the run from the authorities, a potential thief, bandit, murderer. Yet I still entrusted my safety to her. Out of necessity I tried to convince myself then. But perhaps, already, unconsciously, under the whispers of some malicious goddess."
 
-    show poem "καὶ γάρ αἰ φεύγει, ταχέως διώξει,\nαἰ δὲ δῶρα μὴ δέκετ᾽, ἀλλὰ δώσει,\nαἰ δὲ μὴ φίλει, ταχέως φιλήσει,\nκωὐκ ἐθέλοισα.\"\n\n{i}For if she flees, soon she'll pursue,\nshe doesn't accept gifts, but she'll give,\nif not now loving, soon she'll love\neven against her will.\"{/i}" at truecenter with dissolve
+    show poem "καὶ γάρ αἰ φεύγει, ταχέως διώξει,\nαἰ δὲ δῶρα μὴ δέκετ᾽, ἀλλὰ δώσει,\nαἰ δὲ μὴ φίλει, ταχέως φιλήσει,\nκωὐκ ἐθέλοισα.\"\n\n{i}For if she flees, soon she'll pursue,\nshe doesn't accept gifts, but she'll give,\nif not now loving, soon she'll love\neven against her will.\"{/i}"with dissolve
 
-    "I remember our last discussion.{w}\n\nWe were waiting outside the stadium, before dawn, before this long day of festivities starts. More daring than usual, I had not so subtly directed the conversation on the various interpretations of my repertoire's works, and was watching her closely, attentive to any sign, any reaction which could have given me hope. I saw none."
+    "I remember our last discussion."
 
-    hide poem with dissolve
+    "We were waiting outside the stadium, before dawn, before this long day of festivities starts. More daring than usual, I had not so subtly directed the conversation on the various interpretations of my repertoire's works, and was watching her closely, attentive to any sign, any reaction which could have given me hope. I saw none."
 
-    show poem "ἔλθε μοι καὶ νῦν, χαλέπαν δὲ λῦσον\nἐκ μερίμναν, ὄσσα δέ μοι τέλεσσαι\nθῦμος ἰμέρρει, τέλεσον· σὐ δ᾽ αὔτα\nσύμμαχος ἔσσο.\n\nCome to me now again, release me from\nthis pain, everything my spirit longs\nto have fulfilled, fulfill, and you\nbe my ally" at truecenter with dissolve
+    show poem "ἔλθε μοι καὶ νῦν, χαλέπαν δὲ λῦσον\nἐκ μερίμναν, ὄσσα δέ μοι τέλεσσαι\nθῦμος ἰμέρρει, τέλεσον· σὐ δ᾽ αὔτα\nσύμμαχος ἔσσο.\n\nCome to me now again, release me from\nthis pain, everything my spirit longs\nto have fulfilled, fulfill, and you\nbe my ally" with dissolve
 
-    "I remember these moments, and many others, small and big, casual and special, every precious little brick of the time I spent with her.{w}\n\nI remember, and I am happy.{w}\n\nI remember, and I am sad."
+    "I remember these moments, and many others, small and big, casual and special, every precious little brick of the time I spent with her."
+
+    "I remember, and I am happy."
+
+    "I remember, and I am sad."
 
     hide poem with dissolve
     window hide dissolve
@@ -95,19 +100,29 @@ label intro:
 
     stop music fadeout 5.0
 
-    "Afraid of bewilderment.{w} Afraid of rejection.{w} Afraid of fear.{w} Afraid of anger.{w}\n\nAfraid this will break our special relationship.{w}\n\nAfraid that by wanting too much of her, I will lose her whole."
+    "Afraid of bewilderment. Afraid of rejection. Afraid of fear. Afraid of anger."
+
+    "Afraid this will break our special relationship."
+
+    "Afraid that by wanting too much of her, I will lose her whole."
 
     play music "music/Frozen_Silence_-_Harp.ogg" fadein 5.0
 
-    "As a background noise for my worries, the man on the scene starts playing. I recognize a composition from Alcaeus. A supposedly appropriate answer to the last piece, as he was Sappho's senior and rival. But a poor idea in the end, as the stanzas I hear simply cannot compare to the majesty of Sappho's texts. She was the uncontested Tenth Muse, and the artistic world still mourns her death a couple of decades ago."
+    "As a background noise for my worries, the man on the scene starts playing. I recognize a composition from Alcaeus. A supposedly appropriate answer to the last piece, as he was Sappho's senior and rival."
+
+    "But a poor idea in the end, as the stanzas I hear simply cannot compare to the majesty of Sappho's texts. She was the uncontested Tenth Muse, and the artistic world still mourns her death a couple of decades ago."
 
     "The nagging melody nonetheless calms me down a little. I review my options. This afternoon, I took part in one of the main events of the festival, in the city theater, under the gazes of hundreds of people. A grand contest of poetry in whom many artists tried their luck, including the one distracting us right now."
 
     "Triumphing in such a competition is usually a life's goal for a singer, but this was not my main concern this year. However, I did plan my day with an extreme precision. As soon as my early and obligatory performance ended, I retreated back to the shadows, discreetly escaped the theater to hide myself in the nearby woods."
 
-    "Then I sat, on the ground of a sunny clearing. Alone, while the whole city was directly or indirectly focused on the festival, from the shouting people on the theater's tiers to the humblest food vendor. To think. Think far away from the constant noise and movement of the ordinary life. Think without the weight of exhaustion and the terrors of the night overtaking me."
+    "Then I sat, on the ground of a sunny clearing. Alone, while the whole city was directly or indirectly focused on the festival, from the shouting people on the theater's tiers to the humblest food vendor. To think."
 
-    "And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never. The moment couldn't be more perfect. Today, the city is celebrating Aphrodite. Today, we both shone in our own specialty, proved ourselves to the world, reminded it we exist by our own rights. Now, her mood should be at its best, on the edge of ecstasy."
+    "To think far away from the constant noise and movement of the ordinary life. To think without the weight of exhaustion and the terrors of the night overtaking me."
+
+    "And after a few hours, when I knew I couldn't hide or flee anymore, I made my decision. It's this night or never."
+
+    "The moment couldn't be more perfect. Today, the city is celebrating Aphrodite. Today, we both shone in our own specialty, proved ourselves to the world, reminded it we exist by our own rights. Now, her mood should be at its best, on the edge of ecstasy."
 
     "If I don't talk to her this night, I know I will never have enough will to do it again. That my mouth will stay shut and my heart closed. So... I just need to stand up, walk away from this quiet corner of the property where a few artists and enthusiasts gathered for some impromptu rehearsals, find her in the crowd, take her aside, and open my heart to her."
 
@@ -137,14 +152,15 @@ label intro3:
 
     "I'm pitifully delaying, trying to find something to do, anything, to push back the moment. Even the time I'm currently using to think about this is a form of temporizing."
 
-    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing away with a blank page pressed against their chest.\n\nEasy and infinitely regretful."
+    "I lash myself mentally. It would be easy to postpone forever, like a bad poet always rescheduling to tomorrow the writing of their masterpiece, and finally passing away with a blank page pressed against their chest. Easy and infinitely regretful."
 
-    "I gather my will.\n\nI clench my teeth.\n\nI rise."
+    "I gather my will. I clench my teeth. I rise."
 
     "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you jumped into the water, you have no other choice than to swim or sink."
 
     stop music fadeout 1.0
 
+    window hide dissolve
     show bg poetry as trans_poetry:
         crop (0, 717, config.screen_width, config.screen_height)
         linear 2.0 xpos -config.screen_width
@@ -152,6 +168,7 @@ label intro3:
         xpos config.screen_width
         linear 2.0 xpos 0
     pause 2.0
+    window show dissolve
 
     jump antiope
 
