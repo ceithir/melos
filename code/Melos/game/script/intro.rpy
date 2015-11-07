@@ -24,7 +24,7 @@ label intro:
 
     "I remember that evening in a tavern overflowing with people."
 
-    "Our table was crowd, but that did not bother her. Actually, she was smiling, joking, {i}flirting{/i} with the man next seat. I kept my best polite face, but deep inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other."
+    "Our table was crowded, but that did not bother her. Actually, she was smiling, joking, {i}flirting{/i} with the man next seat. I kept my best polite face, but deep inside my chest the infernal fire of jealousy and the chilling wind of despair were battling each other."
 
     show poem "αἶψα δ᾽ ἐξίκοντο· σὺ δ᾽, ὦ μάκαιρα\nμειδιάσαισ᾽ ἀθάνατῳ προσώπῳ,\nἤρε᾽ ὄττι δηὖτε πέπονθα κὤττι\nδηὖτε κάλημι\n\n{i}arriving quickly--you, Blessed One,\nwith a smile on your unaging face\nasking again what have I suffered\nand why am I calling again{/i}" with dissolve
 
@@ -156,7 +156,7 @@ label intro3:
 
     "I gather my will. I clench my teeth. I rise."
 
-    "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you jumped into the water, you have no other choice than to swim or sink."
+    "My knees are shaking like a set of knucklebones. I'm shivering more than an old lady. Nonetheless, I stumble on the short distance separating me from the main building. With each step, my footing is more secure, my pace more stable. Not that I'm less afraid. But once you've jumped into the water, you have no other choice than to swim or sink."
 
     stop music fadeout 1.0
 

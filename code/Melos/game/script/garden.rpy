@@ -96,7 +96,7 @@ label stupor:
 
     antiope "And to make things even worse, the suffering army can then be crushed utterly regardless of its many sacrifices, pushed into a retreat so chaotic that many small isolated groups are left behind, and must now make their way back on their own, in hunger and fear. For a perfect agony, you can even add some rain or snow."
 
-    antiope "A lot more will die. But quite a number will also somehow survive. Among them, some will have sacrificed all morality, decency, humanity to escape the sirens of Inferno. They succeeded in returning to their home, but they will never be the same, their behavior forever changed."
+    antiope "A lot more will die. But quite a number will also somehow survive. Among them, some will have sacrificed all morality, decency, humanity to escape the sirens of the Underworld. They succeeded in returning to their home, but they will never be the same, their behavior forever changed."
 
     "Antiope suddenly stops talking and shuts her mouth tight. Her face shows a myriad of terrible expressions at once, hate, anger, fear, shame. She clings on her seat with both hands and applies such strength to it that she would probably crush it was it not made of stone. Her eyes are bottomless pits of darkness."
 

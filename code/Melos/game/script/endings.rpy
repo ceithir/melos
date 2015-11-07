@@ -18,7 +18,9 @@ label coward:
 
     "I feel bad, nauseous, stiff. My head is heavy, aching, my mouth furred, my throat hurting. I'm aware of a hand on my shoulder, of two fingers tapping repeatedly on my forehead. Reluctantly, I open my eyes, painfully, and the darkness recesses."
 
-    "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. My hair and my dress are competing with each other for the position of most messy, but that's probably only because I cannot see my face. But I can see {i}her{/i}."
+    "I am lying in an unknown seat, folded in an uncomfortable position, one arm as a pillow. I don't know which of my hair or my dress is the most messy, but I guess my face would probably win this prize if I could see it. However, there is one thing I can see perfectly."
+
+    "And that's {i}her{/i}."
 
     show antiope with fade
 
@@ -41,7 +43,7 @@ label coward:
 
     stop sound fadeout 1.0
 
-    "A few minutes later, after a lighting flash toilette, I'm back and ready to go. I do a bad joke about not knowing my own limits and them we move on. In the end, the cold facts are that we have a long trip ahead of us, and we already are several hours behind our schedule."
+    "A few minutes later, after a lightning fast toilette, I'm back and ready to go. I do a bad joke about not knowing my own limits and them we move on. In the end, the cold facts are that we have a long trip ahead of us, and we already are several hours behind our schedule."
 
     stop sound
 
@@ -120,7 +122,7 @@ label apology:
 
     "I don't know how she found me. I must have dozed off at some point, while she kept searching. We're back in the banquet room, almost empty as dawn is upon us. The only people still around are those who fell asleep here and there, defeated by their many excesses. I could scream with all my lunges that they will not wake up. I'm still alone in the end."
 
-    "Antiope looks extremely pitiful. Ravaged. Vanned. There is no trace of her usual confidence on the desperate face looking at me."
+    "Antiope looks extremely pitiful. Ravaged. Distressed. There is no trace of her usual confidence on the desperate face looking at me."
 
     antiope "I'm really, really sorry. I didn't want to... I'm sorry."
 
@@ -191,7 +193,7 @@ label talk:
 
     "She takes a deep breath. Antiope has talked more this night than she usually did in days. But contrary to her precedent drunken outburst, she sounds more serene, more honest, less theatrical."
 
-    antiope "It's hard to put into words, but I need to try even so. I'm no nice girl. Violence, furry, death and destruction run in my blood. That is very obvious."
+    antiope "It's hard to put into words, but I need to try even so. I'm no nice girl. Violence, fury, death and destruction run in my blood. That is very obvious."
 
     "She flexes her muscles, points out the marks on her body demonstrating her daily usage of weapons."
 
@@ -213,13 +215,13 @@ label talk:
 
     ambrosia default "Why didn't we have this conversation earlier?"
 
-    antiope "I don't really know. I went overboard a few times already when you were there, even if never as hardly as today... Most of the time, I managed to escape this talk by cutting short the dialog and fleeing... And the other times..."
+    antiope "I don't really know. I went overboard a few times already when you were there, even if never as horribly as today... Most of the time, I managed to escape this talk by cutting short the dialog and fleeing... And the other times..."
 
     ambrosia "Yes. I know. I'm the one who fled."
 
     "I look at her right in the eyes, seeing my own face reflected in her pupils. Yes, there are a few times when I just kept silent on Antiope's sick habits. Today the first time she ever hurt me, but on several mornings, her face or fists were bearing the marks of fights she got herself into. And I never dared to ask."
 
-    "I will not say idiot things like \"I'm as much a culprit as you\". Because that's not true. But the crime of Antiope, her refusal to open up her heart before the darkness in it frees itself and almost destroys her own world... I can relate to it. It is nothing more than a distorted, flawed, extreme reflection of my own weakness."
+    "I will not say idiotic things like \"I'm as much a culprit as you\". Because that's not true. But the crime of Antiope, her refusal to open up her heart before the darkness in it frees itself and almost destroys her own world... I can relate to it. It is nothing more than a distorted, flawed, extreme reflection of my own weakness."
 
     "I readjust my position, closing the distance between me and the broken warrior. Our faces are only separated by the width of a hand when I speak again."
 
@@ -227,7 +229,7 @@ label talk:
 
     ambrosia "The moment is not perfect, but it will never be. I cannot ask you to be honest with me when I'm not telling you the whole truth myself."
 
-    ambrosia "Antiope, despite your many flaws, despite your early and lately behavior, I know I'm about to forgive you. I somehow know that you could do much worse, and that even if that would hurt me terribly, I would still forgive you."
+    ambrosia "Antiope, despite your many flaws, despite your old and late behavior, I know I'm about to forgive you. I somehow know that you could do much worse, and that even if that would hurt me terribly, I would still forgive you."
 
     ambrosia smile "And I would do so Antiope, because I love you. I adore you. I would go to the underworld to negotiate with Hades for you."
 
@@ -292,7 +294,7 @@ label talk:
 
     "Or perhaps, on the contrary it's the new proximity which is strange. Objectively, before, we never talked that much. I idealized her from far, and she never was really sociable. Now, we're at least both conscious of the other's existence as a real person."
 
-    "It's awkward. I know I will probably never awake any passion in Antiope, and that continuing to live by her side will certainly break my heart on a regular basis. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
+    "It's awkward. I know I will probably never arouse any passion in Antiope, and that continuing to live by her side will certainly break my heart on a regular basis. I'm sad. New tears are just waiting for an excuse to roll out of my eyes. Yet I feel lighter. Like I've been freed of iron chains I didn't even know existed before."
 
     "And if my relationship with my amazonian beauty of friend didn't evolve the way I would have loved it to, I think it is now at least {i}healthier{/i} that it was previously."
 
@@ -420,7 +422,7 @@ label fight:
 
     "Also, I'm afraid."
 
-    "The harder she tries to hide, the more pressure she puts on herself. Her temper has shortened radically, the slightest of vexations releases her rage. She is a hornet's net on two legs, and could break at any moment, unleashing the fury of nature over whoever will be there at that wrong instant."
+    "The harder she tries to hide, the more pressure she puts on herself. Her temper has shortened radically, the slightest of vexations releases her rage. She is a hornet's nest on two legs, and could break at any moment, unleashing the fury of nature over whoever will be there at that wrong instant."
 
     "Namely me."
 

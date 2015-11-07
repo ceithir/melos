@@ -71,7 +71,7 @@ label silence:
 
     "So I stay silent, dismissing the question with a mysterious smile and a wave of the hand. She does not insist. Antiope is extremely protective of her own personal space, and respects the one of others with the same might."
 
-    "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays a all teeth out smile."
+    "She hands me a bunch of pastries wrapped in a small piece of fabric. I accept one and starts eating slowly, with little bites, savoring the moment far more than the cake. As for her, she devours them one by one in a single mouthful each and I remark that she has piled up enough food to feed a whole army. Following my glance, she displays an all teeth out smile."
 
     antiope "Eat like a wolf. As much as you can while you can, so to be ready for when you will have nothing eat."
 
@@ -117,7 +117,7 @@ label liar:
 
     "These events are first and foremost a present to the gods, and the competitors must be as resplendent as they are skilled, the sight of their nude bodies as much an offering as their actual performances. And resplendent she was."
 
-    "I helped her oiled herself before dawn. A pleasant moment certainly. But there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun."
+    "I helped her oil herself before dawn. A pleasant moment certainly. But there is an absurd difference between watching a greasy skin from close under the weak light of a candle and contemplating it shining under the bright sun."
 
     "A thousand reflections were stressing each line, each curve of her body, every movement of her sculpted muscles revealing a new detail, a new secret, a new wonder, in a never-ceasing display of beauty."
 
@@ -208,7 +208,7 @@ label quirk:
 
     ambrosia default "{i}Withdrawn{/i} would be a more accurate word. But slowly, you began to speak more openly. Can you explain why?"
 
-    antiope "I never really thought about this. I guess it's happened naturally. At first, we were pretty much strangers traveling together, and I was more wary than friendly. I'm not the kind to fake amicability in such situations. It's only with time passing on that things got better."
+    antiope "I never really thought about this. I guess it happened naturally. At first, we were pretty much strangers traveling together, and I was more wary than friendly. I'm not the kind to fake amicability in such situations. It's only with time passing on that things got better."
 
     ambrosia default "How?"
 
